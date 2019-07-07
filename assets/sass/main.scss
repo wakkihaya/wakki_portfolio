@@ -1,0 +1,64 @@
+$head-textsize: 20px;
+$title-textsize: 33px;
+$head-fontcolor: #fff;
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*text-align: center;*/
+  flex-direction:column;
+}
+
+#first-page{
+  height:100vh;
+  position:relative;
+  background-image: url("/wakki.jpg");
+  background-size:cover;
+  background-position:50% 50% ;
+  background-repeat: no-repeat;
+}
+
+.bg-mask{
+  background:rgba(0,0,0,0.30);
+}
+
+#head{
+  //position:fixed;
+  font-family: "Century";
+  width:30vw;
+  height:7vh;
+  p{
+    color:$head-fontcolor;
+    font-size: $head-textsize;
+  }
+}
+
+#title{
+  height:93vh;
+  padding:10px;
+  p{
+    padding-top:40%;
+    color: $head-fontcolor;
+    margin:auto;
+    font-size: $title-textsize;
+  }
+}
+
+#menu-box{
+  position:fixed;
+  right:10px;
+  padding:0 5px;
+  bottom:20px;
+  background:rgba(255,255,255,0.5);
+  li{
+    padding:3px 0;
+    margin-left:0;
+    list-style-type: none;
+    font-family:"Courier New";
+  }
+}
+
+
+
