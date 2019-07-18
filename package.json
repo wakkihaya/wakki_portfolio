@@ -13,16 +13,21 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-webfonts": "^1.0.9",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/vue-fontawesome": "^0.1.6",
     "bulma": "^0.7.5",
-    "css-loader": "^3.0.0",
     "node-sass": "^4.12.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.8.1",
+    "nuxt-fontawesome": "^0.4.0",
     "nuxt-sass-resources-loader": "^2.0.5",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
+    "cssnano": "^4.1.10",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",

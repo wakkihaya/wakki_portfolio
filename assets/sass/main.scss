@@ -1,8 +1,13 @@
 $head-textsize: 20px;
 $title-textsize: 33px;
+$subtitle-textsize:28px;
+$content-textsize:16px;
 $head-fontcolor: #fff;
+$title-fontfamily : "Courier New";
+$content_fontfamily : "Century";
 
 .container {
+
   min-height: 100vh;
   display: flex;
   /*justify-content: center;*/
@@ -11,6 +16,7 @@ $head-fontcolor: #fff;
   flex-direction:column;
 }
 
+//初めの100vh
 #first-page{
   height:100vh;
   position:relative;
@@ -46,19 +52,92 @@ $head-fontcolor: #fff;
   }
 }
 
+.arrow{
+  width:100%;
+  height:20vh;
+  z-index:3;
+  i{
+    width:100%;
+    height: 100%;
+  }
+}
+
+//fixedなmenu-box
 #menu-box{
   position:fixed;
   right:10px;
   padding:0 5px;
   bottom:20px;
-  background:rgba(255,255,255,0.5);
+  z-index: 100;
+  background:rgba(255,255,255,0.3);
   li{
     padding:3px 0;
     margin-left:0;
     list-style-type: none;
-    font-family:"Courier New";
+    font-family:$title-fontfamily;
   }
 }
 
+//introduction↓
 
+#introduction{
+  margin-top:7vh;
+}
+
+.subtitle{
+  font-size:$subtitle-textsize;
+  font-family: $title-fontfamily;
+  text-align:center;
+  font-weight:bold;
+  border-bottom:solid #000 1px;
+}
+
+.content_of_intro{
+  padding-top:3px;
+  padding-left:5px;
+  font-size:$content-textsize;
+  font-family: $content_fontfamily;
+}
+
+.name_of_intro{
+  padding-left:3px;
+  padding-top:10px;
+  font-size:$subtitle-textsize;
+  font-family:$content_fontfamily;
+}
+
+#mycareer{
+  width:100%;
+  padding:30px 15px 0 15px;
+  font-size: $content_textsize;
+  font-family: $content_fontfamily;
+  td{
+    border-bottom:dotted #000 1px;
+  }
+  .td1{
+    width:20%;
+  }
+  .td2{
+    width:80%;
+    text-align:left;
+  }
+}
+
+//Activity
+.image{
+  margin-top:7vh;
+  width:100%;
+  height:30vh;
+  background:#000;
+  z-index:2;
+  img{
+    opacity:0.7;
+    width:100%;
+    height:100%;
+  }
+}
+
+#activity{
+  margin-top:3vh;
+}
 
