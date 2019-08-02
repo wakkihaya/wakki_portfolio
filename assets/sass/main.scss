@@ -1,10 +1,13 @@
 $head-textsize: 20px;
 $title-textsize: 33px;
 $subtitle-textsize:28px;
+$subsubtitle-textsize:24px;
 $content-textsize:16px;
 $head-fontcolor: #fff;
+$strong-fontcolor:#EE0044;
 $title-fontfamily : "Courier New";
 $content_fontfamily : "Century";
+$content_act_fontfamily: "serif";
 
 .container {
 
@@ -127,7 +130,7 @@ $content_fontfamily : "Century";
 .image{
   margin-top:7vh;
   width:100%;
-  height:30vh;
+  height:50vh;
   background:#000;
   z-index:2;
   img{
@@ -138,6 +141,24 @@ $content_fontfamily : "Century";
 }
 
 #activity{
-  margin-top:3vh;
+  margin-top:5vh;
 }
 
+.list_activities_title{
+  margin-top:3vh;
+  margin-left:3vh;
+  font-size:$subsubtitle-textsize;
+  //background-color:#95999c;
+  color:$strong-fontcolor;
+}
+
+.list_activities_content{
+  .content_title{
+      margin:3vh 0 3vh 5vh;
+      font-family:$content_act_fontfamily;
+      font-weight:bold;
+  }
+  p{
+    margin-left:10vh;
+  }
+}

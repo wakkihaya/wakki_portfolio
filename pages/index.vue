@@ -75,7 +75,28 @@
           Activities
         </p>
 
-      <div>
+      <div class="list_activities" v-for="act in activities" v-bind:key="act.period">
+<!--        listの１つ目-->
+        <div class="list_activities_title">
+          1.  Volunteer activity with foreign students
+        </div>
+
+        <div class="list_activities_content">
+          <div class="content_title">Period:</div>
+          <p>{{act.period}} </p>  <br>
+
+          <div class="content_title">Position:</div>
+          <p>{{act.position}} </p> <br>
+
+          <div class="content_title">Content: </div>
+          <p>{{act.content}}  </p>   <br>
+
+          <div class="content_title">Achievement:</div>
+          <p>{{act.achievement}}</p>    <br>
+
+          <div class="content_title">Link:</div>
+          <p>{{act.link}} </p>
+        </div>
 
       </div>
 
@@ -94,6 +115,8 @@ export default {
   name: 'mycareer',
   data() {
     return {
+
+        /*introduction についてのdata*/
       careers: [
         {year: '1999', event: 'Born in Japan'},
         {year: '2014', event: 'Entered Seijo high school'},
@@ -104,15 +127,25 @@ export default {
             '・ Interned as a web engineer in Unipro Inc\n\n' +
             '・ Started the volunteer activity with foreign students as a chief'
         },
-        {year: 'now', event: 'Start up curation media business'},
+        {year: '2019', event: '・Start up curation media business as CEO\n\n' +
+        '・Join in the business contest of Microsoft in Japan'},
         {
           year: 'future',
           event: '・Continue the media business\n\n' +
-            '・Join in the business contest of Microsoft in Japan\n\n' +
             '・Study CS in SF State Univ and work in San Francisco'
         }
       ],
-      message:"unti"
+
+        /*activity についてのdata*/
+        activities: [
+            {period:'2018/10 ~ 2019/2', position:'Founder/chief',
+                content:'I got 5 members in my team. Both Japanese and overseas students in my team help new overseas students to get' +
+                    ' household appliances and to introduce restaurants to their liking in Tsukuba.',
+            achievement:'・10 people that showed around Tsukuba',
+            link: 'http://wanderjapan.site/wander1.html'}
+        ],
+
+
     };
   }
 };
