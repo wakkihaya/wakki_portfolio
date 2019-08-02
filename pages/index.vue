@@ -50,9 +50,6 @@
           Computer Science in University of Tsukuba
         </p>
 
-    <p>
-      {{ message }}
-    </p>
 
         <table border="0" v-for = "career in careers" v-bind:key="career.year" id="mycareer">
           <tbody>
@@ -76,9 +73,8 @@
         </p>
 
       <div class="list_activities" v-for="act in activities" v-bind:key="act.period">
-<!--        listの１つ目-->
         <div class="list_activities_title">
-          1.  Volunteer activity with foreign students
+          {{act.title}}
         </div>
 
         <div class="list_activities_content">
@@ -95,13 +91,22 @@
           <p>{{act.achievement}}</p>    <br>
 
           <div class="content_title">Link:</div>
-          <p>{{act.link}} </p>
+          <p>{{act.link}} </p> <br>
+
+          <img :src= "act.image"  width="30%" height="30%" />
+
         </div>
-
       </div>
-
     </div>
 
+<!--    product-->
+    <div class="image">
+      <img src="/wakki2.jpg" />
+    </div>
+
+    <div id="product">
+
+    </div>
 
   </section>
 </template>
@@ -138,11 +143,24 @@ export default {
 
         /*activity についてのdata*/
         activities: [
-            {period:'2018/10 ~ 2019/2', position:'Founder/chief',
-                content:'I got 5 members in my team. Both Japanese and overseas students in my team help new overseas students to get' +
+            {title:'1.  Volunteer activity with foreign students\n'
+                ,period:'2018/10 ~ 2019/02', position:'Founder/chief',
+                content:'Both Japanese and overseas students in my team help new overseas students to get' +
                     ' household appliances and to introduce restaurants to their liking in Tsukuba.',
-            achievement:'・10 people that showed around Tsukuba',
-            link: 'http://wanderjapan.site/wander1.html'}
+            achievement:'・10 people that showed around Tsukuba\n\n' +
+                '・5 people joined in my team',
+            link: 'http://wanderjapan.site/wander1.html',
+                image:'/wander.jpg'
+            },
+            {title:'2.  Start up curation media App company "Feedal"',
+                period:'2019/02 ~',
+                position:'Co-Founder/CEO',
+                content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
+                    'This app has many segmented categories which users can create and edit, and good algorithm for trend information. ',
+                achievement: '・We got 30 users as monitors of the β released app.',
+                link:'https://feedal.com/about/',
+                image:'/feedal.jpg'
+            }
         ],
 
 

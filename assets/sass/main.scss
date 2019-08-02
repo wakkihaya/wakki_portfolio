@@ -130,13 +130,13 @@ $content_act_fontfamily: "serif";
 .image{
   margin-top:7vh;
   width:100%;
-  height:50vh;
-  background:#000;
   z-index:2;
+  background:#FADBDA;
   img{
-    opacity:0.7;
-    width:100%;
-    height:100%;
+    display:block;
+    margin:auto;
+    height:auto;
+    width:70%;
   }
 }
 
@@ -148,11 +148,12 @@ $content_act_fontfamily: "serif";
   margin-top:3vh;
   margin-left:3vh;
   font-size:$subsubtitle-textsize;
-  //background-color:#95999c;
+  background-color:#eee;
   color:$strong-fontcolor;
 }
 
 .list_activities_content{
+  margin-bottom: 10vh;
   .content_title{
       margin:3vh 0 3vh 5vh;
       font-family:$content_act_fontfamily;
@@ -160,5 +161,9 @@ $content_act_fontfamily: "serif";
   }
   p{
     margin-left:10vh;
+  }
+  img{
+    display:block;
+    margin:auto;
   }
 }
