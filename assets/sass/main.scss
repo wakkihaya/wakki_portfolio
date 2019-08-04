@@ -167,3 +167,37 @@ $content_act_fontfamily: "serif";
     margin:auto;
   }
 }
+
+#product{
+  margin-top:5vh;
+}
+
+.products_list_items{
+  white-space: pre-wrap;
+  word-wrap:break-word;
+  width:70vw;
+  height:40%;
+  margin:5vh auto auto auto;
+  box-shadow: 0 0 8px #95999c;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  img{
+    display: block;
+    height:auto;
+    width:30vw;
+    margin:auto;
+  }
+  .items_title{
+    font-family:$content_act_fontfamily;
+    font-weight:bold;
+    text-align:center;
+    padding-top:30px;
+  }
+  .items_contents{
+    padding:10px;
+  }
+  .items_lang{
+    text-align:center;
+    padding-top:5px;
+  }
+}

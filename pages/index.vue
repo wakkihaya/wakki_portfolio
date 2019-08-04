@@ -105,6 +105,19 @@
     </div>
 
     <div id="product">
+      <p class="subtitle">
+        Products
+      </p>
+
+      <div class="products_list">
+        <div class="products_list_items"  v-for="product in products">
+          <p class="items_title" ><a :href="product.atag">{{product.title}}</a></p>
+          <p class="items_contents">{{product.content}}</p>
+          <img :src ="product.image">
+          <p class="items_lang">{{product.lang}}</p>
+        </div>
+
+      </div>
 
     </div>
 
@@ -162,6 +175,23 @@ export default {
                 image:'/feedal.jpg'
             }
         ],
+        products: [
+            {title:'Remote-car',
+            content:'This remote-car is composed of Arduino , LEGO , motor and an acceleration sensor .\n\n' +
+                'If this is supposed to conflict something, this can turn the direction and run automatically.'
+                ,
+            image:'/remote-car.jpg',
+            lang:'C++ (Arduino)'},
+            {title:'"Tac"channel',
+                atag:'http://wakkihaya.starfree.jp/test.php',
+            content:'This is the bulletin board that anyone can say their real intentions.' +
+                'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
+                '\n' +
+                'That\'s why I make it for them to say everything.\n' +
+                '\n',
+            lang:'PHP,HTML,CSS'},
+            {title:''}
+        ]
 
 
     };
