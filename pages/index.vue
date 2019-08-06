@@ -121,6 +121,34 @@
 
     </div>
 
+<!--    contact-->
+    <div class="image">
+      <img src="/wakki3.jpg"/>
+    </div>
+
+    <div id ="contact">
+      <p class="subtitle">
+        Contact
+      </p>
+
+      <ul class="contact_list">
+        <li class="contact_list_item">
+          <i class="fab fa-twitter fa-3x"><a href="https://twitter.com/wakki_japan"></a></i>
+        </li>
+
+        <li class="contact_list_item">
+          <i class="fab fa-facebook-square fa-3x"><a href="https://www.facebook.com/waki.hayato.1"></a></i>
+        </li>
+
+        <li class="contact_list_item">
+          <i class="fas fa-pen-square fa-3x"><a href="https://wakkihaya.hatenablog.com/"></a> </i>
+        </li>
+
+      </ul>
+
+      <p id="mailaccount"> mail: wakki@feedal.com</p>
+    </div>
+
   </section>
 </template>
 
