@@ -26,10 +26,10 @@
 <!--      </div>-->
 <!--        menu-box-->
         <ul id="menu-box">
-          <li>Introduction</li>
-          <li>Activity</li>
-          <li>Products</li>
-          <li>Contact</li>
+          <a href ="#introduction"><li>Introduction</li></a>
+          <a href = "#activity"><li>Activity</li></a>
+          <a href="#product"> <li>Products</li></a>
+          <a href="#contact"><li>Contact</li></a>
         </ul>
 
       </div>
@@ -133,15 +133,15 @@
 
       <ul class="contact_list">
         <li class="contact_list_item">
-          <i class="fab fa-twitter fa-3x"><a href="https://twitter.com/wakki_japan"></a></i>
+          <a href="https://twitter.com/wakki_japan"><i class="fab fa-twitter fa-3x"></i></a>
         </li>
 
         <li class="contact_list_item">
-          <i class="fab fa-facebook-square fa-3x"><a href="https://www.facebook.com/waki.hayato.1"></a></i>
+          <a href="https://www.facebook.com/waki.hayato.1"><i class="fab fa-facebook-square fa-3x"></i></a>
         </li>
 
         <li class="contact_list_item">
-          <i class="fas fa-pen-square fa-3x"><a href="https://wakkihaya.hatenablog.com/"></a> </i>
+          <a href="https://wakkihaya.hatenablog.com/"><i class="fas fa-pen-square fa-3x"></i></a>
         </li>
 
       </ul>

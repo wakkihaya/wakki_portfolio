@@ -79,6 +79,14 @@ $content_act_fontfamily: "serif";
     list-style-type: none;
     font-family:$title-fontfamily;
   }
+  a{
+    text-decoration: none;
+    color:#000;
+    cursor:pointer;
+  }
+  a:hover{
+;
+  }
 }
 
 //introduction↓
@@ -194,7 +202,7 @@ $content_act_fontfamily: "serif";
     padding-top:30px;
   }
   .items_contents{
-    padding:10px;
+    padding:10px 20px 5px 20px;
   }
   .items_lang{
     text-align:center;
@@ -220,6 +228,9 @@ $content_act_fontfamily: "serif";
     a{
       width:100%;
       height: 100%;
+      text-decoration: none;
+      color:#000;
+      cursor: pointer;
     }
   }
 }
@@ -227,5 +238,6 @@ $content_act_fontfamily: "serif";
 #mailaccount{
   text-align:center;
   margin-top:15vh;
+  margin-bottom:15vh;
   font-size:$content-textsize;
 }
