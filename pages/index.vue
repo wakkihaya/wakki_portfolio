@@ -190,7 +190,29 @@ export default {
                 'That\'s why I make it for them to say everything.\n' +
                 '\n',
             lang:'PHP,HTML,CSS'},
-            {title:''}
+            {title:'Project "wander"',
+            content: 'This is the web page for the projects with foreign students as I said.',
+            atag:'http://wanderjapan.site/wander1.html',
+            lang:'HTML,CSS,JQuery'},
+            {title:'To do Application',
+            content:'This is a simple todo application that can add and delete todo contents. ',
+            lang: 'Flutter, dart',
+            image:'/flutter_todo.png'},
+            {title:'25 hours-drive strange clock',
+            content:'You can spend 25hours instinctively in a day even though actually 24hours have passed.',
+            lang:'JS, HTML, CSS',
+            atag : 'https://protected-island-53136.herokuapp.com/'},
+            {title:'Which is your Best toilet??',
+            content:'If I go somewhere I haven\'t ever been, I have no idea which toilets I should go.\n' +
+                '\n' +
+                'And this case also occurs in University of Tsukuba.\n' +
+                '\n' +
+                'So, this is the App you can get the information of toilets in Univ and you all can make the comments for each toilets.',
+            lang:'Rails , JS',
+            image:'/toilet_2.png'},
+            {title:'this my portfolio',
+                content:'Update my portfolio',
+            lang:'Nuxt.js'}
         ]
 
 
