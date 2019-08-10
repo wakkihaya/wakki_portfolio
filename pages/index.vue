@@ -141,7 +141,11 @@
         </li>
 
         <li class="contact_list_item">
-          <a href="https://wakkihaya.hatenablog.com/"><i class="fas fa-pen-square fa-3x"></i></a>
+          <a href="https://note.mu/wakkihaya"><i class="fas fa-pen-square fa-3x"></i></a>
+        </li>
+
+        <li class="contact_list_item">
+          <a href="https://github.com/wakkihaya"><i class="fab fa-github-square fa-3x"></i> </a>
         </li>
 
       </ul>
