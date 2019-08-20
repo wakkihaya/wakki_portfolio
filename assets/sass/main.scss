@@ -157,7 +157,7 @@ $content_act_fontfamily: "serif";
   margin-top:3vh;
   margin-left:3vh;
   font-size:$subsubtitle-textsize;
-  background-color:#eee;
+  background-color:#FCEEEB;
   color:$strong-fontcolor;
 }
 
@@ -197,6 +197,7 @@ $content_act_fontfamily: "serif";
     margin:auto;
   }
   .items_title{
+    font-size:$head-textsize;
     font-family:$content_act_fontfamily;
     font-weight:bold;
     text-align:center;

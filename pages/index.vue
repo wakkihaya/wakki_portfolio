@@ -180,7 +180,7 @@ export default {
         {year: '2019', event: '・Start up curation media business as CEO\n\n' +
         '・Join in the business contest of Microsoft in Japan'},
         {
-          year: 'future',
+          year: 'Now',
           event: '・Continue the media business\n\n' +
             '・Study CS in SF State Univ and work in San Francisco'
         }
@@ -225,7 +225,7 @@ export default {
             {title:'Project "wander"',
             content: 'This is the web page for the projects with foreign students as I said.',
             atag:'http://wanderjapan.site/wander1.html',
-            lang:'HTML,CSS,JQuery'},
+            lang:'HTML,CSS,jQuery'},
             {title:'To do Application',
             content:'This is a simple todo application that can add and delete todo contents. ',
             lang: 'Flutter, dart',
