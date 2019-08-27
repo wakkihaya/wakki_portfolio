@@ -145,8 +145,13 @@
         </li>
 
         <li class="contact_list_item">
+          <a href = "https://www.linkedin.com/in/wakkihaya/"><i class="fab fa-linkedin fa-3x"></i></a>
+        </li>
+
+        <li class="contact_list_item">
           <a href="https://github.com/wakkihaya"><i class="fab fa-github-square fa-3x"></i> </a>
         </li>
+
 
       </ul>
 
