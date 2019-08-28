@@ -91,7 +91,7 @@
           <p>{{act.achievement}}</p>    <br>
 
           <div class="content_title">Link:</div>
-          <p>{{act.link}} </p> <br>
+          <p><a :href = "act.link">{{act.link}}</a> </p> <br>
 
           <img :src= "act.image"  width="30%" height="30%" />
 
