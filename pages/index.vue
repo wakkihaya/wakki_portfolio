@@ -178,11 +178,13 @@ export default {
         {year: '2017', event: 'Entered Computer Science in Univ of Tsukuba'},
         {
           year: '2018',
-          event: '・ Interned as an engineer in USEN-NEXT-GROUP Inc\n\n' +
-            '・ Interned as a web engineer in Unipro Inc\n\n' +
+          event: '・ Interned as an engineer at USEN-NEXT-GROUP Inc\n\n' +
+            '・Interned as an office system engineer at USEN-ICT-SOLUTIONS\n\n' +
+
             '・ Started the volunteer activity with foreign students as a chief'
         },
-        {year: '2019', event: '・Start up curation media business as CEO\n\n' +
+        {year: '2019', event: '・ Interned as a web engineer at Unipro Inc\n\n'+
+                '・Start up curation media business as CEO\n\n' +
         '・Join in the business contest of Microsoft in Japan'},
         {
           year: 'Now',
