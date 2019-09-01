@@ -87,8 +87,8 @@
           <div class="content_title">Content: </div>
           <p>{{act.content}}  </p>   <br>
 
-          <div class="content_title">Achievement:</div>
-          <p>{{act.achievement}}</p>    <br>
+          <div class="content_title" >Achievement:</div>
+          <p style="white-space:pre-line">{{act.achievement}}</p>    <br>
 
           <div class="content_title">Link:</div>
           <p><a :href = "act.link">{{act.link}}</a> </p> <br>
@@ -189,7 +189,7 @@ export default {
         {
           year: 'Now',
           event: '・Continue the media business\n\n' +
-            '・Study CS in SF State Univ and work in San Francisco'
+            '・Study CS in SF State Univ.'
         }
       ],
 
@@ -223,7 +223,7 @@ export default {
             lang:'C++ (Arduino)'},
             {title:'"Tac"channel',
                 atag:'http://wakkihaya.starfree.jp/test.php',
-            content:'This is the bulletin board that anyone can say their real intentions.' +
+            content:'This is the bulletin board that anyone can say their real intentions. ' +
                 'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
                 '\n' +
                 'That\'s why I make it for them to say everything.\n' +
