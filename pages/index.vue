@@ -228,6 +228,7 @@ export default {
                 '\n' +
                 'That\'s why I make it for them to say everything.\n' +
                 '\n',
+                image:'/tacchanel.jpg',
             lang:'PHP,HTML,CSS'},
             {title:'Project "wander"',
             content: 'This is the web page for the projects with foreign students as I said.',
@@ -239,6 +240,7 @@ export default {
             image:'/flutter_todo.png'},
             {title:'25 hours-drive strange clock',
             content:'You can spend 25hours instinctively in a day even though actually 24hours have passed.',
+                image:'/25watch.jpg',
             lang:'JS, HTML, CSS',
             atag : 'https://protected-island-53136.herokuapp.com/'},
             {title:'Which is your Best toilet??',
@@ -249,9 +251,14 @@ export default {
                 'So, this is the App you can get the information of toilets in Univ and you all can make the comments for each toilets.',
             lang:'Rails , JS',
             image:'/toilet_2.png'},
-            {title:'this my portfolio',
+            {title:'This my portfolio',
                 content:'Update my portfolio',
-            lang:'Nuxt.js'}
+            lang:'Nuxt.js'},
+            {title:'Funbrella',
+            content:'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
+                'to make rainy day enjoyable. \n'+'I make the game that can detect inclination of the umbrella and avoid enemies.',
+            lang:'JS, HTML, CSS',
+            image:'/funbrella.png'},
         ]
 
 
