@@ -178,7 +178,7 @@ export default {
         {year: '2017', event: 'Entered Computer Science in Univ of Tsukuba'},
         {
           year: '2018',
-          event: '・ Interned as an engineer at USEN-NEXT-GROUP Inc\n\n' +
+          event: '・ Interned of making new service at USEN-NEXT-GROUP Inc\n\n' +
             '・Interned as an office system engineer at USEN-ICT-SOLUTIONS\n\n' +
 
             '・ Started the volunteer activity with foreign students as a chief'
@@ -257,7 +257,7 @@ export default {
             {title:'Funbrella',
             content:'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
                 'to make rainy day enjoyable. \n'+'I make the game that can detect inclination of the umbrella and avoid enemies.',
-            lang:'JS, HTML, CSS',
+            lang:'jQuery, phina.js, HTML, CSS',
             image:'/funbrella.png'},
         ]
 
