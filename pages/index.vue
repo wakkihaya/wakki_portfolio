@@ -15,9 +15,9 @@
 
        <div id="title">
         <p>
-      Entrepreneur and <br>
+      Entrepreneur, <br>
         Web engineer <br>
-      who join some projects and hold some events.
+         Eventer who hold some events.
        </p>
       </div>
 
@@ -185,10 +185,10 @@ export default {
         },
         {year: '2019', event: '・ Interned as a web engineer at Unipro Inc\n\n'+
                 '・Start up curation media business as CEO\n\n' +
-        '・Join in the business contest of Microsoft in Japan'},
+        '・Join the business contest at Microsoft Japan'},
         {
           year: 'Now',
-          event: '・Continue the media business\n\n' +
+          event: '・CEO at Feedal Inc.\n\n' +
             '・Study CS in SF State Univ.'
         }
       ],
@@ -198,9 +198,9 @@ export default {
             {title:'1.  Volunteer activity with foreign students\n'
                 ,period:'2018/10 ~ 2019/02', position:'Founder/chief',
                 content:'Both Japanese and overseas students in my team help new overseas students to get' +
-                    ' household appliances and to introduce restaurants to their liking in Tsukuba.',
-            achievement:'・10 people that showed around Tsukuba\n\n' +
-                '・5 people joined in my team',
+                    ' household appliances and to find restaurants to their liking in Tsukuba.',
+            achievement:'・10 people were showed around Tsukuba\n\n' +
+                '・5 people joined  my team',
             link: 'http://wanderjapan.site/wander1.html',
                 image:'/wander.jpg'
             },
@@ -210,7 +210,7 @@ export default {
                 content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
                     'This app has many segmented categories which users can create and edit, and good algorithm for trend information. ',
                 achievement: '・We got 30 users as monitors of the β released app.',
-                link:'https://feedal.com/about/',
+                link:'https://corp.feedal.com/',
                 image:'/feedal.jpg'
             }
         ],
