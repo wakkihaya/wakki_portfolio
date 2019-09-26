@@ -16,8 +16,8 @@
        <div id="title">
         <p>
       Entrepreneur, <br>
-        Web engineer <br>
-         Eventer who hold some events.
+        Web engineer and<br>
+         Eventer
        </p>
       </div>
 
