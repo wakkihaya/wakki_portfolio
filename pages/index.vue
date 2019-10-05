@@ -189,7 +189,8 @@ export default {
         {
           year: 'Now',
           event: '・CEO at Feedal Inc.\n\n' +
-            '・Study CS in SF State Univ.'
+            '・Study CS in SF State Univ.\n\n'+
+            'Intern as a developer at Btrax Inc'
         }
       ],
 

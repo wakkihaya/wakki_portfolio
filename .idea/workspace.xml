@@ -42,7 +42,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/dev/btrax_hp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -98,6 +98,8 @@
       <workItem from="1563287020210" duration="5390000" />
       <workItem from="1563450372615" duration="2711000" />
       <workItem from="1569537331210" duration="363000" />
+      <workItem from="1569539624602" duration="51000" />
+      <workItem from="1570225025758" duration="23000" />
     </task>
     <servers />
   </component>
