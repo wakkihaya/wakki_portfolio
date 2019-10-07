@@ -190,7 +190,7 @@ export default {
           year: 'Now',
           event: '・CEO at Feedal Inc.\n\n' +
             '・Study CS in SF State Univ.\n\n'+
-            'Intern as a developer at Btrax Inc'
+            '・Intern as a developer at Btrax Inc'
         }
       ],
 
@@ -210,7 +210,8 @@ export default {
                 position:'Co-Founder/CEO',
                 content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
                     'This app has many segmented categories which users can create and edit, and good algorithm for trend information. ',
-                achievement: '・We got 30 users as monitors of the β released app.',
+                achievement: '・Got 30 users as monitors of the β released app.\n\n'+
+                '・Trying to brush up the product to achieve PMF',
                 link:'https://corp.feedal.com/',
                 image:'/feedal.jpg'
             }
