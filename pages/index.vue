@@ -202,7 +202,7 @@ export default {
                     ' household appliances and to find restaurants to their liking in Tsukuba.',
             achievement:'・10 people were showed around Tsukuba\n\n' +
                 '・5 people joined  my team',
-            link: 'http://wanderjapan.site/wander1.html',
+            link: 'http://wanderjapan.site/index',
                 image:'/wander.jpg'
             },
             {title:'2.  Start up curation media App company "Feedal"',
@@ -234,7 +234,7 @@ export default {
             lang:'PHP,HTML,CSS'},
             {title:'Project "wander"',
             content: 'This is the web page for the projects with foreign students as I said.',
-            atag:'http://wanderjapan.site/wander1.html',
+            atag:'http://wanderjapan.site/index',
             lang:'HTML,CSS,jQuery'},
             {title:'To do Application',
             content:'This is a simple todo application that can add and delete todo contents. ',
