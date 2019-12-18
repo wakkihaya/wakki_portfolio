@@ -251,7 +251,7 @@ export default {
                 'And this case also occurs in University of Tsukuba.\n' +
                 '\n' +
                 'So, this is the App you can get the information of toilets in Univ and you all can make the comments for each toilets.',
-            lang:'Rails , JS',
+            lang:'Ruby on Rails , JS',
             image:'/toilet_2.png'},
             {title:'This my portfolio',
                 content:'Update my portfolio',
@@ -264,9 +264,9 @@ export default {
             {title:'GatorTrader',
                 content:'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend' +
                     'system and then implemented a lot of features.',
-                atag: 'http://13.52.75.46/',
                 lang:'Express.js, Node.js, bootstrap',
-                image:'/gatortrader.png'},
+                image:'/gatortrader.png'
+            },
 
         ]
 
