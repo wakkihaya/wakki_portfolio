@@ -265,7 +265,7 @@ export default {
                 content:'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend' +
                     'system and then implemented search, item-listing, creating new item, messages between users features.',
                 lang:'Express.js, Node.js, bootstrap',
-                image:'/gatortrader.png'
+                image:'/gatortrader_formal.png'
             },
 
         ]
