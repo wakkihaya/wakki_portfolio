@@ -12,7 +12,7 @@ $content_fontfamily : "Century";
 $content_act_fontfamily: "serif";
 
 .container {
-
+  font-weight: 500;
   min-height: 100vh;
   display: flex;
   /*justify-content: center;*/
@@ -247,6 +247,9 @@ $content_act_fontfamily: "serif";
   .items_lang{
     text-align:center;
     padding-top:5px;
+  }
+  a{
+    text-decoration: none;
   }
 }
 

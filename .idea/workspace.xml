@@ -25,13 +25,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>nuxterror</find>
-      <find>nuxt-error</find>
-      <find>css</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -106,6 +99,8 @@
       <workItem from="1570482561505" duration="1246000" />
       <workItem from="1570655075081" duration="598000" />
       <workItem from="1571077423888" duration="54000" />
+      <workItem from="1573248622674" duration="157000" />
+      <workItem from="1576698460398" duration="865000" />
     </task>
     <servers />
   </component>

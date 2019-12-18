@@ -261,6 +261,13 @@ export default {
                 'to make rainy day enjoyable. \n'+'I make the game that can detect inclination of the umbrella and avoid enemies.',
             lang:'jQuery, phina.js, HTML, CSS',
             image:'/funbrella.png'},
+            {title:'GatorTrader',
+                content:'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend' +
+                    'system and then implemented a lot of features.',
+                atag: 'http://13.52.75.46/',
+                lang:'Express.js, Node.js, bootstrap',
+                image:'/gatortrader.png'},
+
         ]
 
 
