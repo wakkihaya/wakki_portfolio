@@ -271,7 +271,7 @@ $content_act_fontfamily: "serif";
 
   .contact_list_item {
     float: left;
-    width:20%;
+    width:16.6%;
     padding:0 auto 0 auto;
     text-align:center;
 
@@ -281,6 +281,10 @@ $content_act_fontfamily: "serif";
       text-decoration: none;
       color:#000;
       cursor: pointer;
+    }
+    img{
+      width:40pt;
+      height:40pt;
     }
   }
 }
