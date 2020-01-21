@@ -180,6 +180,7 @@ $content_act_fontfamily: "serif";
 .list_activities_title{
   margin-top:3vh;
   margin-left:3vh;
+  margin-right:3vh;
   font-size:$subsubtitle-textsize;
   background-color:#FCEEEB;
   color:$strong-fontcolor;
@@ -188,6 +189,7 @@ $content_act_fontfamily: "serif";
 
 .list_activities_content{
   margin-bottom: 10vh;
+  margin-right: 3vh;
 
   .content_title{
       margin:3vh 0 3vh 5vh;

@@ -177,24 +177,24 @@ export default {
 
         /*introduction についてのdata*/
       careers: [
-        {year: '1999', event: 'Born in Japan'},
-        {year: '2014', event: 'Entered Seijo high school'},
-        {year: '2017', event: 'Entered Computer Science in Univ of Tsukuba'},
+        {year: '1999', event: 'Born in Japan\n\n'},
+        {year: '2014', event: 'Entered Seijo high school\n\n'},
+        {year: '2017', event: 'Entered Computer Science in Univ of Tsukuba\n\n'},
         {
           year: '2018',
           event: '・ Interned of making new service at USEN-NEXT-GROUP Inc\n\n' +
-            '・Interned as an office system engineer at USEN-ICT-SOLUTIONS\n\n' +
+            '・ Interned as an office system engineer at USEN-ICT-SOLUTIONS\n\n' +
 
-            '・ Started the volunteer activity with foreign students as a chief'
+            '・ Started the volunteer activity with foreign students as a chief\n\n'
         },
         {year: '2019', event: '・ Interned as a web engineer at Unipro Inc\n\n'+
-                '・Start up curation media business as CEO\n\n' +
-        '・Join the business contest at Microsoft Japan'},
+                '・ Start up curation media business as CEO\n\n' +
+        '・ Join the business contest at Microsoft Japan\n\n'+
+                '・ Intern as a developer at Btrax Inc\n\n'},
         {
           year: 'Now',
-          event: '・CEO at Feedal Inc.\n\n' +
-            '・Study CS in SF State Univ.\n\n'+
-            '・Intern as a developer at Btrax Inc'
+          event: '・ CEO/Co-founder at Feedal Inc.\n\n' +
+            '・ Study CS in SF State Univ\n\n'
         }
       ],
 
@@ -209,7 +209,7 @@ export default {
             link: 'http://wanderjapan.site/index',
                 image:'/wander.jpg'
             },
-            {title:'2.  Start up curation media App company "Feedal"',
+            {title:'2.  Start up curation media app company "Feedal"',
                 period:'2019/02 ~',
                 position:'Co-Founder/CEO',
                 content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
