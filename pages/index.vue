@@ -244,11 +244,11 @@ export default {
             content:'This is a simple todo application that can add and delete todo contents. ',
             lang: 'Flutter, dart',
             image:'/flutter_todo.png'},
-            {title:'25 hours-drive strange clock',
-            content:'You can spend 25hours instinctively in a day even though actually 24hours have passed.',
-                image:'/25watch.jpg',
+            {title:'25 hours-driven clock',
+            content:'You can spend 25 hours instinctively in a day.',
+                image:'/25watch.png',
             lang:'JS, HTML, CSS',
-            atag : 'https://protected-island-53136.herokuapp.com/'},
+            atag : 'https://serene-jennings-1c823e.netlify.com/'},
             {title:'Which is your Best toilet??',
             content:'If I go somewhere I haven\'t ever been, I have no idea which toilets I should go.\n' +
                 '\n' +
