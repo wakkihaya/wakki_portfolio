@@ -47,19 +47,64 @@
         </p>
 
         <p class = "content_of_intro">
-          Computer Science in University of Tsukuba
+          Computer Science at University of Tsukuba
         </p>
 
+<!--        timeline-->
+        <div class = "timeline">
 
-        <table border="0" v-for = "career in careers" v-bind:key="career.year" id="mycareer">
-          <tbody>
-          <tr>
-            <td class="td1">{{career.year}}</td>
-            <td class="td2" style="white-space:pre-line">{{career.event }}</td>
-          </tr>
-          </tbody>
-        </table>
+          <span class="year">2017</span>
+          <div class="timeline-list" v-for ="career in careers" v-bind:key="career.year" v-if="career.year === '2017'">
+            <div class="timeline-marker">
+            </div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title_cluster">
+                  <div class="event_title">{{career.event}}</div>
+                </div>
+                <div class="timeline-item-duration">
+                  {{career.duration}}
+                </div>
+                <div class="event_content"><a :href="career.atag">{{career.content}}</a></div>
+              </div>
+            </div>
+          </div>
 
+          <span class="year">2018</span>
+          <div class="timeline-list" v-for ="career in careers" v-bind:key="career.year" v-if="career.year === '2018'">
+            <div class="timeline-marker">
+            </div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title">{{career.event}}</div>
+                <div class="timeline-item-duration">
+                  {{career.duration}}
+                </div>
+                <div class="event_content"><a :href="career.atag">{{career.content}}</a></div>
+
+              </div>
+            </div>
+          </div>
+
+          <span class="year">2019</span>
+          <div class="timeline-list" v-for ="career in careers" v-bind:key="career.year" v-if="career.year === '2019'">
+            <div class="timeline-marker">
+            </div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title">{{career.event}}</div>
+                <div class="timeline-item-duration">
+                  {{career.duration}}
+                </div>
+                <div class="event_content"><a :href="career.atag">{{career.content}}</a></div>
+              </div>
+            </div>
+          </div>
+
+       </div>
       </div>
 
 <!--    activity-->
@@ -179,23 +224,37 @@ export default {
       careers: [
         {year: '1999', event: 'Born in Japan\n\n'},
         {year: '2014', event: 'Entered Seijo high school\n\n'},
-        {year: '2017', event: 'Entered Computer Science in Univ of Tsukuba\n\n'},
-        {
-          year: '2018',
-          event: '・ Interned of making new service at USEN-NEXT-GROUP Inc\n\n' +
-            '・ Interned as an office system engineer at USEN-ICT-SOLUTIONS\n\n' +
+        {year: '2017', event: 'Graduated from Seijo high school', duration: '~ 2017/03',image:'seijo.png'},
+        {year: '2017', event: 'Study computer science at Univ of Tsukuba\n\n',duration:'2017/04 ~ 2022/03',image:'/univoftsukuba.png'},
+        {year: '2018', event: 'Business internship at USEN-NEXT-GROUP Inc\n\n',duration:'2018/08',image:'/usen-next-group.jpg'
+            ,content:'This was 5-day Internship that make new business.\n\n' +
+                '- Made the new app in agriculture industry\n\n' +
+                '- Thought it logically and disruptively'},
+        {year: '2018', event: 'Office system engineer internship at USEN-ICT-SOLUTIONS\n\n',duration:'2018/12 ~ 2019/02',image:'/usen-ict-solutions.png'
+        ,content:'This company had lots of data and mails of clients managed by G suite, and they had a lot of redundancies for using G suite.\n\n' +
+                '- Made back office environment twice more efficient than before , by using Google App Script.\n\n' +
+                '- Implemented the automatic mail system on G suite.'},
+        {year: '2018', event: 'Founded volunteer "wonder" with international students\n\n',duration:'2018/10 ~ 2019/02',image:'/wander.jpg'
+        ,content:'More ⇊', atag:'#activity'},
 
-            '・ Started the volunteer activity with foreign students as a chief\n\n'
-        },
-        {year: '2019', event: '・ Interned as a web engineer at Unipro Inc\n\n'+
-                '・ Start up curation media business as CEO\n\n' +
-        '・ Join the business contest at Microsoft Japan\n\n'+
-                '・ Intern as a developer at Btrax Inc\n\n'},
-        {
-          year: 'Now',
-          event: '・ CEO/Co-founder at Feedal Inc.\n\n' +
-            '・ Study CS in SF State Univ\n\n'
-        }
+        {year: '2019', event: 'Full stack engineer internship at Unipro Inc\n\n',duration:'2019/02 ~ 2019/04',image:'/unipro.png',
+        content:'This company makes money by contracted development from big companies in Japan.\n\n' +
+            '- Improved and develop the web app using Vue.js and Laravel\n\n' +
+            '- Removed bugs of app by acting as a tester'},
+          {year: '2019', event: 'Business internship at Microsoft Japan\n\n',duration:'2019/08',image:'/microsoft.png',
+          content:'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
+              '- Thought logically the solution for the problem which Microsoft has now\n\n' +
+              '- Made the prototype of the app by using "Figma"'},
+          {year: '2019', event: 'Developer internship at Btrax Inc\n\n',duration:'2029/10 ~ 2019/12',image:'/btrax.png'
+          ,content: '- Created the web page integrated with 3rd party.\n\n' +
+                  '- Built the initial environment to develop with github and aws.\n\n' +
+                  '- Got APIs for the web page.\n\n' +
+                  '- Wrote the article in our blog.'},
+          {year: '2019', event: 'Study computer science at SF State Univ\n\n',duration:'2019/08 ~ 2020/05',image:'/sfsu.jpg'
+          ,content: 'Exchange student'},
+          {year: '2019', event: 'CEO/Co-founder at Feedal Inc.\n\n',duration:'2019/07 ~ Present',image:'/feedal_2.jpg',
+              content:'More ⇊', atag:'#activity'},
+
       ],
 
         /*activity についてのdata*/

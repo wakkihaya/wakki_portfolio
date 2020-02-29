@@ -5,6 +5,10 @@ $subtitle-textsize:28px;
 $subsubtitle-textsize:24px;
 $content_pc_textsize:18px;
 $content-textsize:16px;
+$content-pc-subtextsize:14px;
+$content-subtextsize:12px;
+$content-pc-subsubtextsize:12px;
+$content-subsubtextsize:10px;
 $head-fontcolor: #fff;
 $strong-fontcolor:#EE0044;
 $title-fontfamily : "Courier New";
@@ -123,6 +127,7 @@ $content_act_fontfamily: "serif";
   padding-left:5px;
   font-size:$content-textsize;
   font-family: $content_fontfamily;
+  font-weight: bold;
 }
 
 .name_of_intro{
@@ -130,27 +135,88 @@ $content_act_fontfamily: "serif";
   padding-top:10px;
   font-size:$subtitle-textsize;
   font-family:$content_fontfamily;
+  font-weight: bold;
 }
 
-#mycareer{
-  width:100%;
-  padding:30px 15px 0 15px;
+.timeline{
   font-size: $content_textsize;
-  font-family: $content_fontfamily;
-  td{
-    border-bottom:dotted #000 1px;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right:2em;
+
+
+  .timeline-list{
+    position: relative;
+    border-left: solid 1px #000;
   }
-  .td1{
-    width:20%;
-    font-weight:bold;
+
+  .timeline-marker{
+    position: absolute;
+    background: #dbdbdb;
+    border: 1px solid #dbdbdb;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 12px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 12px;
   }
-  .td2{
-    width:80%;
-    text-align:left;
+
+  .timeline-item{
+    padding: 1em 0 3em 2.3em;
+
+    .flexbox{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .timeline-item-duration{
+      font-size: $content-subsubtextsize;
+      color: #95999c;
+      //padding-left: 2em;
+      padding-top: 0.8em;
+    }
+    img{
+      width: 2em;
+    }
+    .event_title{
+      //position: absolute;
+      //left: 5em;
+      //top: 1.4em;
+    }
+
+    .event_content{
+      font-size: $content-subtextsize;
+      padding: 2em 0 0 3em;
+      white-space:pre-line;
+      a{
+        color: #000;
+      }
+    }
+
   }
+
+  .year{
+    position: absolute;
+    background-color: $strong-fontcolor;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: #fff;
+    padding: 0.4em;
+    border-radius: 5px;
+  }
+
   @media only screen and (min-device-width : 750px) { //PC対応
-    margin-top:10px;
     font-size:$content_pc_textsize;
+    .timeline-item{
+      .timeline-item-duration{
+        font-size: $content-pc-subsubtextsize;
+      }
+      .event_content{
+        font-size: $content-pc-subtextsize;
+      }
+    }
   }
 }
 
