@@ -245,7 +245,7 @@ export default {
           content:'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
               '- Thought logically the solution for the problem which Microsoft has now\n\n' +
               '- Made the prototype of the app by using "Figma"'},
-          {year: '2019', event: 'Developer internship at Btrax Inc\n\n',duration:'2029/10 ~ 2019/12',image:'/btrax.png'
+          {year: '2019', event: 'Developer internship at Btrax Inc\n\n',duration:'2019/10 ~ 2019/12',image:'/btrax.png'
           ,content: '- Created the web page integrated with 3rd party.\n\n' +
                   '- Built the initial environment to develop with github and aws.\n\n' +
                   '- Got APIs for the web page.\n\n' +
