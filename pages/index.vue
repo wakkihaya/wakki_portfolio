@@ -259,7 +259,7 @@ export default {
 
         /*activity についてのdata*/
         activities: [
-            {title:'1.  Volunteer activity with foreign students\n'
+            {title:'Volunteer activity with foreign students\n'
                 ,period:'2018/10 ~ 2019/02', position:'Founder/chief',
                 content:'Both Japanese and overseas students in my team help new overseas students to get' +
                     ' household appliances and to find restaurants to their liking in Tsukuba.',
@@ -268,7 +268,7 @@ export default {
             link: 'http://wanderjapan.site/index',
                 image:'/wander.jpg'
             },
-            {title:'2.  Start up curation media app company "Feedal"',
+            {title:'Start up curation media app company "Feedal"',
                 period:'2019/02 ~',
                 position:'Co-Founder/CEO',
                 content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
@@ -277,7 +277,14 @@ export default {
                 '・Trying to brush up the product to achieve PMF',
                 link:'https://corp.feedal.com/',
                 image:'/feedal.jpg'
-            }
+            },
+            {title: "Silicon Valley student's meetup\n"
+            ,period: "2020/01 ~ 2020/03", position: "Co-organizer",
+            content:"We host idea-thon and meetups for Japanese students in Silicon Valley who have variety of backgrounds, " +
+                "passion for their dream and who like to think new disruptive ideas in a team ",
+            achievement:"- Host idea-thon, which 12 people joined, at Btrax,Inc \n\n" +
+                "- Host meetups, which 15 people joined, at Sales Force Park.",
+            image:"/SV_meetup.jpg"}
         ],
         products: [
             {title:'Remote-car',
