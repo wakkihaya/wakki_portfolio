@@ -294,7 +294,6 @@ export default {
             image:'/remote-car.jpg',
             lang:'C++ (Arduino)'},
             {title:'"Tac"channel',
-                atag:'http://wakkihaya.starfree.jp/test.php',
             content:'This is the bulletin board that anyone can say their real intentions. ' +
                 'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
                 '\n' +
