@@ -145,7 +145,7 @@
       <div class="list_activities" v-for="act in activities" v-bind:key="act.period">
         <a :href="act.link">
         <div class="activity_title">
-            <img :src="act.image"  width="30%"/>
+            <img :src="act.image"  width="30%" height="100%"/>
             <div class="activity_title_name">
               <p>{{act.name}}</p>
             </div>
