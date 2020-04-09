@@ -26,10 +26,18 @@
 <!--      </div>-->
 <!--        menu-box-->
         <ul id="menu-box">
-          <a href ="#introduction"><li>Introduction</li></a>
-          <a href = "#activity"><li>Activity</li></a>
-          <a href="#product"> <li>Products</li></a>
-          <a href="#contact"><li>Contact</li></a>
+          <a href ="#introduction">
+            <li>Introduction</li>
+          </a>
+          <a href = "#activity">
+            <li>Activity</li>
+          </a>
+          <a href="#product">
+            <li>Products</li>
+          </a>
+          <a href="#contact">
+            <li>Contact</li>
+          </a>
         </ul>
 
       </div>
@@ -61,12 +69,18 @@
               <img v-bind:src="career.image" />
               <div class="flexbox">
                 <div class="event_title_cluster">
-                  <div class="event_title">{{career.event}}</div>
+                  <div class="event_title">
+                    {{career.event}}
+                  </div>
                 </div>
                 <div class="timeline-item-duration">
-                  {{career.duration}}
+                  {{career.duration}}  ,           {{career.location}}
                 </div>
-                <div class="event_content"><a :href="career.atag">{{career.content}}</a></div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{career.content}}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -78,12 +92,17 @@
             <div class="timeline-item">
               <img v-bind:src="career.image" />
               <div class="flexbox">
-                <div class="event_title">{{career.event}}</div>
-                <div class="timeline-item-duration">
-                  {{career.duration}}
+                <div class="event_title">
+                  {{career.event}}
                 </div>
-                <div class="event_content"><a :href="career.atag">{{career.content}}</a></div>
-
+                <div class="timeline-item-duration">
+                  {{career.duration}}  ,           {{career.location}}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{career.content}}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -95,11 +114,17 @@
             <div class="timeline-item">
               <img v-bind:src="career.image" />
               <div class="flexbox">
-                <div class="event_title">{{career.event}}</div>
-                <div class="timeline-item-duration">
-                  {{career.duration}}
+                <div class="event_title">
+                  {{career.event}}
                 </div>
-                <div class="event_content"><a :href="career.atag">{{career.content}}</a></div>
+                <div class="timeline-item-duration">
+                  {{career.duration}}      ,           {{career.location}}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{career.content}}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -118,28 +143,29 @@
         </p>
 
       <div class="list_activities" v-for="act in activities" v-bind:key="act.period">
-        <div class="list_activities_title">
-          {{act.title}}
+        <a :href="act.link">
+        <div class="activity_title">
+            <img :src="act.image"  width="30%"/>
+            <div class="activity_title_name">
+              <p>{{act.name}}</p>
+            </div>
+
         </div>
+        </a>
+        <div class="activity_content">
+          <div class="activity_content_date">
+            <p class="activity_position">{{act.position}}</p>
+            <p class="activity_period">{{act.period}}</p>
+          </div>
+          <div class="activity_content_explanation">
+            <p>{{act.content}}</p>
+          </div>
+          <div class="activity_achievment">
+            <div>Achievement</div>
+            <p style="white-space:pre-line">{{act.achievement}}</p>
+          </div>
 
-        <div class="list_activities_content">
-          <div class="content_title">Period:</div>
-          <p>{{act.period}} </p>  <br>
-
-          <div class="content_title">Position:</div>
-          <p>{{act.position}} </p> <br>
-
-          <div class="content_title">Content: </div>
-          <p>{{act.content}}  </p>   <br>
-
-          <div class="content_title" >Achievement:</div>
-          <p style="white-space:pre-line">{{act.achievement}}</p>    <br>
-
-          <div class="content_title">Link:</div>
-          <p><a :href = "act.link">{{act.link}}</a> </p> <br>
-
-          <img :src= "act.image"  width="30%" height="30%" />
-
+        </div>
         </div>
       </div>
     </div>
@@ -223,67 +249,70 @@ export default {
         /*introduction についてのdata*/
       careers: [
         {year: '1999', event: 'Born in Japan\n\n'},
-        {year: '2014', event: 'Entered Seijo high school\n\n'},
-        {year: '2017', event: 'Graduated from Seijo high school', duration: '~ 2017/03',image:'seijo.png'},
-        {year: '2017', event: 'Study computer science at Univ of Tsukuba\n\n',duration:'2017/04 ~ 2022/03',image:'/univoftsukuba.png'},
-        {year: '2018', event: 'Business internship at USEN-NEXT-GROUP Inc\n\n',duration:'2018/08',image:'/usen-next-group.jpg'
-            ,content:'This was 5-day Internship that make new business.\n\n' +
+        {year: '2014', event: 'Entered Seijo high school\n\n', location: 'Tokyo/Japan'},
+        {year: '2017', event: 'Graduated from Seijo high school', duration: '~ 2017/03',image:'seijo.png',location: 'Tokyo/Japan'},
+        {year: '2017', event: 'Study computer science at Univ of Tsukuba\n\n',duration:'2017/04 ~ 2022/03',image:'/univoftsukuba.png',location: 'Tsukuba/Japan'},
+        {year: '2018', event: 'Business internship at USEN-NEXT-GROUP Inc\n\n',duration:'2018/08',image:'/usen-next-group.jpg',
+            location: 'Tokyo/Japan', content:'This was 5-day Internship that make new business.\n\n' +
                 '- Made the new app in agriculture industry\n\n' +
                 '- Thought it logically and disruptively'},
-        {year: '2018', event: 'Office system engineer internship at USEN-ICT-SOLUTIONS\n\n',duration:'2018/12 ~ 2019/02',image:'/usen-ict-solutions.png'
-        ,content:'This company had lots of data and mails of clients managed by G suite, and they had a lot of redundancies for using G suite.\n\n' +
+        {year: '2018', event: 'Office system engineer internship at USEN-ICT-SOLUTIONS\n\n',duration:'2018/12 ~ 2019/02',image:'/usen-ict-solutions.png',
+            location:'Tokyo/Japan',content:'This company had lots of data and mails of clients managed by G suite, and they had a lot of redundancies for using G suite.\n\n' +
                 '- Made back office environment twice more efficient than before , by using Google App Script.\n\n' +
                 '- Implemented the automatic mail system on G suite.'},
-        {year: '2018', event: 'Founded volunteer "wonder" with international students\n\n',duration:'2018/10 ~ 2019/02',image:'/wander.jpg'
-        ,content:'More ⇊', atag:'#activity'},
-
+        {year: '2018', event: 'Founded volunteer "wander" with international students\n\n',duration:'2018/10 ~ 2019/02',image:'/wander.jpg',
+            location:'Tsukuba/Japan' ,content:'More ⇊', atag:'#activity'},
         {year: '2019', event: 'Full stack engineer internship at Unipro Inc\n\n',duration:'2019/02 ~ 2019/04',image:'/unipro.png',
-        content:'This company makes money by contracted development from big companies in Japan.\n\n' +
-            '- Improved and develop the web app using Vue.js and Laravel\n\n' +
+            location:'Tokyo/Japan',content:'This company makes money by contracted development from big companies in Japan.\n\n' +
+            '- Improved and developed the web app using Vue.js and Laravel\n\n' +
             '- Removed bugs of app by acting as a tester'},
           {year: '2019', event: 'Business internship at Microsoft Japan\n\n',duration:'2019/08',image:'/microsoft.png',
-          content:'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
+              location:'Tokyo/Japan',content:'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
               '- Thought logically the solution for the problem which Microsoft has now\n\n' +
               '- Made the prototype of the app by using "Figma"'},
-          {year: '2019', event: 'Developer internship at Btrax Inc\n\n',duration:'2019/10 ~ 2019/12',image:'/btrax.png'
-          ,content: '- Created the web page integrated with 3rd party.\n\n' +
+          {year: '2019', event: 'Developer internship at Btrax Inc\n\n',duration:'2019/10 ~ 2019/12',image:'/btrax.png',
+              location:'San Francisco/U.S.',content: 'This company is an innovation design company based in SanFrancisco.\n\n' +
+                  '- Created the web page integrated with 3rd party.\n\n' +
                   '- Built the initial environment to develop with github and aws.\n\n' +
                   '- Got APIs for the web page.\n\n' +
                   '- Wrote the article in our blog.'},
-          {year: '2019', event: 'Study computer science at SF State Univ\n\n',duration:'2019/08 ~ 2020/05',image:'/sfsu.jpg'
-          ,content: 'Exchange student'},
+          {year: '2019', event: 'Study computer science at San Francisco State Univ\n\n',duration:'2019/08 ~ 2020/05',image:'/sfsu.jpg',
+              location: 'San Francisco/U.S.', content: 'Exchange student'},
           {year: '2019', event: 'CEO/Co-founder at Feedal Inc.\n\n',duration:'2019/07 ~ Present',image:'/feedal_2.jpg',
-              content:'More ⇊', atag:'#activity'},
+              location:'Tsukuba/Japan',content:'More ⇊', atag:'#activity'},
 
       ],
 
         /*activity についてのdata*/
         activities: [
-            {title:'Volunteer activity with foreign students\n'
-                ,period:'2018/10 ~ 2019/02', position:'Founder/chief',
+            {title:'Volunteer activity with foreign students\n',
+                name: 'wander',
+                period:'2018/10 ~ 2019/02', position:'Founder/chief',
                 content:'Both Japanese and overseas students in my team help new overseas students to get' +
                     ' household appliances and to find restaurants to their liking in Tsukuba.',
-            achievement:'・10 people were showed around Tsukuba\n\n' +
+            achievement:'・10 people were showed around Tsukuba\n' +
                 '・5 people joined  my team',
             link: 'http://wanderjapan.site/index',
                 image:'/wander.jpg'
             },
             {title:'Start up curation media app company "Feedal"',
+                name:'Feedal',
                 period:'2019/02 ~',
                 position:'Co-Founder/CEO',
                 content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
                     'This app has many segmented categories which users can create and edit, and good algorithm for trend information. ',
-                achievement: '・Got 30 users as monitors of the β released app.\n\n'+
+                achievement: '・Got 30 users as monitors of the β released app.\n'+
                 '・Trying to brush up the product to achieve PMF',
                 link:'https://corp.feedal.com/',
                 image:'/feedal.jpg'
             },
-            {title: "Silicon Valley student's meetup\n"
+            {title: "Silicon Valley student's meetup\n",
+                name:"Silicon Valley students' meetup"
             ,period: "2020/01 ~ 2020/03", position: "Co-organizer",
             content:"We host idea-thon and meetups for Japanese students in Silicon Valley who have variety of backgrounds, " +
                 "passion for their dream and who like to think new disruptive ideas in a team ",
-            achievement:"- Host idea-thon, which 12 people joined, at Btrax,Inc \n\n" +
-                "- Host meetups, which 15 people joined, at Sales Force Park.",
+            achievement:"・Host idea-thon, which 12 people joined, at Btrax,Inc \n" +
+                "・Host meetups, which 15 people joined, at Sales Force Park.",
             image:"/SV_meetup.jpg"}
         ],
         products: [

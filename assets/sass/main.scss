@@ -9,6 +9,9 @@ $content-pc-subtextsize:14px;
 $content-subtextsize:12px;
 $content-pc-subsubtextsize:12px;
 $content-subsubtextsize:10px;
+$activity-textsize: 22px;
+$activity-content-pc-textsize: 20px;
+$activity-content-textsize: 18px;
 $head-fontcolor: #fff;
 $strong-fontcolor:#EE0044;
 $title-fontfamily : "Courier New";
@@ -238,41 +241,92 @@ $content_act_fontfamily: "serif";
 
 #activity{
   margin-top:5vh;
+
   @media only screen and (min-device-width : 750px) { //PC対応
     margin:7vh 18vw 7vh 18vw;
   }
 }
 
-.list_activities_title{
-  margin-top:3vh;
-  margin-left:3vh;
-  margin-right:3vh;
-  font-size:$subsubtitle-textsize;
-  background-color:#FCEEEB;
-  color:$strong-fontcolor;
-  font-weight:bold;
+.list_activities{
+  margin-bottom: 10vh;
 }
 
-.list_activities_content{
-  margin-bottom: 10vh;
-  margin-right: 3vh;
+.list_activities a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+}
 
-  .content_title{
-      margin:3vh 0 3vh 5vh;
-      font-family:$content_act_fontfamily;
-      font-weight:bold;
-    font-size:18px;
-  }
-  p{
-    margin-left:10vh;
-    font-size:$content-textsize;
-    @media only screen and (min-device-width : 750px) { //PC対応
-      font-size:$content_pc_textsize;
-    }
-    }
+.activity_title{
+  margin-top: 4%;
+  display:flex;
+  flex-direction: row;
+  box-shadow: 0 0 8px #95999c;
+  border-radius: 8px;
+  padding: 10% 3%;
   img{
     display:block;
-    margin:auto;
+  }
+  .activity_title_name{
+    @media only screen and (min-device-width : 750px) { //PC対応
+      font-size: 45px;
+    }
+    font-size: 30px;
+    flex-grow: 3;
+    margin: auto;
+    p{
+      margin: auto;
+      text-align: center;
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
+
+.activity_content {
+  padding: 0 5%;
+  .activity_content_date {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+
+    .activity_position {
+      font-size: $activity-textsize;
+      font-weight: bold;
+      flex-grow: 1;
+    }
+
+    .activity_period {
+      color: #95999c;
+      flex-grow: 5;
+      padding-top: 0.5%;
+    }
+  }
+
+  .activity_content_explanation {
+    margin-top: 5%;
+    font-size: $activity-content-textsize;
+    color: #95999c;
+    @media only screen and (min-device-width : 750px) { //PC対応
+      font-size: $activity-content-pc-textsize;
+    }
+  }
+
+  .activity_achievment {
+    margin-top: 3%;
+    color: #95999c;
+
+    div {
+      font-size: $activity-content-textsize;
+      text-decoration: underline;
+    }
+
+    p {
+      font-size: $content-textsize;
+      margin-top: 1%;
+    }
   }
 }
 
