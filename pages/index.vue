@@ -26,16 +26,16 @@
 <!--      </div>-->
 <!--        menu-box-->
         <ul id="menu-box">
-          <a href ="#introduction">
+          <a href ="#introduction" v-on:click="moveToItem('#introduction')">
             <li>Introduction</li>
           </a>
-          <a href = "#activity">
+          <a href = "#activity" v-on:click="moveToItem('#activity')">
             <li>Activity</li>
           </a>
-          <a href="#product">
+          <a href="#product" v-on:click="moveToItem('#product')">
             <li>Products</li>
           </a>
-          <a href="#contact">
+          <a href="#contact" v-on:click="moveToItem('#contact')">
             <li>Contact</li>
           </a>
         </ul>
@@ -243,6 +243,12 @@ import Vue from 'vue';
 
 export default {
   name: 'mycareer',
+  methods:{
+    moveToItem(id){
+        var Top =$(id).offset().top;
+        $("html, body").animate({ scrollTop: Top }, 500);
+    },
+  },
   data() {
     return {
 

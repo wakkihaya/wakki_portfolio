@@ -22,6 +22,7 @@
     "nuxt": "^2.8.1",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-sass-resources-loader": "^2.0.5",
+    "nuxt-webfontloader": "^1.1.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1"
   },
