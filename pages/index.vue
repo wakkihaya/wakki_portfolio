@@ -294,21 +294,20 @@ export default {
             {title:'Volunteer activity with foreign students\n',
                 name: 'wander',
                 period:'2018/10 ~ 2019/02', position:'Founder/chief',
-                content:'Both Japanese and overseas students in my team help new overseas students to get' +
+                content:'Both Japanese and international students in my team help new international students to get' +
                     ' household appliances and to find restaurants to their liking in Tsukuba.',
             achievement:'・10 people were showed around Tsukuba\n' +
                 '・5 people joined  my team',
-            link: 'http://wanderjapan.site/index',
                 image:'/wander.jpg'
             },
-            {title:'Start up curation media app company "Feedal"',
+            {title:'Start up media app company "Feedal"',
                 name:'Feedal',
                 period:'2019/02 ~',
                 position:'Co-Founder/CEO',
-                content:'If we have this app, we get whatever kinds of trend information that other users in the app share.' +
-                    'This app has many segmented categories which users can create and edit, and good algorithm for trend information. ',
-                achievement: '・Got 30 users as monitors of the β released app.\n'+
-                '・Trying to brush up the product to achieve PMF',
+                content:'Feedal has clear vision that make the world "anyone can get whatever kinds of information immediately with no stress." ' +
+                    "And we're trying to create services in terms of collecting information.",
+                achievement: "・Got 30 users as monitors of the β released app 'Feedal'.\n"+
+                "・Released 'vs.corona by Feedal' that curate coronavirus-information of public organization like government.",
                 link:'https://corp.feedal.com/',
                 image:'/feedal.jpg'
             },
@@ -332,16 +331,12 @@ export default {
             content:'This is the bulletin board that anyone can say their real intentions. ' +
                 'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
                 '\n' +
-                'That\'s why I make it for them to say everything.\n' +
+                'That\'s why I made it for them to say everything.\n' +
                 '\n',
                 image:'/tacchanel.jpg',
             lang:'PHP,HTML,CSS'},
-            {title:'To do Application',
-            content:'This is a simple todo application that can add and delete todo contents. ',
-            lang: 'Flutter, dart',
-            image:'/flutter_todo.png'},
             {title:'25 hours-driven clock',
-            content:'You can spend 25 hours instinctively in a day.',
+            content:'If you use the app, you can spend 25 hours instinctively in a day.',
                 image:'/25watch.png',
             lang:'JS, HTML, CSS',
             atag : 'https://serene-jennings-1c823e.netlify.com/'},
@@ -350,7 +345,7 @@ export default {
                 '\n' +
                 'And this case also occurs in University of Tsukuba.\n' +
                 '\n' +
-                'So, this is the App you can get the information of toilets in Univ and you all can make the comments for each toilets.',
+                'So, this is the app you can get the information of toilets in Univ and also you all can make the comments for each toilets.',
             lang:'Ruby on Rails , JS',
             image:'/toilet_2.png'},
             {title:'This my portfolio',
@@ -358,12 +353,12 @@ export default {
             lang:'Nuxt.js'},
             {title:'Funbrella',
             content:'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
-                'to make rainy day enjoyable. \n'+'I make the game that can detect inclination of the umbrella and avoid enemies.',
+                'to make rainy day enjoyable. \n'+'I made the game that can detect inclination of the umbrella and avoid enemies with my members.',
             lang:'jQuery, phina.js, HTML, CSS',
             image:'/funbrella.png'},
             {title:'GatorTrader',
-                content:'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend' +
-                    'system and then implemented search, item-listing, creating new item, messages between users features.',
+                content:'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend system.'
+                    ,
                 lang:'Express.js, Node.js, bootstrap',
                 image:'/gatortrader_formal.png'
             },
