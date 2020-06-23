@@ -129,6 +129,28 @@
             </div>
           </div>
 
+          <span class="year">2020</span>
+          <div class="timeline-list" v-for ="career in careers" v-bind:key="career.year" v-if="career.year === '2020'">
+            <div class="timeline-marker">
+            </div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title">
+                  {{career.event}}
+                </div>
+                <div class="timeline-item-duration">
+                  {{career.duration}}      ,           {{career.location}}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{career.content}}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
        </div>
       </div>
 
@@ -282,9 +304,9 @@ export default {
                   '- Built the initial environment to develop with github and aws.\n\n' +
                   '- Got APIs for the web page.\n\n' +
                   '- Wrote the article in our blog.'},
-          {year: '2019', event: 'Study computer science at San Francisco State Univ\n\n',duration:'2019/08 ~ 2020/05',image:'/sfsu.jpg',
+          {year: '2020', event: 'Study computer science at San Francisco State Univ\n\n',duration:'2019/08 ~ 2020/05',image:'/sfsu.jpg',
               location: 'San Francisco/U.S.', content: 'Exchange student'},
-          {year: '2019', event: 'CEO/Co-founder at Feedal Inc.\n\n',duration:'2019/07 ~ Present',image:'/feedal_2.jpg',
+          {year: '2020', event: 'CEO/Co-founder at Feedal Inc.\n\n',duration:'2019/07 ~ Present',image:'/feedal_2.jpg',
               location:'Tsukuba/Japan',content:'More ⇊', atag:'#activity'},
 
       ],
