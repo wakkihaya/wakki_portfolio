@@ -204,7 +204,7 @@
 
       <div class="products_list">
         <div class="products_list_items"  v-for="product in products">
-          <p class="items_title" ><a :href="product.atag">{{product.title}}</a></p>
+          <p class="items_title" ><a :href="product.atag" target="_blank">{{product.title}}</a></p>
           <p class="items_contents">{{product.content}}</p>
           <img :src ="product.image">
           <p class="items_lang">{{product.lang}}</p>
@@ -362,14 +362,15 @@ export default {
                 image:'/25watch.png',
             lang:'JS, HTML, CSS',
             atag : 'https://serene-jennings-1c823e.netlify.com/'},
-            {title:'Which is your Best toilet??',
+            {title:'Your toilet',
             content:'If I go somewhere I haven\'t ever been, I have no idea which toilets I should go.\n' +
                 '\n' +
                 'And this case also occurs in University of Tsukuba.\n' +
                 '\n' +
-                'So, this is the app you can get the information of toilets in Univ and also you all can make the comments for each toilets.',
+                'So, this is the app you can find the best toilets in Univ and also you all can review for each toilets.',
             lang:'Ruby on Rails , JS',
-            image:'/toilet_2.png'},
+            image:'/yourtoilet.png',
+            atag: 'https://yourtoilet.herokuapp.com/'},
             {title:'This my portfolio',
                 content:'Update my portfolio',
             lang:'Nuxt.js'},
