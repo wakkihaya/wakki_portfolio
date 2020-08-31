@@ -199,13 +199,13 @@
       </p>
 
       <div class="design_list">
-        <div class="design_list_items"  v-for="design in designs">
+        <div class="design_list_items" v-for="design in designs">
           <div class="design_list_items--image">
             <a :href="design.atag" target="_blank">
-              <img :src="design.image" >
-             <div class="design_list_items--image__caption">
+              <img :src="design.image">
+              <div class="design_list_items--image__caption">
                 {{design.title}}
-             </div>
+              </div>
             </a>
           </div>
         </div>
@@ -251,243 +251,241 @@ import Vue from 'vue';
 
 
 export default {
-    name: 'mycareer',
-    methods: {
-        moveToItem(id) {
-            var Top = $(id).offset().top;
-            $("html, body").animate({scrollTop: Top}, 500);
-        },
+  name: 'mycareer',
+  methods: {
+    moveToItem(id) {
+      var Top = $(id).offset().top;
+      $("html, body").animate({scrollTop: Top}, 500);
     },
-    data() {
-        return {
+  },
+  data() {
+    return {
 
-            /*introduction についてのdata*/
-            careers: [
-                {year: '1999', event: 'Born in Japan\n\n'},
-                {year: '2014', event: 'Entered Seijo high school\n\n', location: 'Tokyo/Japan'},
-                {
-                    year: '2017',
-                    event: 'Graduated from Seijo high school',
-                    duration: '~ 2017/03',
-                    image: 'seijo.png',
-                    location: 'Tokyo/Japan'
-                },
-                {
-                    year: '2017',
-                    event: 'Study computer science at Univ of Tsukuba\n\n',
-                    duration: '2017/04 ~ 2022/03',
-                    image: '/univoftsukuba.png',
-                    location: 'Tsukuba/Japan'
-                },
-                {
-                    year: '2018',
-                    event: 'Business internship at USEN-NEXT-GROUP Inc\n\n',
-                    duration: '2018/08',
-                    image: '/usen-next-group.jpg',
-                    location: 'Tokyo/Japan',
-                    content: 'This was 5-day Internship that make new business.\n\n' +
-                        '- Made the new app in agriculture industry\n\n' +
-                        '- Thought it logically and disruptively'
-                },
-                {
-                    year: '2018',
-                    event: 'Office system engineer internship at USEN-ICT-SOLUTIONS\n\n',
-                    duration: '2018/12 ~ 2019/02',
-                    image: '/usen-ict-solutions.png',
-                    location: 'Tokyo/Japan',
-                    content: 'This company had lots of data and mails of clients managed by G suite, and they had a lot of redundancies for using G suite.\n\n' +
-                        '- Made back office environment twice more efficient than before , by using Google App Script.\n\n' +
-                        '- Implemented the automatic mail system on G suite.'
-                },
-                {
-                    year: '2018',
-                    event: 'Founded volunteer "wander" with international students\n\n',
-                    duration: '2018/10 ~ 2019/02',
-                    image: '/wander.jpg',
-                    location: 'Tsukuba/Japan',
-                    content: 'More ⇊',
-                    atag: '#activity'
-                },
-                {
-                    year: '2019',
-                    event: 'Full stack engineer internship at Unipro Inc\n\n',
-                    duration: '2019/02 ~ 2019/04',
-                    image: '/unipro.png',
-                    location: 'Tokyo/Japan',
-                    content: 'This company makes money by contracted development from big companies in Japan.\n\n' +
-                        '- Improved and developed the web app using Vue.js and Laravel\n\n' +
-                        '- Removed bugs of app by acting as a tester'
-                },
-                {
-                    year: '2019',
-                    event: 'Business internship at Microsoft Japan\n\n',
-                    duration: '2019/08',
-                    image: '/microsoft.png',
-                    location: 'Tokyo/Japan',
-                    content: 'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
-                        '- Thought logically the solution for the problem which Microsoft has now\n\n' +
-                        '- Made the prototype of the app by using "Figma"'
-                },
-                {
-                    year: '2019',
-                    event: 'Developer internship at Btrax Inc\n\n',
-                    duration: '2019/10 ~ 2019/12',
-                    image: '/btrax.png',
-                    location: 'San Francisco/U.S.',
-                    content: 'This company is an innovation design company based in SanFrancisco.\n\n' +
-                        '- Created the web page integrated with 3rd party.\n\n' +
-                        '- Built the initial environment to develop with github and aws.\n\n' +
-                        '- Got APIs for the web page.\n\n' +
-                        '- Wrote the article in our blog.'
-                },
-                {
-                    year: '2020',
-                    event: 'Study computer science at San Francisco State Univ\n\n',
-                    duration: '2019/08 ~ 2020/05',
-                    image: '/sfsu.jpg',
-                    location: 'San Francisco/U.S.',
-                    content: 'Exchange student'
-                },
-                {
-                    year: '2020',
-                    event: 'CEO/Co-founder at Feedal Inc.\n\n',
-                    duration: '2019/07 ~ Present',
-                    image: '/feedal_2.jpg',
-                    location: 'Tsukuba/Japan',
-                    content: 'More ⇊',
-                    atag: '#activity'
-                },
+      /*introduction についてのdata*/
+      careers: [
+        {year: '1999', event: 'Born in Japan\n\n'},
+        {year: '2014', event: 'Entered Seijo high school\n\n', location: 'Tokyo/Japan'},
+        {
+          year: '2017',
+          event: 'Graduated from Seijo high school',
+          duration: '~ 2017/03',
+          image: 'seijo.png',
+          location: 'Tokyo/Japan'
+        },
+        {
+          year: '2017',
+          event: 'Study computer science at Univ of Tsukuba\n\n',
+          duration: '2017/04 ~ 2022/03',
+          image: '/univoftsukuba.png',
+          location: 'Tsukuba/Japan'
+        },
+        {
+          year: '2018',
+          event: 'Business internship at USEN-NEXT-GROUP Inc\n\n',
+          duration: '2018/08',
+          image: '/usen-next-group.jpg',
+          location: 'Tokyo/Japan',
+          content: 'This was 5-day Internship that make new business.\n\n' +
+            '- Made the new app in agriculture industry\n\n' +
+            '- Thought it logically and disruptively'
+        },
+        {
+          year: '2018',
+          event: 'Office system engineer internship at USEN-ICT-SOLUTIONS\n\n',
+          duration: '2018/12 ~ 2019/02',
+          image: '/usen-ict-solutions.png',
+          location: 'Tokyo/Japan',
+          content: 'This company had lots of data and mails of clients managed by G suite, and they had a lot of redundancies for using G suite.\n\n' +
+            '- Made back office environment twice more efficient than before , by using Google App Script.\n\n' +
+            '- Implemented the automatic mail system on G suite.'
+        },
+        {
+          year: '2018',
+          event: 'Founded volunteer "wander" with international students\n\n',
+          duration: '2018/10 ~ 2019/02',
+          image: '/wander.jpg',
+          location: 'Tsukuba/Japan',
+          content: 'More ⇊',
+          atag: '#activity'
+        },
+        {
+          year: '2019',
+          event: 'Full stack engineer internship at Unipro Inc\n\n',
+          duration: '2019/02 ~ 2019/04',
+          image: '/unipro.png',
+          location: 'Tokyo/Japan',
+          content: 'This company makes money by contracted development from big companies in Japan.\n\n' +
+            '- Improved and developed the web app using Vue.js and Laravel\n\n' +
+            '- Removed bugs of app by acting as a tester'
+        },
+        {
+          year: '2019',
+          event: 'Business internship at Microsoft Japan\n\n',
+          duration: '2019/08',
+          image: '/microsoft.png',
+          location: 'Tokyo/Japan',
+          content: 'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
+            '- Thought logically the solution for the problem which Microsoft has now\n\n' +
+            '- Made the prototype of the app by using "Figma"'
+        },
+        {
+          year: '2019',
+          event: 'Developer internship at Btrax Inc\n\n',
+          duration: '2019/10 ~ 2019/12',
+          image: '/btrax.png',
+          location: 'San Francisco/U.S.',
+          content: 'This company is an innovation design company based in SanFrancisco.\n\n' +
+            '- Created the web page integrated with 3rd party.\n\n' +
+            '- Built the initial environment to develop with github and aws.\n\n' +
+            '- Got APIs for the web page.\n\n' +
+            '- Wrote the article in our blog.'
+        },
+        {
+          year: '2020',
+          event: 'Study computer science at San Francisco State Univ\n\n',
+          duration: '2019/08 ~ 2020/05',
+          image: '/sfsu.jpg',
+          location: 'San Francisco/U.S.',
+          content: 'Exchange student'
+        },
+        {
+          year: '2020',
+          event: 'CEO/Co-founder at Feedal Inc.\n\n',
+          duration: '2019/07 ~ Present',
+          image: '/feedal_2.jpg',
+          location: 'Tsukuba/Japan',
+          content: 'More ⇊',
+          atag: '#activity'
+        },
 
-            ],
+      ],
 
-            /*activity についてのdata*/
-            activities: [
-                {
-                    title: 'Volunteer activity with foreign students\n',
-                    name: 'wander',
-                    period: '2018/10 ~ 2019/02', position: 'Founder/chief',
-                    content: 'Both Japanese and international students in my team help new international students to get' +
-                        ' household appliances and to find restaurants to their liking in Tsukuba.',
-                    achievement: '・10 people were shown around Tsukuba\n' +
-                        '・5 people joined  my team',
-                    image: '/wander.jpg'
-                },
-                {
-                    title: 'Start up media app company "Feedal"',
-                    name: 'Feedal',
-                    period: '2019/02 ~',
-                    position: 'Co-Founder/CEO',
-                    content: 'Feedal has clear vision that make the world "anyone can get whatever kinds of information immediately with no stress." ' +
-                        "And we're trying to create services in terms of collecting information.",
-                    achievement: "・Got 30 users as monitors of the β released app 'Feedal'.\n" +
-                        "・Released 'vs.corona by Feedal' that curate coronavirus-information of public organization like government.",
-                    link: 'https://corp.feedal.com/',
-                    image: '/feedal.jpg'
-                },
-                {
-                    title: "Silicon Valley student's meetup\n",
-                    name: "Silicon Valley students' meetup"
-                    , period: "2020/01 ~ 2020/03", position: "Co-organizer",
-                    content: "We host idea-thon and meetups for Japanese students in Silicon Valley who have variety of backgrounds, " +
-                        "passion for their dream and who like to think new disruptive ideas in a team ",
-                    achievement: "・Host idea-thon, which 12 people joined, at Btrax,Inc \n" +
-                        "・Host meetups, which 15 people joined, at Sales Force Park.",
-                    image: "/SV_meetup.jpg"
-                },
-                {
-                    name: "mokuhub",
-                    period: "2020/3~",
-                    position: "Co-organizer",
-                    content: "mokuhub is online co-working space for people who have nice passion. We　host virtual work space by zoom and " +
-                        "have a lot of events.",
-                    achievement: "・25 people joined in mokuhub community. \n" +
-                        "・Host a total of 8 online events.",
-                    link: "https://mokuhub.work/",
-                    image: "/mokuhub.png"
-                }
-            ],
-            products: [
-                {
-                    title: 'Remote-car',
-                    content: 'This remote-car is composed of Arduino , LEGO , motor and an acceleration sensor .\n\n' +
-                        'If this is supposed to conflict something, this can turn the direction and run automatically.'
-                    ,
-                    image: '/remote-car.jpg',
-                    lang: 'C++ (Arduino)'
-                },
-                {
-                    title: '"Tac"channel',
-                    content: 'This is the bulletin board that anyone can say their real intentions. ' +
-                        'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
-                        '\n' +
-                        'That\'s why I made it for them to say everything.\n' +
-                        '\n',
-                    image: '/tacchanel.jpg',
-                    lang: 'PHP,HTML,CSS'
-                },
-                {
-                    title: '25 hours-driven clock',
-                    content: 'If you use the app, you can spend 25 hours instinctively in a day.',
-                    image: '/25watch.png',
-                    lang: 'JS, HTML, CSS',
-                    atag: 'https://serene-jennings-1c823e.netlify.com/'
-                },
-                {
-                    title: 'Your toilet',
-                    content: 'If I go somewhere I haven\'t ever been, I have no idea which toilets I should go.\n' +
-                        '\n' +
-                        'And this case also occurs in University of Tsukuba.\n' +
-                        '\n' +
-                        'So, this is the app you can find the best toilets in Univ and also you all can review for each toilets.',
-                    lang: 'Ruby on Rails , JS',
-                    image: '/yourtoilet.png',
-                    atag: 'https://yourtoilet.herokuapp.com/'
-                },
-                {
-                    title: 'This my portfolio',
-                    content: 'Update my portfolio',
-                    lang: 'Nuxt.js'
-                },
-                {
-                    title: 'Funbrella',
-                    content: 'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
-                        'to make rainy day enjoyable. \n' + 'I made the game that can detect inclination of the umbrella and avoid enemies with my members.',
-                    lang: 'jQuery, phina.js, HTML, CSS',
-                    image: '/funbrella.png'
-                },
-                {
-                    title: 'GatorTrader',
-                    content: 'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend system.'
-                    ,
-                    lang: 'Express.js, Node.js, bootstrap',
-                    image: '/gatortrader_formal.png'
-                },
+      /*activity についてのdata*/
+      activities: [
+        {
+          title: 'Volunteer activity with foreign students\n',
+          name: 'wander',
+          period: '2018/10 ~ 2019/02', position: 'Founder/chief',
+          content: 'Both Japanese and international students in my team help new international students to get' +
+            ' household appliances and to find restaurants to their liking in Tsukuba.',
+          achievement: '・10 people were shown around Tsukuba\n' +
+            '・5 people joined  my team',
+          image: '/wander.jpg'
+        },
+        {
+          title: 'Start up media app company "Feedal"',
+          name: 'Feedal',
+          period: '2019/02 ~',
+          position: 'Co-Founder/CEO',
+          content: 'Feedal has clear vision that make the world "anyone can get whatever kinds of information immediately with no stress." ' +
+            "And we're trying to create services in terms of collecting information.",
+          achievement: "・Got 30 users as monitors of the β released app 'Feedal'.\n" +
+            "・Released 'vs.corona by Feedal' that curate coronavirus-information of public organization like government.",
+          link: 'https://corp.feedal.com/',
+          image: '/feedal.jpg'
+        },
+        {
+          title: "Silicon Valley student's meetup\n",
+          name: "Silicon Valley students' meetup"
+          , period: "2020/01 ~ 2020/03", position: "Co-organizer",
+          content: "We host idea-thon and meetups for Japanese students in Silicon Valley who have variety of backgrounds, " +
+            "passion for their dream and who like to think new disruptive ideas in a team ",
+          achievement: "・Host idea-thon, which 12 people joined, at Btrax,Inc \n" +
+            "・Host meetups, which 15 people joined, at Sales Force Park.",
+          image: "/SV_meetup.jpg"
+        },
+        {
+          name: "mokuhub",
+          period: "2020/3~",
+          position: "Co-organizer",
+          content: "mokuhub is online co-working space for people who have nice passion. We　host virtual work space by zoom and " +
+            "have a lot of events.",
+          achievement: "・25 people joined in mokuhub community. \n" +
+            "・Host a total of 8 online events.",
+          link: "https://mokuhub.work/",
+          image: "/mokuhub.png"
+        }
+      ],
+      products: [
+        {
+          title: 'Remote-car',
+          content: 'This remote-car is composed of Arduino , LEGO , motor and an acceleration sensor .\n\n' +
+            'If this is supposed to conflict something, this can turn the direction and run automatically.'
+          ,
+          image: '/remote-car.jpg',
+          lang: 'C++ (Arduino)'
+        },
+        {
+          title: '"Tac"channel',
+          content: 'This is the bulletin board that anyone can say their real intentions. ' +
+            'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
+            '\n' +
+            'That\'s why I made it for them to say everything.\n' +
+            '\n',
+          image: '/tacchanel.jpg',
+          lang: 'PHP,HTML,CSS'
+        },
+        {
+          title: '25 hours-driven clock',
+          content: 'If you use the app, you can spend 25 hours instinctively in a day.',
+          image: '/25watch.png',
+          lang: 'JS, HTML, CSS',
+          atag: 'https://serene-jennings-1c823e.netlify.com/'
+        },
+        {
+          title: 'Your toilet',
+          content: 'If I go somewhere I haven\'t ever been, I have no idea which toilets I should go.\n' +
+            '\n' +
+            'And this case also occurs in University of Tsukuba.\n' +
+            '\n' +
+            'So, this is the app you can find the best toilets in Univ and also you all can review for each toilets.',
+          lang: 'Ruby on Rails , JS',
+          image: '/yourtoilet.png',
+          atag: 'https://yourtoilet.herokuapp.com/'
+        },
+        {
+          title: 'This my portfolio',
+          content: 'Update my portfolio',
+          lang: 'Nuxt.js'
+        },
+        {
+          title: 'Funbrella',
+          content: 'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
+            'to make rainy day enjoyable. \n' + 'I made the game that can detect inclination of the umbrella and avoid enemies with my members.',
+          lang: 'jQuery, phina.js, HTML, CSS',
+          image: '/funbrella.png'
+        },
+        {
+          title: 'GatorTrader',
+          content: 'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend system.'
+          ,
+          lang: 'Express.js, Node.js, bootstrap',
+          image: '/gatortrader_formal.png'
+        },
 
-            ],
-          designs: [
-            {
-              title: "mokuhub Home page",
-              image: "/mokuhub hp.png",
-              atag: "https://mokuhub.work"
-            },
-            {
-              title: "Microsoft CANVAS in MS business contest",
-              image: "/MS business contest.png",
-            },
-            {
-              title: "'flag' project with my friend",
-              image: "/flag.png",
-            },
-            {
-              title: "Feedal Home page",
-              image: "/corp feedal.png",
-              atag: "https://corp.feedal.com"
-            },
-          ]
-
-
-        };
-    }
+      ],
+      designs: [
+        {
+          title: "mokuhub Home page",
+          image: "/mokuhub hp.png",
+          atag: "https://mokuhub.work"
+        },
+        {
+          title: "Microsoft CANVAS in MS business contest",
+          image: "/MS business contest.png",
+        },
+        {
+          title: "'flag' project with my friend",
+          image: "/flag.png",
+        },
+        {
+          title: "Feedal Home page",
+          image: "/corp feedal.png",
+          atag: "https://corp.feedal.com"
+        },
+      ]
+    };
+  }
 };
 
 </script>

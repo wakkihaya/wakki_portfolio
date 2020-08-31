@@ -47,6 +47,7 @@ $content_act_fontfamily: 'serif';
   font-family: 'Century';
   width: 30vw;
   height: 7vh;
+
   p {
     color: $head-fontcolor;
     font-size: $head-textsize;
@@ -56,6 +57,7 @@ $content_act_fontfamily: 'serif';
 #title {
   height: 93vh;
   padding: 10px;
+
   p {
     padding-top: 40%;
     color: $head-fontcolor;
@@ -68,6 +70,7 @@ $content_act_fontfamily: 'serif';
   width: 100%;
   height: 20vh;
   z-index: 3;
+
   i {
     width: 100%;
     height: 100%;
@@ -82,17 +85,20 @@ $content_act_fontfamily: 'serif';
   bottom: 20px;
   z-index: 100;
   background: rgba(255, 255, 255, 0.3);
+
   li {
     padding: 3px 0;
     margin-left: 0;
     list-style-type: none;
     font-family: $title-fontfamily;
   }
+
   a {
     text-decoration: none;
     color: #000;
     cursor: pointer;
   }
+
   a:hover {
     font-weight: bold;
   }
@@ -180,9 +186,11 @@ $content_act_fontfamily: 'serif';
       //padding-left: 2em;
       padding-top: 0.8em;
     }
+
     img {
       width: 2em;
     }
+
     .event_title {
       //position: absolute;
       //left: 5em;
@@ -193,6 +201,7 @@ $content_act_fontfamily: 'serif';
       font-size: $content-subtextsize;
       padding: 2em 0 0 3em;
       white-space: pre-line;
+
       a {
         color: #000;
       }
@@ -216,6 +225,7 @@ $content_act_fontfamily: 'serif';
       .timeline-item-duration {
         font-size: $content-pc-subsubtextsize;
       }
+
       .event_content {
         font-size: $content-pc-subtextsize;
       }
@@ -231,6 +241,7 @@ $content_act_fontfamily: 'serif';
   margin-right: 0;
   margin-left: 0;
   background: #fadbda;
+
   img {
     display: block;
     margin: auto;
@@ -267,9 +278,11 @@ $content_act_fontfamily: 'serif';
   box-shadow: 0 0 8px #95999c;
   border-radius: 8px;
   padding: 10% 3%;
+
   img {
     display: block;
   }
+
   .activity_title_name {
     @media only screen and (min-device-width: 750px) {
       //PC対応
@@ -278,6 +291,7 @@ $content_act_fontfamily: 'serif';
     font-size: 30px;
     flex-grow: 3;
     margin: auto;
+
     p {
       margin: auto;
       text-align: center;
@@ -289,6 +303,7 @@ $content_act_fontfamily: 'serif';
 
 .activity_content {
   padding: 0 5%;
+
   .activity_content_date {
     display: flex;
     flex-direction: row;
@@ -354,12 +369,14 @@ $content_act_fontfamily: 'serif';
     //PC対応
     width: 50vw;
   }
+
   img {
     display: block;
     height: auto;
     width: 30vw;
     margin: auto;
   }
+
   .items_title {
     font-size: $head-textsize;
     font-family: $content_fontfamily;
@@ -367,20 +384,23 @@ $content_act_fontfamily: 'serif';
     text-align: center;
     padding-top: 30px;
   }
+
   .items_contents {
     padding: 10px 20px 5px 20px;
     text-align: center;
   }
+
   .items_lang {
     text-align: center;
     padding-top: 5px;
   }
+
   a {
     text-decoration: none;
   }
 }
 
-.design_list{
+.design_list {
   display: grid;
   width: 70vw;
   margin: 5vh auto;
@@ -392,21 +412,23 @@ $content_act_fontfamily: 'serif';
   }
 }
 
-.design_list_items{
+.design_list_items {
   margin: 1em;
-  &--image{
+
+  &--image {
     position: relative;
 
-    img{
+    img {
       width: 100%;
       border-radius: 10px;
     }
   }
-  &--image__caption{
+
+  &--image__caption {
     opacity: 0;
     color: #fff;
     background: #333;
-    background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -414,14 +436,15 @@ $content_act_fontfamily: 'serif';
     padding: 1em;
   }
 
-  &--image:hover &--image__caption{
+  &--image:hover &--image__caption {
     opacity: 1;
     transition: 0.5s;
   }
+
   @media only screen and (max-device-width: 750px) { //スマホ対応
     margin: 3px;
   }
-  }
+}
 
 #contact {
   margin-top: 5vh;
@@ -454,6 +477,7 @@ $content_act_fontfamily: 'serif';
       color: #000;
       cursor: pointer;
     }
+
     img {
       width: 40pt;
       height: 40pt;
