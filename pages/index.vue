@@ -174,7 +174,6 @@
         </div>
       </div>
     </div>
-    </div>
 
     <!--    product-->
     <div class="image">
@@ -192,6 +191,23 @@
           <p class="items_contents">{{product.content}}</p>
           <img :src="product.image">
           <p class="items_lang">{{product.lang}}</p>
+        </div>
+      </div>
+
+      <p class="subtitle">
+        Design
+      </p>
+
+      <div class="design_list">
+        <div class="design_list_items"  v-for="design in designs">
+          <div class="design_list_items--image">
+            <a :href="design.atag" target="_blank">
+              <img :src="design.image" >
+             <div class="design_list_items--image__caption">
+                {{design.title}}
+             </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -447,7 +463,27 @@ export default {
                     image: '/gatortrader_formal.png'
                 },
 
-            ]
+            ],
+          designs: [
+            {
+              title: "mokuhub Home page",
+              image: "/mokuhub hp.png",
+              atag: "https://mokuhub.work"
+            },
+            {
+              title: "Microsoft CANVAS in MS business contest",
+              image: "/MS business contest.png",
+            },
+            {
+              title: "'flag' project with my friend",
+              image: "/flag.png",
+            },
+            {
+              title: "Feedal Home page",
+              image: "/corp feedal.png",
+              atag: "https://corp.feedal.com"
+            },
+          ]
 
 
         };
