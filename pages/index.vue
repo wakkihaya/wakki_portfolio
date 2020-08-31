@@ -199,8 +199,8 @@
       </p>
 
       <div class="design_list">
-        <div class="design_list_items" v-for="design in designs">
-          <div class="design_list_items--image">
+        <div class="design_list_items" v-for="design in designs" >
+          <div class="design_list_items--image" ontouchstart="">
             <a :href="design.atag" target="_blank">
               <img :src="design.image">
               <div class="design_list_items--image__caption">
