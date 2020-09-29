@@ -470,7 +470,12 @@ export default {
           lang: 'Express.js, Node.js, bootstrap',
           image: '/gatortrader_formal.png'
         },
-
+        {
+          title: 'Frontend stuff',
+          content: 'I implemented LP, HP and so on. \n\n' +
+            'Here is a few examples:  https://paroli.jp , https://mokuhub.work, https://corp.feedal.com, ',
+          lang: 'Nuxt.js, Vue.js, React.js',
+        },
       ],
       designs: [
         {
