@@ -19,7 +19,7 @@
             <li>Introduction</li>
           </a>
           <a href="#activity" v-on:click="moveToItem('#activity')">
-            <li>Activity</li>
+            <li>Activities</li>
           </a>
           <a href="#product" v-on:click="moveToItem('#product')">
             <li>Products</li>
@@ -199,7 +199,7 @@
       </p>
 
       <div class="design_list">
-        <div class="design_list_items" v-for="design in designs" >
+        <div class="design_list_items" v-for="design in designs">
           <div class="design_list_items--image" ontouchstart="">
             <a :href="design.atag" target="_blank">
               <img :src="design.image">
@@ -357,7 +357,15 @@ export default {
           content: 'More ⇊',
           atag: '#activity'
         },
-
+        {
+          year: '2020',
+          event: 'Software Engineer Internship at Locotabi Inc.\n\n',
+          duration: '2020/09 ~ Present',
+          image: '/locotabi.png',
+          location: 'Tokyo/Japan',
+          content: 'This company has the app that Japanese staying in foreign countries provide Japanese staying in Japan with lots of services. \n\n' +
+            '- Improve functionalities and fix bugs in app using Ruby on Rails',
+        },
       ],
 
       /*activity についてのdata*/
