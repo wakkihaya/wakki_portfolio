@@ -360,11 +360,11 @@ export default {
         {
           year: '2020',
           event: 'Software Engineer Internship at Locotabi Inc.\n\n',
-          duration: '2020/09 ~ Present',
+          duration: '2020/09 ~ 2020/10',
           image: '/locotabi.png',
           location: 'Tokyo/Japan',
           content: 'This company has the app that Japanese staying in foreign countries provide Japanese staying in Japan with lots of services. \n\n' +
-            '- Improve functionalities and fix bugs in app using Ruby on Rails',
+            '- Improve features and fix bugs in app using Ruby on Rails',
         },
       ],
 

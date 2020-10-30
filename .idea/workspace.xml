@@ -39,11 +39,12 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hayato Waki\WebstormProjects\re_portfolio\portfolio\static" />
+      <recent name="C:\Users\toyah\WebstormProjects\wakki_portfolio\static" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hayato Waki\WebstormProjects\re_portfolio\portfolio\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\toyah\WebstormProjects\wakki_portfolio\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -102,7 +103,7 @@
       <workItem from="1577753541868" duration="2000" />
       <workItem from="1578011038501" duration="15000" />
       <workItem from="1579642230793" duration="592000" />
-      <workItem from="1604021379965" duration="237000" />
+      <workItem from="1604021379965" duration="324000" />
     </task>
     <servers />
   </component>
