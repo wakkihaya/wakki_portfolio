@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa485433-d0d6-4085-8c1d-7f7b131754c2" name="Default Changelist" comment="" />
+    <list default="true" id="aa485433-d0d6-4085-8c1d-7f7b131754c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +107,9 @@
       <workItem from="1578011038501" duration="15000" />
       <workItem from="1579642230793" duration="592000" />
       <workItem from="1604021379965" duration="324000" />
+      <workItem from="1604021927182" duration="66000" />
+      <workItem from="1604035737650" duration="23000" />
+      <workItem from="1604482010492" duration="247000" />
     </task>
     <servers />
   </component>
