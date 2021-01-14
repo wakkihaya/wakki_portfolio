@@ -86,8 +86,8 @@ const carrerList = [
   },
   {
     year: '2020',
-    event: 'CEO/Co-founder at Feedal Inc.\n\n',
-    duration: '2019/07 ~ Present',
+    event: 'Ex-CEO/Co-founder at Feedal Inc.\n\n',
+    duration: '2019/07 ~ 2020/10',
     image: require('~/assets/images/feedal_2.jpg'),
     location: 'Tsukuba/Japan',
     content: 'More ⇊',

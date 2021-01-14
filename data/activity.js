@@ -1,7 +1,7 @@
 const activityList = [
   {
     title: 'Volunteer activity with foreign students\n',
-    name: 'wander',
+    name: "Project 'Wander'",
     period: '2018/10 ~ 2019/02', position: 'Founder/chief',
     content: 'Both Japanese and international students in my team help new international students to get' +
       ' household appliances and to find restaurants to their liking in Tsukuba.',
@@ -12,12 +12,14 @@ const activityList = [
   {
     title: 'Start up media app company "Feedal"',
     name: 'Feedal',
-    period: '2019/02 ~',
+    period: '2019/02 ~ 2020/10',
     position: 'Co-Founder/CEO',
-    content: 'Feedal has clear vision that make the world "anyone can get whatever kinds of information immediately with no stress." ' +
-      "And we're trying to create services in terms of collecting information.",
-    achievement: "・Got 30 users as monitors of the β released app 'Feedal'.\n" +
-      "・Released 'vs.corona by Feedal' that curate coronavirus-information of public organization like government.",
+    content: 'Feedal has clear vision that "anyone can get whatever kinds of information immediately with no stress." ' +
+      "And we're trying to create services in terms of news, communication tools, etc.",
+    achievement: "・Hold meetups, LT competition for developers.\n" +
+      "・β released news app for engineers `Feedal`, and then got 30 β users.\n" +
+      "・Released 'vs.corona'web site that curate coronavirus-information of public organizations like governments, and got 1500 users.\n" +
+      "・β released drop-in voice communication tool for remote-work 'paroli', and then got 20 groups/teams.",
     link: 'https://corp.feedal.com/',
     image: require('~/assets/images/feedal.jpg')
   },
@@ -35,9 +37,9 @@ const activityList = [
     name: "mokuhub",
     period: "2020/3~",
     position: "Co-organizer",
-    content: "mokuhub is online co-working space for people who have nice passion. We　host virtual work space by zoom and " +
-      "have a lot of events.",
-    achievement: "・25 people joined in mokuhub community. \n" +
+    content: "'mokuhub' is online co-working space for people who have nice passion. We host virtual work space by zoom and " +
+      "had many kinds of events every a week.",
+    achievement: "・25 people around world joined in mokuhub community. \n" +
       "・Host a total of 8 online events.",
     link: "https://mokuhub.work/",
     image: require("~/assets/images/mokuhub.png")

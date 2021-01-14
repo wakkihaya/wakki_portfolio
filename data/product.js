@@ -1,21 +1,11 @@
 const productList = [
         {
           title: 'Remote-car',
-          content: 'This remote-car is composed of Arduino , LEGO , motor and an acceleration sensor .\n\n' +
-            'If this is supposed to conflict something, this can turn the direction and run automatically.'
+          content: 'This remote-car is composed of Arduino ,LEGOs ,a motor and an acceleration sensor .\n\n' +
+            'If the censors detect conflicts to some objects, the car can turn the direction and keep running automatically.'
           ,
           image: require('~/assets/images/remote-car.jpg'),
           lang: 'C++ (Arduino)'
-        },
-        {
-          title: '"Tac"channel',
-          content: 'This is the bulletin board that anyone can say their real intentions. ' +
-            'Someone has many abuses for this world, but they don\'t have the opportunities to say them.\n' +
-            '\n' +
-            'That\'s why I made it for them to say everything.\n' +
-            '\n',
-          image: require('~/assets/images/tacchanel.jpg'),
-          lang: 'PHP,HTML,CSS'
         },
         {
           title: '25 hours-driven clock',
@@ -25,12 +15,10 @@ const productList = [
           atag: 'https://serene-jennings-1c823e.netlify.com/'
         },
         {
-          title: 'Your toilet',
-          content: 'If I go somewhere I haven\'t ever been, I have no idea which toilets I should go.\n' +
+          title: 'Your toilet(in Univ of Tsukuba)',
+          content: 'You might have experiences that you have no ideas for toilets to go in somewhere you have not been.\n' +
             '\n' +
-            'And this case also occurs in University of Tsukuba.\n' +
-            '\n' +
-            'So, this is the app you can find the best toilets in Univ and also you all can review for each toilets.',
+            'In the app, you can find the best toilets based on reviews that other users do.',
           lang: 'Ruby on Rails , JS',
           image: require('~/assets/images/yourtoilet.png'),
           atag: 'https://yourtoilet.herokuapp.com/'
@@ -42,14 +30,13 @@ const productList = [
         },
         {
           title: 'Funbrella',
-          content: 'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
-            'to make rainy day enjoyable. \n' + 'I made the game that can detect inclination of the umbrella and avoid enemies with my members.',
-          lang: 'jQuery, phina.js, HTML, CSS',
+          content: "This was the team project in the class at Univ of Tsukuba. `Funbrella` is the umbrella that projects a screen of your smartphone, and also you can play the game only for 'Funbrella' we released.",
+          lang: 'JS, phina.js, HTML, CSS',
           image: require('~/assets/images/funbrella.png')
         },
         {
           title: 'GatorTrader',
-          content: 'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend system.'
+          content: "This was the team project in the class at SFSU. 'GatorTrader' is C2C EC site for SFSU students especially. I was in charge of the backend system."
           ,
           lang: 'Express.js, Node.js, bootstrap',
           image: require('~/assets/images/gatortrader_formal.png')
