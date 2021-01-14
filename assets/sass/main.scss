@@ -14,9 +14,9 @@ $activity-content-pc-textsize: 20px;
 $activity-content-textsize: 18px;
 $head-fontcolor: #fff;
 $strong-fontcolor: #ee0044;
-$title-fontfamily: 'Courier New';
-$content_fontfamily: 'Century';
-$content_act_fontfamily: 'serif';
+$title-fontfamily: "Courier New";
+$content_fontfamily: "Century";
+$content_act_fontfamily: "serif";
 
 .container {
   font-weight: 500;
@@ -32,7 +32,7 @@ $content_act_fontfamily: 'serif';
 #first-page {
   height: 100vh;
   position: relative;
-  background-image: url('~@/assets/images/wakki.jpg');
+  background-image: url("~@/assets/images/wakki.jpg");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@ $content_act_fontfamily: 'serif';
 
 #head {
   //position:fixed;
-  font-family: 'Century';
+  font-family: "Century";
   width: 30vw;
   height: 7vh;
 
@@ -125,11 +125,12 @@ $content_act_fontfamily: 'serif';
 
 //スマホ対応
 .subtitle {
-  font-size: $subtitle-textsize;
+  font-size: $title-textsize;
   font-family: $title-fontfamily;
   text-align: center;
   font-weight: bold;
   border-bottom: solid #000 1px;
+  padding-bottom: 0.5em;
 }
 
 .content_of_intro {
@@ -164,7 +165,7 @@ $content_act_fontfamily: 'serif';
     background: #dbdbdb;
     border: 1px solid #dbdbdb;
     border-radius: 100%;
-    content: '';
+    content: "";
     display: block;
     height: 12px;
     -webkit-transform: translateX(-50%);
@@ -348,11 +349,62 @@ $content_act_fontfamily: 'serif';
   }
 }
 
+#skills {
+  margin: 5vh 0;
+  @media only screen and (min-device-width: 750px) {
+    //PC対応
+    margin: 7vh 18vw 7vh 18vw;
+  }
+}
+
+.skills_list {
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  grid-gap: 16px;
+  @media only screen and (max-device-width: 750px) {
+    //スマホ対応
+    padding: 0 1em;
+  }
+}
+
+.skills_items {
+  padding: 1em;
+  box-shadow: 0 0 8px #95999c;
+  border-radius: 8px;
+  &--category {
+    font-size: $head-textsize;
+    margin-bottom: 2em;
+  }
+  &--items {
+    color: gray;
+  }
+  @media only screen and (max-device-width: 750px) {
+    //スマホ対応
+    &--category {
+      font-size: $content-textsize;
+    }
+    &--items {
+      font-size: $content-subtextsize;
+    }
+  }
+}
+
 #product {
   margin-top: 5vh;
   @media only screen and (min-device-width: 750px) {
     //PC対応
     margin: 7vh 18vw 7vh 18vw;
+  }
+}
+
+.product-skills {
+  margin: 2em 5em;
+  &--title {
+    font-size: $content-pc-subtextsize;
+  }
+  &--list {
+    color: gray;
   }
 }
 
@@ -406,7 +458,8 @@ $content_act_fontfamily: 'serif';
   margin: 5vh auto;
   grid-template-columns: 30vw 30vw;
 
-  @media only screen and (max-device-width: 750px) { //スマホ対応
+  @media only screen and (max-device-width: 750px) {
+    //スマホ対応
     display: flex;
     flex-direction: column;
   }
@@ -428,7 +481,7 @@ $content_act_fontfamily: 'serif';
     opacity: 0;
     color: #fff;
     background: #333;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -441,7 +494,8 @@ $content_act_fontfamily: 'serif';
     transition: 0.5s;
   }
 
-  @media only screen and (max-device-width: 750px) { //スマホ対応
+  @media only screen and (max-device-width: 750px) {
+    //スマホ対応
     margin: 3px;
   }
 }
