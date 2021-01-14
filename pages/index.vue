@@ -140,7 +140,7 @@
 
     <!--    activity-->
     <div class="image">
-      <img src="/wakki_activity.jpg"/>
+      <img src="~assets/images/wakki_activity.jpg"/>
     </div>
 
     <div id="activity">
@@ -177,7 +177,7 @@
 
     <!--    product-->
     <div class="image">
-      <img src="/wakki2.jpg"/>
+      <img src="~assets/images/wakki2.jpg"/>
     </div>
 
     <div id="product">
@@ -214,7 +214,7 @@
 
     <!--    contact-->
     <div class="image">
-      <img src="/wakki3.jpg"/>
+      <img src="~assets/images/wakki3.jpg"/>
     </div>
     <div id="contact">
       <p class="subtitle">
@@ -237,7 +237,7 @@
           <a href="https://github.com/wakkihaya"><i class="fab fa-github-square fa-3x"></i> </a>
         </li>
         <li class="contact_list_item">
-          <a href="https://qiita.com/wakki_haya"><img src="/qiita.png"> </a>
+          <a href="https://qiita.com/wakki_haya"><img src="~assets/images/qiita.png"> </a>
         </li>
       </ul>
       <p id="mailaccount"> mail: wakki@feedal.com</p>
@@ -269,21 +269,21 @@ export default {
           year: '2017',
           event: 'Graduated from Seijo high school',
           duration: '~ 2017/03',
-          image: 'seijo.png',
+          image: require('~/assets/images/seijo.png'),
           location: 'Tokyo/Japan'
         },
         {
           year: '2017',
           event: 'Study computer science at Univ of Tsukuba\n\n',
           duration: '2017/04 ~ 2022/03',
-          image: '/univoftsukuba.png',
+          image: require('~/assets/images/univoftsukuba.png'),
           location: 'Tsukuba/Japan'
         },
         {
           year: '2018',
           event: 'Business internship at USEN-NEXT-GROUP Inc\n\n',
           duration: '2018/08',
-          image: '/usen-next-group.jpg',
+          image: require('~/assets/images/usen-next-group.jpg'),
           location: 'Tokyo/Japan',
           content: 'This was 5-day Internship that make new business.\n\n' +
             '- Made the new app in agriculture industry\n\n' +
@@ -293,7 +293,7 @@ export default {
           year: '2018',
           event: 'Office system engineer internship at USEN-ICT-SOLUTIONS\n\n',
           duration: '2018/12 ~ 2019/02',
-          image: '/usen-ict-solutions.png',
+          image: require('~/assets/images/usen-ict-solutions.png'),
           location: 'Tokyo/Japan',
           content: 'This company had lots of data and mails of clients managed by G suite, and they had a lot of redundancies for using G suite.\n\n' +
             '- Made back office environment twice more efficient than before , by using Google App Script.\n\n' +
@@ -303,7 +303,7 @@ export default {
           year: '2018',
           event: 'Founded volunteer "wander" with international students\n\n',
           duration: '2018/10 ~ 2019/02',
-          image: '/wander.jpg',
+          image: require('~/assets/images/wander.jpg'),
           location: 'Tsukuba/Japan',
           content: 'More ⇊',
           atag: '#activity'
@@ -312,7 +312,7 @@ export default {
           year: '2019',
           event: 'Full stack engineer internship at Unipro Inc\n\n',
           duration: '2019/02 ~ 2019/04',
-          image: '/unipro.png',
+          image: require('~/assets/images/unipro.png'),
           location: 'Tokyo/Japan',
           content: 'This company makes money by contracted development from big companies in Japan.\n\n' +
             '- Improved and developed the web app using Vue.js and Laravel\n\n' +
@@ -322,7 +322,7 @@ export default {
           year: '2019',
           event: 'Business internship at Microsoft Japan\n\n',
           duration: '2019/08',
-          image: '/microsoft.png',
+          image: require('~/assets/images/microsoft.png'),
           location: 'Tokyo/Japan',
           content: 'This was the business contest that make new business in a week hosted by Microsoft Japan.\n\n' +
             '- Thought logically the solution for the problem which Microsoft has now\n\n' +
@@ -332,7 +332,7 @@ export default {
           year: '2019',
           event: 'Developer internship at Btrax Inc\n\n',
           duration: '2019/10 ~ 2019/12',
-          image: '/btrax.png',
+          image: require('~/assets/images/btrax.png'),
           location: 'San Francisco/U.S.',
           content: 'This company is an innovation design company based in SanFrancisco.\n\n' +
             '- Created the web page integrated with 3rd party.\n\n' +
@@ -344,7 +344,7 @@ export default {
           year: '2020',
           event: 'Study computer science at San Francisco State Univ\n\n',
           duration: '2019/08 ~ 2020/05',
-          image: '/sfsu.jpg',
+          image: require('~/assets/images/sfsu.jpg'),
           location: 'San Francisco/U.S.',
           content: 'Exchange student'
         },
@@ -352,7 +352,7 @@ export default {
           year: '2020',
           event: 'CEO/Co-founder at Feedal Inc.\n\n',
           duration: '2019/07 ~ Present',
-          image: '/feedal_2.jpg',
+          image: require('~/assets/images/feedal_2.jpg'),
           location: 'Tsukuba/Japan',
           content: 'More ⇊',
           atag: '#activity'
@@ -361,7 +361,7 @@ export default {
           year: '2020',
           event: 'Software Engineer Internship at Locotabi Inc.\n\n',
           duration: '2020/09 ~ 2020/10',
-          image: '/locotabi.png',
+          image: require('~/assets/images/locotabi.png'),
           location: 'Tokyo/Japan',
           content: 'This company has the app that Japanese staying in foreign countries provide Japanese staying in Japan with lots of services. \n\n' +
             '- Improve features and fix bugs in app using Ruby on Rails',
@@ -378,7 +378,7 @@ export default {
             ' household appliances and to find restaurants to their liking in Tsukuba.',
           achievement: '・10 people were shown around Tsukuba\n' +
             '・5 people joined  my team',
-          image: '/wander.jpg'
+          image: require('~/assets/images/wander.jpg')
         },
         {
           title: 'Start up media app company "Feedal"',
@@ -390,7 +390,7 @@ export default {
           achievement: "・Got 30 users as monitors of the β released app 'Feedal'.\n" +
             "・Released 'vs.corona by Feedal' that curate coronavirus-information of public organization like government.",
           link: 'https://corp.feedal.com/',
-          image: '/feedal.jpg'
+          image: require('~/assets/images/feedal.jpg')
         },
         {
           title: "Silicon Valley student's meetup\n",
@@ -400,7 +400,7 @@ export default {
             "passion for their dream and who like to think new disruptive ideas in a team ",
           achievement: "・Host idea-thon, which 12 people joined, at Btrax,Inc \n" +
             "・Host meetups, which 15 people joined, at Sales Force Park.",
-          image: "/SV_meetup.jpg"
+          image: require("~/assets/images/SV_meetup.jpg")
         },
         {
           name: "mokuhub",
@@ -411,7 +411,7 @@ export default {
           achievement: "・25 people joined in mokuhub community. \n" +
             "・Host a total of 8 online events.",
           link: "https://mokuhub.work/",
-          image: "/mokuhub.png"
+          image: require("~/assets/images/mokuhub.png")
         }
       ],
       products: [
@@ -420,7 +420,7 @@ export default {
           content: 'This remote-car is composed of Arduino , LEGO , motor and an acceleration sensor .\n\n' +
             'If this is supposed to conflict something, this can turn the direction and run automatically.'
           ,
-          image: '/remote-car.jpg',
+          image: require('~/assets/images/remote-car.jpg'),
           lang: 'C++ (Arduino)'
         },
         {
@@ -430,13 +430,13 @@ export default {
             '\n' +
             'That\'s why I made it for them to say everything.\n' +
             '\n',
-          image: '/tacchanel.jpg',
+          image: require('~/assets/images/tacchanel.jpg'),
           lang: 'PHP,HTML,CSS'
         },
         {
           title: '25 hours-driven clock',
           content: 'If you use the app, you can spend 25 hours instinctively in a day.',
-          image: '/25watch.png',
+          image: require('~/assets/images/25watch.png'),
           lang: 'JS, HTML, CSS',
           atag: 'https://serene-jennings-1c823e.netlify.com/'
         },
@@ -448,7 +448,7 @@ export default {
             '\n' +
             'So, this is the app you can find the best toilets in Univ and also you all can review for each toilets.',
           lang: 'Ruby on Rails , JS',
-          image: '/yourtoilet.png',
+          image: require('~/assets/images/yourtoilet.png'),
           atag: 'https://yourtoilet.herokuapp.com/'
         },
         {
@@ -461,14 +461,14 @@ export default {
           content: 'This is the team project in the class. We develop umbrella that project screen of smartphone for HW and the game using umbrella for SW ' +
             'to make rainy day enjoyable. \n' + 'I made the game that can detect inclination of the umbrella and avoid enemies with my members.',
           lang: 'jQuery, phina.js, HTML, CSS',
-          image: '/funbrella.png'
+          image: require('~/assets/images/funbrella.png')
         },
         {
           title: 'GatorTrader',
           content: 'This is the team project in the class at SFSU. We created the app C2C EC site for SFSU students especially. I was in charge of the backend system.'
           ,
           lang: 'Express.js, Node.js, bootstrap',
-          image: '/gatortrader_formal.png'
+          image: require('~/assets/images/gatortrader_formal.png')
         },
         {
           title: 'Frontend stuff',
@@ -480,20 +480,20 @@ export default {
       designs: [
         {
           title: "mokuhub Home page",
-          image: "/mokuhub hp.png",
+          image: require("~/assets/images/mokuhub hp.png"),
           atag: "https://mokuhub.work"
         },
         {
           title: "Microsoft CANVAS in MS business contest",
-          image: "/MS business contest.png",
+          image: require("~/assets/images/MS business contest.png"),
         },
         {
           title: "'flag' project with my friend",
-          image: "/flag.png",
+          image:require( "~/assets/images/flag.png"),
         },
         {
           title: "Feedal Home page",
-          image: "/corp feedal.png",
+          image: require("~/assets/images/corp feedal.png"),
           atag: "https://corp.feedal.com"
         },
       ]
@@ -502,4 +502,3 @@ export default {
 };
 
 </script>
-
