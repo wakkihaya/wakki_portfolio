@@ -1,15 +1,5 @@
 const activityList = [
   {
-    title: 'Volunteer activity with foreign students\n',
-    name: "Project 'Wander'",
-    period: '2018/10 ~ 2019/02', position: 'Founder/chief',
-    content: 'Both Japanese and international students in my team help new international students to get' +
-      ' household appliances and to find restaurants to their liking in Tsukuba.',
-    achievement: '・10 people were shown around Tsukuba\n' +
-      '・5 people joined  my team',
-    image: require('~/assets/images/wander.jpg')
-  },
-  {
     title: 'Start up media app company "Feedal"',
     name: 'Feedal',
     period: '2019/02 ~ 2020/10',

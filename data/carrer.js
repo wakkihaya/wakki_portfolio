@@ -41,8 +41,10 @@ const carrerList = [
     duration: '2018/10 ~ 2019/02',
     image: require('~/assets/images/wander.jpg'),
     location: 'Tsukuba/Japan',
-    content: 'More ⇊',
-    atag: '#activity'
+    content: 'Both Japanese and international students in my team help new international students to get' +
+      ' household appliances and to find restaurants to their liking in Tsukuba. \n\n'+
+    '- 10 people were shown around Tsukuba\n\n' +
+      '- 5 people joined  my team',
   },
   {
     year: '2019',

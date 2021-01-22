@@ -192,12 +192,6 @@ $content_act_fontfamily: "serif";
       width: 2em;
     }
 
-    .event_title {
-      //position: absolute;
-      //left: 5em;
-      //top: 1.4em;
-    }
-
     .event_content {
       font-size: $content-subtextsize;
       padding: 2em 0 0 3em;
@@ -279,18 +273,21 @@ $content_act_fontfamily: "serif";
   box-shadow: 0 0 8px #95999c;
   border-radius: 8px;
   padding: 3em;
+  height: auto;
+
+  .activity_title_image {
+    flex: 0.6;
+    text-align: center;
+  }
 
   img {
-    display: block;
+    max-height: 100%;
+    max-width: 100%;
   }
 
   .activity_title_name {
-    @media only screen and (min-device-width: 750px) {
-      //PC対応
-      font-size: 45px;
-    }
-    font-size: 30px;
-    flex-grow: 3;
+    font-size: 25px;
+    flex: 1;
     margin: auto;
 
     p {
@@ -298,6 +295,18 @@ $content_act_fontfamily: "serif";
       text-align: center;
       color: #000;
       text-decoration: none;
+    }
+  }
+  @media only screen and (min-device-width: 750px) {
+    //PC対応
+    height: 25vh;
+    .activity_title_image {
+      flex: 1;
+    }
+    .activity_title_name {
+      //PC対応
+      font-size: 45px;
+      flex: 1;
     }
   }
 }
