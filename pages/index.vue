@@ -150,6 +150,32 @@
             </div>
           </div>
         </div>
+
+        <span class="year">2021</span>
+        <div
+          class="timeline-list"
+          v-for="career in careers"
+          v-bind:key="career.year"
+          v-if="career.year === '2021'"
+        >
+          <div class="timeline-marker"></div>
+          <div class="timeline-item">
+            <img v-bind:src="career.image" />
+            <div class="flexbox">
+              <div class="event_title">
+                {{ career.event }}
+              </div>
+              <div class="timeline-item-duration">
+                {{ career.duration }} , {{ career.location }}
+              </div>
+              <div class="event_content">
+                <a :href="career.atag">
+                  {{ career.content }}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 

@@ -86,7 +86,7 @@ const carrerList = [
   },
   {
     year: '2020',
-    event: 'Ex-CEO/Co-founder at Feedal Inc.\n\n',
+    event: 'Ex-CEO/Co-Founder at Feedal Inc.\n\n',
     duration: '2019/07 ~ 2020/10',
     image: require('~/assets/images/feedal_2.jpg'),
     location: 'Tsukuba/Japan',
@@ -101,6 +101,15 @@ const carrerList = [
     location: 'Tokyo/Japan',
     content: 'This company has the app that Japanese staying in foreign countries provide Japanese staying in Japan with lots of services. \n\n' +
       '- Improve features and fix bugs in app using Ruby on Rails',
+  },
+  {
+    year: '2021',
+    event: 'Co-Founder/CTO at Here labs, Inc.\n\n',
+    duration: '2020/12 ~ Current',
+    image: require('~/assets/images/here.png'),
+    location: 'San Francisco/U.S.',
+    content: 'More ⇊',
+    atag: '#activity'
   },
 ]
 

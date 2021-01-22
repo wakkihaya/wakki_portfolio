@@ -35,7 +35,7 @@ const activityList = [
   },
   {
     name: "mokuhub",
-    period: "2020/3~",
+    period: "2020/3~2020/6",
     position: "Co-organizer",
     content: "'mokuhub' is online co-working space for people who have nice passion. We host virtual work space by zoom and " +
       "had many kinds of events every a week.",
@@ -43,6 +43,15 @@ const activityList = [
       "・Host a total of 8 online events.",
     link: "https://mokuhub.work/",
     image: require("~/assets/images/mokuhub.png")
+  },
+  {
+    name: "Here",
+    period: "2020/12~",
+    position: "Co-Founder/CTO",
+    content: "'Here' is the drop-in voice call app for long-distance couples, families and BFFs. We're in private beta.",
+    achievement: "・Success crowdfunding with a total of 1M JPY and 100 supporters.",
+    link: "https://here-labs.com/",
+    image: require("~/assets/images/here-logo.png")
   }
 ]
 
