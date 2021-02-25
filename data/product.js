@@ -21,7 +21,6 @@ const productList = [
             'In the app, you can find the best toilets based on reviews that other users do.',
           lang: 'Ruby on Rails , JS',
           image: require('~/assets/images/yourtoilet.png'),
-          atag: 'https://yourtoilet.herokuapp.com/'
         },
         {
           title: 'This my portfolio',
