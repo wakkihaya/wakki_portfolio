@@ -320,7 +320,7 @@
           </a>
         </li>
       </ul>
-      <p id="mailaccount">mail: wakki@feedal.com</p>
+      <p id="mailaccount">mail: wakki@here-labs.com</p>
     </div>
   </section>
 </template>
