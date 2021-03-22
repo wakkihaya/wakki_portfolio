@@ -13,7 +13,7 @@
         <div id="title">
           <p>
             Entrepreneur, <br />
-            Web engineer and<br />
+            Engineer and<br />
             Eventer
           </p>
         </div>
@@ -226,7 +226,7 @@
         </div>
         <div class="skills_items">
           <div class="skills_items--category">Backend</div>
-          <div class="skills_items--items">Express.js, Ruby on Rails,</div>
+          <div class="skills_items--items">Node.js, Express.js, Ruby on Rails,</div>
         </div>
         <div class="skills_items">
           <div class="skills_items--category">Data science</div>
@@ -245,7 +245,7 @@
         <div class="skills_items">
           <div class="skills_items--category">Others</div>
           <div class="skills_items--items">
-            Git, C(Operating System), Docker, Adobe XD, illustrator,
+            Java, C++(Arduino), C(Operating System), Git, Docker, Adobe XD, illustrator,
           </div>
         </div>
       </div>
