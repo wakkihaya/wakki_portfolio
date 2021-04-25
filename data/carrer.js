@@ -106,7 +106,7 @@ const carrerList = [
   },
   {
     year: '2021',
-    event: 'Co-Founder/CTO at Here labs, Inc.\n\n',
+    event: 'Developer/Co-Founder at Here labs, Inc.\n\n',
     duration: '2020/12 ~ Current',
     image: require('~/assets/images/here.png'),
     location: 'San Francisco/U.S.',
