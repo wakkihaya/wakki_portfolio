@@ -8,7 +8,7 @@ const activityList = [
       "And we're trying to create services in terms of news, communication tools, etc.",
     achievement: "・Hold meetups, LT competition for developers.\n" +
       "・β released news app for engineers `Feedal`, and then got 30 β users.\n" +
-      "・Released 'vs.corona'web site that curate coronavirus-information of public organizations like governments, and got 1500 users.\n" +
+      "・Released 'vs.corona'web site that curate coronavirus-information of public organizations like governments, and got 1.5K MAU.\n" +
       "・β released drop-in voice communication tool for remote-work 'paroli', and then got 20 groups/teams.",
     link: 'https://corp.feedal.com/',
     image: require('~/assets/images/feedal.jpg')
