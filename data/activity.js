@@ -39,7 +39,7 @@ const activityList = [
     period: "2020/12~",
     position: "Developer/Ex-Co-Founder",
     content: "'Here' is the drop-in voice call app for long-distance couples, families and BFFs. We're in private beta.",
-    achievement: "・Success crowdfunding with a total of 1M JPY and 100 supporters, and fundraising pre-seed in Japan \n" +
+    achievement: "・Success crowdfunding with a total of 1M JPY and 100 supporters, and fundraising $300K for pre-seed in Japan \n" +
       "・Developed and released beta app 'Here' \n",
     image: require("~/assets/images/here-logo.png")
   }
