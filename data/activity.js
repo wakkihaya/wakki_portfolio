@@ -42,6 +42,15 @@ const activityList = [
     achievement: "・Success crowdfunding with a total of 1M JPY and 100 supporters, and fundraising $300K for pre-seed in Japan \n" +
       "・Developed and released beta app 'Here' \n",
     image: require("~/assets/images/here-logo.png")
+  },
+  {
+    name: "NeurotechJP",
+    period: "2021/5~Present",
+    position: "Writer/Organizer",
+    content: "'NeurotechJP' is the website in Japanese/English gathering information of neurotehcnology through interviews with those who are active in the flont lines of this area all over the world.",
+    achievement: "Still working! ",
+    image: require("~/assets/images/neurotechJp.png"),
+    link: "https://neurotechjp.com"
   }
 ]
 

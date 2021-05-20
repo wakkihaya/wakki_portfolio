@@ -43,7 +43,7 @@ const productList = [
         {
           title: 'Frontend stuff',
           content: 'I implemented LP, HP and so on. \n\n' +
-            'Here is a few examples:  https://paroli.jp , https://mokuhub.work, https://corp.feedal.com, ',
+            'Here is a few examples:  https://neurotechjp.com , https://mokuhub.work, https://corp.feedal.com, ',
           lang: 'Nuxt.js, Vue.js, React.js',
         },
       ]

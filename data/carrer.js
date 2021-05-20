@@ -113,6 +113,15 @@ const carrerList = [
     content: 'More ⇊',
     atag: '#activity'
   },
+  {
+    year: '2021',
+    event: 'Writer/Orgnizer at NeuratechJP blog site.\n\n',
+    duration: '2021/5 ~ Present',
+    image: require('~/assets/images/neurotechJp_icon.png'),
+    location: ' ',
+    content: 'More ⇊',
+    atag: '#activity'
+  }
 ]
 
 export default carrerList
