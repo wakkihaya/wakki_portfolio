@@ -200,7 +200,7 @@
         v-bind:key="act.period"
       >
         <div v-scroll-inview:fadeIn>
-          <a :href="act.link">
+          <a :href="act.link" target="_blank">
             <div class="activity_title">
               <div class="activity_title_image">
                 <img :src="act.image" />
@@ -319,32 +319,32 @@
         <p class="subtitle">Contact</p>
         <ul class="contact_list">
           <li class="contact_list_item">
-            <a href="https://twitter.com/wakki_japan"
+            <a href="https://twitter.com/wakki_japan" target="_blank"
               ><i class="fab fa-twitter fa-3x"></i
             ></a>
           </li>
           <li class="contact_list_item">
-            <a href="https://www.facebook.com/waki.hayato.1"
+            <a href="https://www.facebook.com/waki.hayato.1" target="_blank"
               ><i class="fab fa-facebook-square fa-3x"></i
             ></a>
           </li>
           <li class="contact_list_item">
-            <a href="https://note.mu/wakkihaya"
+            <a href="https://note.mu/wakkihaya" target="_blank"
               ><i class="fas fa-pen-square fa-3x"></i
             ></a>
           </li>
           <li class="contact_list_item">
-            <a href="https://www.linkedin.com/in/wakkihaya/"
+            <a href="https://www.linkedin.com/in/wakkihaya/" target="_blank"
               ><i class="fab fa-linkedin fa-3x"></i
             ></a>
           </li>
           <li class="contact_list_item">
-            <a href="https://github.com/wakkihaya"
+            <a href="https://github.com/wakkihaya" target="_blank"
               ><i class="fab fa-github-square fa-3x"></i>
             </a>
           </li>
           <li class="contact_list_item">
-            <a href="https://qiita.com/wakki_haya"
+            <a href="https://qiita.com/wakki_haya" target="_blank"
               ><img src="~assets/images/qiita.png" />
             </a>
           </li>
