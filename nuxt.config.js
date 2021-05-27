@@ -28,6 +28,9 @@ module.exports = {
       families: ['Noto+Sans+JP']
     }
   },
+  plugins:[
+    '~/plugins/scrollInview.js'
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -51,4 +54,3 @@ module.exports = {
   //   }
   // }
 }
-
