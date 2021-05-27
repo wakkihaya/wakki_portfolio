@@ -1,5 +1,13 @@
 const productList = [
         {
+          title: 'Neuro-focused LED system',
+          content: 'This is a LED switcher system based on brain waves using Muse. LED is OFF while you are focusing. LED is ON while you are relaxing.\n\n' +
+            'After training your mental activities for both relaxing and focusing with SVM, the application will classify your test mental activities and change LED state.'
+          ,
+          video: require('~/assets/video/neuro-focus-led.mp4'),
+          lang: 'Python, C++ (Arduino)'
+        },
+        {
           title: 'Remote-car',
           content: 'This remote-car is composed of Arduino ,LEGOs ,a motor and an acceleration sensor .\n\n' +
             'If the censors detect conflicts to some objects, the car can turn the direction and keep running automatically.'

@@ -432,7 +432,7 @@ $content_act_fontfamily: "serif";
     width: 50vw;
   }
 
-  img {
+  img, video {
     display: block;
     height: auto;
     width: 30vw;
@@ -448,7 +448,7 @@ $content_act_fontfamily: "serif";
   }
 
   .items_contents {
-    padding: 10px 20px 5px 20px;
+    padding: 1em 4vw;
     text-align: center;
   }
 

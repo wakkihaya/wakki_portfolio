@@ -280,6 +280,7 @@
             </p>
             <p class="items_contents">{{ product.content }}</p>
             <img :src="product.image" />
+            <video :src="product.video" autoplay muted loop></video>
             <p class="items_lang">{{ product.lang }}</p>
           </div>
         </div>
