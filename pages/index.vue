@@ -45,133 +45,143 @@
 
       <!--        timeline-->
       <div class="timeline">
-        <span class="year">2017</span>
-        <div
-          class="timeline-list"
-          v-for="career in careers"
-          v-bind:key="career.year"
-          v-if="career.year === '2017'"
-        >
-          <div class="timeline-marker"></div>
-          <div class="timeline-item">
-            <img v-bind:src="career.image" />
-            <div class="flexbox">
-              <div class="event_title_cluster">
+        <div v-scroll-inview:fadeIn>
+          <span class="year">2017</span>
+          <div
+            class="timeline-list"
+            v-for="career in careers"
+            v-bind:key="career.year"
+            v-if="career.year === '2017'"
+          >
+            <div class="timeline-marker"></div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title_cluster">
+                  <div class="event_title">
+                    {{ career.event }}
+                  </div>
+                </div>
+                <div class="timeline-item-duration">
+                  {{ career.duration }} , {{ career.location }}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{ career.content }}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div v-scroll-inview:fadeIn>
+          <span class="year">2018</span>
+          <div
+            class="timeline-list"
+            v-for="career in careers"
+            v-bind:key="career.year"
+            v-if="career.year === '2018'"
+          >
+            <div class="timeline-marker"></div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
                 <div class="event_title">
                   {{ career.event }}
                 </div>
-              </div>
-              <div class="timeline-item-duration">
-                {{ career.duration }} , {{ career.location }}
-              </div>
-              <div class="event_content">
-                <a :href="career.atag">
-                  {{ career.content }}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <span class="year">2018</span>
-        <div
-          class="timeline-list"
-          v-for="career in careers"
-          v-bind:key="career.year"
-          v-if="career.year === '2018'"
-        >
-          <div class="timeline-marker"></div>
-          <div class="timeline-item">
-            <img v-bind:src="career.image" />
-            <div class="flexbox">
-              <div class="event_title">
-                {{ career.event }}
-              </div>
-              <div class="timeline-item-duration">
-                {{ career.duration }} , {{ career.location }}
-              </div>
-              <div class="event_content">
-                <a :href="career.atag">
-                  {{ career.content }}
-                </a>
+                <div class="timeline-item-duration">
+                  {{ career.duration }} , {{ career.location }}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{ career.content }}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <span class="year">2019</span>
-        <div
-          class="timeline-list"
-          v-for="career in careers"
-          v-bind:key="career.year"
-          v-if="career.year === '2019'"
-        >
-          <div class="timeline-marker"></div>
-          <div class="timeline-item">
-            <img v-bind:src="career.image" />
-            <div class="flexbox">
-              <div class="event_title">
-                {{ career.event }}
-              </div>
-              <div class="timeline-item-duration">
-                {{ career.duration }} , {{ career.location }}
-              </div>
-              <div class="event_content">
-                <a :href="career.atag">
-                  {{ career.content }}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <span class="year">2020</span>
-        <div
-          class="timeline-list"
-          v-for="career in careers"
-          v-bind:key="career.year"
-          v-if="career.year === '2020'"
-        >
-          <div class="timeline-marker"></div>
-          <div class="timeline-item">
-            <img v-bind:src="career.image" />
-            <div class="flexbox">
-              <div class="event_title">
-                {{ career.event }}
-              </div>
-              <div class="timeline-item-duration">
-                {{ career.duration }} , {{ career.location }}
-              </div>
-              <div class="event_content">
-                <a :href="career.atag">
-                  {{ career.content }}
-                </a>
+        <div v-scroll-inview:fadeIn>
+          <span class="year">2019</span>
+          <div
+            class="timeline-list"
+            v-for="career in careers"
+            v-bind:key="career.year"
+            v-if="career.year === '2019'"
+          >
+            <div class="timeline-marker"></div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title">
+                  {{ career.event }}
+                </div>
+                <div class="timeline-item-duration">
+                  {{ career.duration }} , {{ career.location }}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{ career.content }}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <span class="year">2021</span>
-        <div
-          class="timeline-list"
-          v-for="career in careers"
-          v-bind:key="career.year"
-          v-if="career.year === '2021'"
-        >
-          <div class="timeline-marker"></div>
-          <div class="timeline-item">
-            <img v-bind:src="career.image" />
-            <div class="flexbox">
-              <div class="event_title">
-                {{ career.event }}
+        <div v-scroll-inview:fadeIn>
+          <span class="year">2020</span>
+          <div
+            class="timeline-list"
+            v-for="career in careers"
+            v-bind:key="career.year"
+            v-if="career.year === '2020'"
+          >
+            <div class="timeline-marker"></div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title">
+                  {{ career.event }}
+                </div>
+                <div class="timeline-item-duration">
+                  {{ career.duration }} , {{ career.location }}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{ career.content }}
+                  </a>
+                </div>
               </div>
-              <div class="timeline-item-duration">
-                {{ career.duration }} , {{ career.location }}
-              </div>
-              <div class="event_content">
-                <a :href="career.atag">
-                  {{ career.content }}
-                </a>
+            </div>
+          </div>
+        </div>
+
+        <div v-scroll-inview:fadeIn>
+          <span class="year">2021</span>
+          <div
+            class="timeline-list"
+            v-for="career in careers"
+            v-bind:key="career.year"
+            v-if="career.year === '2021'"
+          >
+            <div class="timeline-marker"></div>
+            <div class="timeline-item">
+              <img v-bind:src="career.image" />
+              <div class="flexbox">
+                <div class="event_title">
+                  {{ career.event }}
+                </div>
+                <div class="timeline-item-duration">
+                  {{ career.duration }} , {{ career.location }}
+                </div>
+                <div class="event_content">
+                  <a :href="career.atag">
+                    {{ career.content }}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -189,63 +199,70 @@
         v-for="act in activities"
         v-bind:key="act.period"
       >
-        <a :href="act.link">
-          <div class="activity_title">
-            <div class="activity_title_image">
-              <img :src="act.image"/>
+        <div v-scroll-inview:fadeIn>
+          <a :href="act.link">
+            <div class="activity_title">
+              <div class="activity_title_image">
+                <img :src="act.image" />
+              </div>
+              <div class="activity_title_name">
+                <p>{{ act.name }}</p>
+              </div>
             </div>
-            <div class="activity_title_name">
-              <p>{{ act.name }}</p>
+          </a>
+          <div class="activity_content">
+            <div class="activity_content_date">
+              <p class="activity_position">{{ act.position }}</p>
+              <p class="activity_period">{{ act.period }}</p>
             </div>
-          </div>
-        </a>
-        <div class="activity_content">
-          <div class="activity_content_date">
-            <p class="activity_position">{{ act.position }}</p>
-            <p class="activity_period">{{ act.period }}</p>
-          </div>
-          <div class="activity_content_explanation">
-            <p>{{ act.content }}</p>
-          </div>
-          <div class="activity_achievment">
-            <div>Achievement</div>
-            <p style="white-space: pre-line">{{ act.achievement }}</p>
+            <div class="activity_content_explanation">
+              <p>{{ act.content }}</p>
+            </div>
+            <div class="activity_achievment">
+              <div>Achievement</div>
+              <p style="white-space: pre-line">{{ act.achievement }}</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="skills">
-      <p class="subtitle">Skills</p>
-      <div class="skills_list">
-        <div class="skills_items">
-          <div class="skills_items--category">Frontend</div>
-          <div class="skills_items--items">
-            Vue.js(Nuxt.js), React.js, Flutter, Typescript. HTML5/CSS3
+    <div v-scroll-inview:fadeIn>
+      <div id="skills">
+        <p class="subtitle">Skills</p>
+        <div class="skills_list">
+          <div class="skills_items">
+            <div class="skills_items--category">Frontend</div>
+            <div class="skills_items--items">
+              Vue.js(Nuxt.js), React.js, Flutter, Typescript. HTML5/CSS3
+            </div>
           </div>
-        </div>
-        <div class="skills_items">
-          <div class="skills_items--category">Backend</div>
-          <div class="skills_items--items">Node.js, Express.js, Ruby on Rails,</div>
-        </div>
-        <div class="skills_items">
-          <div class="skills_items--category">Data science</div>
-          <div class="skills_items--items">Python, Matlab, R</div>
-        </div>
-        <div class="skills_items">
-          <div class="skills_items--category">Database</div>
-          <div class="skills_items--items">NoSQL, MySQL</div>
-        </div>
-        <div class="skills_items">
-          <div class="skills_items--category">Infrastructure</div>
-          <div class="skills_items--items">
-            AWS(EC2, Codedeploy, Lambda,etc), GCP(Firebase)
+          <div class="skills_items">
+            <div class="skills_items--category">Backend</div>
+            <div class="skills_items--items">
+              Node.js, Express.js, Ruby on Rails,
+            </div>
           </div>
-        </div>
-        <div class="skills_items">
-          <div class="skills_items--category">Others</div>
-          <div class="skills_items--items">
-            Java, C++(Arduino), C(Operating System), Git, Docker, Adobe XD, illustrator,
+          <div class="skills_items">
+            <div class="skills_items--category">Data science</div>
+            <div class="skills_items--items">Python, Matlab, R</div>
+          </div>
+          <div class="skills_items">
+            <div class="skills_items--category">Database</div>
+            <div class="skills_items--items">NoSQL, MySQL</div>
+          </div>
+          <div class="skills_items">
+            <div class="skills_items--category">Infrastructure</div>
+            <div class="skills_items--items">
+              AWS(EC2, Codedeploy, Lambda,etc), GCP(Firebase)
+            </div>
+          </div>
+          <div class="skills_items">
+            <div class="skills_items--category">Others</div>
+            <div class="skills_items--items">
+              Java, C++(Arduino), C(Operating System), Git, Docker, Adobe XD,
+              illustrator,
+            </div>
           </div>
         </div>
       </div>
@@ -256,71 +273,77 @@
       <p class="subtitle">Products</p>
 
       <div class="products_list">
-        <div class="products_list_items" v-for="product in products">
-          <p class="items_title">
-            <a :href="product.atag" target="_blank">{{ product.title }}</a>
-          </p>
-          <p class="items_contents">{{ product.content }}</p>
-          <img :src="product.image" />
-          <p class="items_lang">{{ product.lang }}</p>
+        <div v-scroll-inview:fadeIn v-for="product in products">
+          <div class="products_list_items">
+            <p class="items_title">
+              <a :href="product.atag" target="_blank">{{ product.title }}</a>
+            </p>
+            <p class="items_contents">{{ product.content }}</p>
+            <img :src="product.image" />
+            <p class="items_lang">{{ product.lang }}</p>
+          </div>
         </div>
       </div>
 
       <p class="subtitle">Design</p>
 
-      <div class="design_list">
-        <div class="design_list_items" v-for="design in designs">
-          <div class="design_list_items--image" ontouchstart="">
-            <a :href="design.atag" target="_blank">
-              <img :src="design.image" />
-              <div class="design_list_items--image__caption">
-                {{ design.title }}
-              </div>
-            </a>
+      <div v-scroll-inview:fadeIn>
+        <div class="design_list">
+          <div class="design_list_items" v-for="design in designs">
+            <div class="design_list_items--image" ontouchstart="">
+              <a :href="design.atag" target="_blank">
+                <img :src="design.image" />
+                <div class="design_list_items--image__caption">
+                  {{ design.title }}
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <!--    contact-->
-    <div class="image">
-      <img src="~assets/images/wakki3.jpg" />
-    </div>
-    <div id="contact">
-      <p class="subtitle">Contact</p>
-      <ul class="contact_list">
-        <li class="contact_list_item">
-          <a href="https://twitter.com/wakki_japan"
-            ><i class="fab fa-twitter fa-3x"></i
-          ></a>
-        </li>
-        <li class="contact_list_item">
-          <a href="https://www.facebook.com/waki.hayato.1"
-            ><i class="fab fa-facebook-square fa-3x"></i
-          ></a>
-        </li>
-        <li class="contact_list_item">
-          <a href="https://note.mu/wakkihaya"
-            ><i class="fas fa-pen-square fa-3x"></i
-          ></a>
-        </li>
-        <li class="contact_list_item">
-          <a href="https://www.linkedin.com/in/wakkihaya/"
-            ><i class="fab fa-linkedin fa-3x"></i
-          ></a>
-        </li>
-        <li class="contact_list_item">
-          <a href="https://github.com/wakkihaya"
-            ><i class="fab fa-github-square fa-3x"></i>
-          </a>
-        </li>
-        <li class="contact_list_item">
-          <a href="https://qiita.com/wakki_haya"
-            ><img src="~assets/images/qiita.png" />
-          </a>
-        </li>
-      </ul>
-      <p id="mailaccount">mail: wakki@here-labs.com</p>
+    <div v-scroll-inview:fadeIn>
+      <div class="image">
+        <img src="~assets/images/wakki3.jpg" />
+      </div>
+      <div id="contact">
+        <p class="subtitle">Contact</p>
+        <ul class="contact_list">
+          <li class="contact_list_item">
+            <a href="https://twitter.com/wakki_japan"
+              ><i class="fab fa-twitter fa-3x"></i
+            ></a>
+          </li>
+          <li class="contact_list_item">
+            <a href="https://www.facebook.com/waki.hayato.1"
+              ><i class="fab fa-facebook-square fa-3x"></i
+            ></a>
+          </li>
+          <li class="contact_list_item">
+            <a href="https://note.mu/wakkihaya"
+              ><i class="fas fa-pen-square fa-3x"></i
+            ></a>
+          </li>
+          <li class="contact_list_item">
+            <a href="https://www.linkedin.com/in/wakkihaya/"
+              ><i class="fab fa-linkedin fa-3x"></i
+            ></a>
+          </li>
+          <li class="contact_list_item">
+            <a href="https://github.com/wakkihaya"
+              ><i class="fab fa-github-square fa-3x"></i>
+            </a>
+          </li>
+          <li class="contact_list_item">
+            <a href="https://qiita.com/wakki_haya"
+              ><img src="~assets/images/qiita.png" />
+            </a>
+          </li>
+        </ul>
+        <p id="mailaccount">mail: wakkihaya@gmail.com</p>
+      </div>
     </div>
   </section>
 </template>
