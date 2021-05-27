@@ -50,7 +50,7 @@
           <div
             class="timeline-list"
             v-for="career in careers"
-            v-bind:key="career.year"
+            v-bind:key="`2017-${career.year}`"
             v-if="career.year === '2017'"
           >
             <div class="timeline-marker"></div>
@@ -80,7 +80,7 @@
           <div
             class="timeline-list"
             v-for="career in careers"
-            v-bind:key="career.year"
+            v-bind:key="`2018-${career.year}`"
             v-if="career.year === '2018'"
           >
             <div class="timeline-marker"></div>
@@ -108,7 +108,7 @@
           <div
             class="timeline-list"
             v-for="career in careers"
-            v-bind:key="career.year"
+            v-bind:key="`2019-${career.year}`"
             v-if="career.year === '2019'"
           >
             <div class="timeline-marker"></div>
@@ -136,7 +136,7 @@
           <div
             class="timeline-list"
             v-for="career in careers"
-            v-bind:key="career.year"
+            v-bind:key="`2020-${career.year}`"
             v-if="career.year === '2020'"
           >
             <div class="timeline-marker"></div>
@@ -164,7 +164,7 @@
           <div
             class="timeline-list"
             v-for="career in careers"
-            v-bind:key="career.year"
+            v-bind:key="`2021-${career.year}`"
             v-if="career.year === '2021'"
           >
             <div class="timeline-marker"></div>
