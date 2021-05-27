@@ -279,8 +279,14 @@
               <a :href="product.atag" target="_blank">{{ product.title }}</a>
             </p>
             <p class="items_contents">{{ product.content }}</p>
-            <img :src="product.image" />
-            <video :src="product.video" autoplay muted loop></video>
+            <img :src="product.image" v-show="product.image" />
+            <video
+              :src="product.video"
+              autoplay
+              muted
+              loop
+              v-show="product.video"
+            ></video>
             <p class="items_lang">{{ product.lang }}</p>
           </div>
         </div>
