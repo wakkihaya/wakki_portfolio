@@ -4,7 +4,7 @@ const productList = [
           content: 'This is a LED switcher system based on brain waves using Muse. LED is OFF while you are focusing. LED is ON while you are relaxing.\n\n' +
             'After training your mental activities for both relaxing and focusing with SVM, the application will classify your test mental activities and change LED state.'
           ,
-          video: require('~/assets/video/neuro-focus-led.mp4'),
+          video: require('~/assets/video/Neuro-focus-led.mp4'),
           lang: 'Python, C++ (Arduino)'
         },
         {
