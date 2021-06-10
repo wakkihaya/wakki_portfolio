@@ -6,10 +6,11 @@ const activityList = [
     position: 'Co-Founder/CEO',
     content: 'Feedal has clear vision that "anyone can get whatever kinds of information immediately with no stress." ' +
       "And we're trying to create services in terms of news, communication tools, etc.",
-    achievement: "・Hold meetups, LT competition for developers.\n" +
-      "・β released news mobie app(iOS/Android) for engineers `Feedal`, and then got 30 β users.\n" +
-      "・Released 'vs.corona' web application that curate coronavirus-information of public organizations like governments, and got 1.5K MAU.\n" +
-      "・β released drop-in voice communication desktop application for remote-work 'paroli', and then got 20 groups/teams.",
+    achievement:
+      '・Direct software design and specs, including web, mobile, and desktop- native applications.\n' +
+      '・Define specs with user feedback, and execute prototyping design, and develop applications.\n' +
+      '・Acquire 1.5K MAU for the COVID-19 app and 30 early-adaptors / teams for multiple apps with business strategies. \n' +
+      '・Host the engineering community in the university with 50 + developers.',
     link: 'https://corp.feedal.com/',
     image: require('~/assets/images/feedal.jpg')
   },
@@ -39,8 +40,10 @@ const activityList = [
     period: "2020/12~2021/4",
     position: "CTO/Co-Founder",
     content: "'Here' is the drop-in voice call app for long-distance couples, families and BFFs. We're in private beta.",
-    achievement: "・Success crowdfunding with a total of 1M JPY and 100 supporters, and fundraising $300K for pre-seed in Japan \n" +
-      "・Developed and released beta app 'Here' \n",
+    achievement:
+      '・Develop and execute all development systems such as infrastructure, database architecture, front/ back-end, and analytics.\n' +
+      '・Analyze data and user behaviors, and get 20 % more app - open counts per retaining user by implementing features.\n' +
+      '・Success with fund-raising $300K for pre-seed, and also with getting 100 supporters by crowd-funding.',
     image: require("~/assets/images/here-logo.png")
   },
   {
