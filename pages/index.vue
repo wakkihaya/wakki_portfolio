@@ -356,6 +356,7 @@
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
     <Top />
     <AboutMe />
+    <Experiences />
   </section>
 </template>
 
@@ -368,6 +369,7 @@ import productList from "~/data/product.js"
 import designList from "~/data/design.js"
 import Top from "~/components/Top.vue"
 import AboutMe from "~/components/AboutMe.vue"
+import Experiences from "~/components/Experiences.vue"
 
 
 
@@ -375,7 +377,8 @@ import AboutMe from "~/components/AboutMe.vue"
 export default {
   components: {
     Top,
-    AboutMe
+    AboutMe,
+    Experiences,
   },
   name: "Container",
   methods: {

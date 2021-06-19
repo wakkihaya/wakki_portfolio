@@ -49,7 +49,7 @@ body {
 
 .about-me {
   width: $content-width;
-  margin: auto;
+  margin: 5rem auto;
   &--title {
     font-size: $large-font-size;
     font-weight: bold;
@@ -117,5 +117,63 @@ body {
     img {
       width: 100%;
     }
+  }
+}
+
+.experiences {
+  width: $content-width;
+  margin: 8rem auto;
+  &--title {
+    font-size: $large-font-size;
+    font-weight: bold;
+  }
+  &--education {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em;
+    margin: 5rem 3rem;
+  }
+  &--education-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    i {
+      color: $deep-red-color;
+    }
+  }
+  &--education-title-text {
+    padding-left: 0.5em;
+    font-size: $small-font-size;
+    color: $deep-red-color;
+    font-weight: bold;
+  }
+  &--education-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+.education {
+  &--divider {
+    width: 6px;
+    min-height: 200px;
+    background-color: $deep-red-color;
+    border-radius: 10px;
+  }
+  &--item-title {
+    font-size: $small-font-size;
+    font-weight: bold;
+  }
+  &--item-location {
+    color: $light-gray-color;
+    font-size: $very-small-font-size;
+    padding: 0.6rem 0;
+  }
+  &--item-desc {
+    color: $text-gray-color;
+    font-size: $very-small-font-size;
+    padding-top: 1rem;
   }
 }
