@@ -1,5 +1,9 @@
 // TODO: remove commentout codes
 // TODO: remove unneed images._
+//TODO: remove unused files.
+//TODO: change font family.
+//TODO: add bg image.
+//TODO: change image of recent works.
 <template>
   <!-- <section class="container">
     <link
@@ -363,6 +367,7 @@
     <AboutMe />
     <Experiences />
     <Skills />
+    <RecentWorks />
   </div>
 </template>
 
@@ -374,6 +379,7 @@ import Top from "~/components/Top.vue"
 import AboutMe from "~/components/AboutMe.vue"
 import Experiences from "~/components/Experiences.vue"
 import Skills from "~/components/Skills.vue"
+import RecentWorks from "~/components/RecentWorks.vue"
 
 export default {
   components: {
@@ -381,6 +387,7 @@ export default {
     AboutMe,
     Experiences,
     Skills,
+    RecentWorks
   },
   name: "Container",
   methods: {
