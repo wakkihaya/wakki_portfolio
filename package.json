@@ -25,7 +25,8 @@
     "nuxt-sass-resources-loader": "^2.0.5",
     "nuxt-webfontloader": "^1.1.0",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "vue-material": "^1.0.0-beta-15"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

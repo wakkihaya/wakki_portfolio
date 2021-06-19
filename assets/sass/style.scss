@@ -46,3 +46,76 @@ body {
     }
   }
 }
+
+.about-me {
+  width: $content-width;
+  margin: auto;
+  &--title {
+    font-size: $large-font-size;
+    font-weight: bold;
+    margin: 1em 0;
+  }
+  &--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &--container-icon_flex {
+    flex: 1;
+  }
+  &--container-icon {
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  &--container-detail {
+    flex: 3;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0 0 8px #eee;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+  }
+}
+.about-me-detail {
+  &--desc {
+    flex: 1;
+    font-size: $small-font-size;
+    color: $text-gray-color;
+    padding: 0 1em;
+  }
+  &--graph {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  &--graph_box {
+    padding: 1em 0;
+  }
+  &--graph-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &--graph-index-category {
+    font-size: $small-font-size;
+  }
+  &--graph-index-amount {
+    font-size: $very-small-font-size;
+  }
+  &--graph-bar {
+    width: 100%;
+    flex: 1;
+    img {
+      width: 100%;
+    }
+  }
+}
