@@ -1,6 +1,7 @@
 @import "./variables.scss";
 body {
   color: $text-base-color;
+  font-family: $main-font-family, sans-serif;
 }
 
 .container {
@@ -338,6 +339,9 @@ body {
   &--category-item.active {
     color: $deep-red-color;
     font-weight: bold;
+  }
+  &--category-item:hover{
+    cursor: pointer;
   }
   &--display {
     display: grid;

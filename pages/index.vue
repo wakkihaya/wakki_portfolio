@@ -1,4 +1,3 @@
-//TODO: change font family.
 //TODO: change image of recent works.
 //TODO: Responsive.
 <template>
@@ -8,8 +7,8 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap"
       rel="stylesheet"
-      href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons"
     />
     <Top />
     <AboutMe />
