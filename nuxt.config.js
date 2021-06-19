@@ -18,7 +18,6 @@ module.exports = {
     ]
   },
  css: [
-   '~/assets/sass/main.scss',
    '~/assets/sass/style.scss',
 
  ],

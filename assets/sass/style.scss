@@ -1,1 +1,48 @@
 @import "./variables.scss";
+body {
+  color: $text-base-color;
+}
+
+.top {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &--image {
+    width: 145px;
+    height: 145px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  &--name {
+    font-size: $large-font-size;
+    font-weight: bold;
+    margin: 0.5em 0;
+  }
+  &--job-title {
+    font-size: $medium-font-size;
+    color: $text-gray-color;
+  }
+  &--sns {
+    display: flex;
+    flex-direction: row;
+    margin: 4em 0;
+    align-items: center;
+  }
+  &--sns-item {
+    margin: 0 1em;
+    a {
+      color: $text-base-color;
+    }
+    img {
+      width: 30pt;
+      height: 20pt;
+    }
+  }
+}

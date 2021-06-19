@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <!-- <section class="container">
     <link
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
       rel="stylesheet"
@@ -37,13 +37,11 @@
       </div>
     </div>
 
-    <!--    introduction-->
     <div id="introduction">
       <p class="subtitle">Introduction</p>
       <p class="name_of_intro">Hayato Waki</p>
       <p class="content_of_intro">Computer Science at University of Tsukuba</p>
 
-      <!--        timeline-->
       <div class="timeline">
         <div v-scroll-inview:fadeIn>
           <span class="year">2017</span>
@@ -189,7 +187,6 @@
       </div>
     </div>
 
-    <!--    activity-->
 
     <div id="activity">
       <p class="subtitle">Activities</p>
@@ -268,7 +265,6 @@
       </div>
     </div>
 
-    <!--    product-->
     <div id="product">
       <p class="subtitle">Products</p>
 
@@ -310,7 +306,6 @@
       </div>
     </div>
 
-    <!--    contact-->
     <div v-scroll-inview:fadeIn>
       <div class="image">
         <img src="~assets/images/wakki3.jpg" />
@@ -352,6 +347,13 @@
         <p id="mailaccount">mail: wakkihaya@gmail.com</p>
       </div>
     </div>
+  </section> -->
+  <section class="container">
+        <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <Top />
   </section>
 </template>
 
@@ -362,9 +364,13 @@ import carrerList from "~/data/carrer.js"
 import activityList from "~/data/activity.js"
 import productList from "~/data/product.js"
 import designList from "~/data/design.js"
+import Top from "~/components/Top.vue"
 
 export default {
-  name: "mycareer",
+  components: {
+    Top,
+  },
+  name: "Container",
   methods: {
     moveToItem(id) {
       var Top = $(id).offset().top
