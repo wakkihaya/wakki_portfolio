@@ -1,6 +1,6 @@
 //TODO: change font family.
-//TODO: add bg image.
 //TODO: change image of recent works.
+//TODO: Responsive.
 <template>
   <div class="container">
     <link

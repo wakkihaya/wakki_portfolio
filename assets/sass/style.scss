@@ -12,9 +12,14 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 
+  &__center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   &--image {
     width: 145px;
     height: 145px;
@@ -49,6 +54,22 @@ body {
       width: 30pt;
       height: 30pt;
     }
+  }
+  &--scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+  }
+  &--scroll-text {
+    font-size: $very-small-font-size;
+  }
+  &--scroll-svg {
+    width: 20px;
+    margin-top: 1em;
   }
 }
 

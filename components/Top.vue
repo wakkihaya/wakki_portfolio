@@ -1,5 +1,6 @@
 <template>
   <div class="top">
+    <div class="top__center">
     <div class="top--image">
       <img src="~assets/images/top/wakki.jpg" />
     </div>
@@ -36,6 +37,14 @@
           ><img src="~assets/images/top/qiita.png" />
         </a>
       </div>
+    </div>
+    </div>
+    <div class="top--scroll">
+      <div class="top--scroll-text">
+        Scroll down
+      </div>
+      <img src="~/assets/images/top/scroll-down.svg" class="top--scroll-svg"/>
+
     </div>
   </div>
 </template>
