@@ -3,6 +3,11 @@ body {
   color: $text-base-color;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .top {
   height: 100vh;
   display: flex;
@@ -242,11 +247,11 @@ body {
     font-weight: bold;
     white-space: pre-line;
     line-height: 0.8em;
-    a{
+    a {
       color: $text-base-color;
       text-decoration: none;
     }
-    a:hover{
+    a:hover {
       text-decoration: underline;
     }
   }
@@ -259,5 +264,35 @@ body {
     font-size: $very-small-font-size;
     color: $text-gray-color;
     white-space: pre-line;
+  }
+}
+
+.skills {
+  width: $content-width;
+  margin: 8rem auto;
+  &--title {
+    font-size: $large-font-size;
+    font-weight: bold;
+  }
+  &--list {
+    margin: 5rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    grid-gap: 16px;
+  }
+  &--list-item {
+    background-color: white;
+    padding: 3em 2em;
+    box-shadow: 0 0 8px #eee;
+    border-radius: 15px;
+  }
+  &--list-item-category {
+    font-size: $medium-font-size;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  &--list-item-elements {
+    font-size: $small-font-size;
+    color: $text-gray-color;
   }
 }

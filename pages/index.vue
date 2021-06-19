@@ -350,16 +350,20 @@
       </div>
     </div>
   </section> -->
-  <section class="container">
-        <link
+  <div class="container">
+    <link
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons">
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css?family=Roboto:400,500,700,400italic|Material+Icons"
+    />
     <Top />
     <AboutMe />
     <Experiences />
-  </section>
+    <Skills />
+  </div>
 </template>
 
 <script>
@@ -369,15 +373,14 @@ import Vue from "vue"
 import Top from "~/components/Top.vue"
 import AboutMe from "~/components/AboutMe.vue"
 import Experiences from "~/components/Experiences.vue"
-
-
-
+import Skills from "~/components/Skills.vue"
 
 export default {
   components: {
     Top,
     AboutMe,
     Experiences,
+    Skills,
   },
   name: "Container",
   methods: {
@@ -387,8 +390,7 @@ export default {
     },
   },
   data() {
-    return {
-      }
+    return {}
   },
 }
 </script>
