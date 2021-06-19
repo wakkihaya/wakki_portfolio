@@ -42,7 +42,7 @@ body {
     }
     img {
       width: 30pt;
-      height: 20pt;
+      height: 30pt;
     }
   }
 }
@@ -127,13 +127,26 @@ body {
     font-size: $large-font-size;
     font-weight: bold;
   }
+  &--work_container {
+    margin: 5rem 3rem;
+    display: flex;
+    flex-direction: row;
+  }
   &--education {
+    margin: 5rem 3rem;
     background-color: white;
     border-radius: 15px;
     padding: 2em;
-    margin: 5rem 3rem;
   }
-  &--education-title {
+  &--work {
+    flex: 1;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2em;
+    margin: 0 1rem;
+  }
+  &--education-title,
+  &--work-title {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -141,7 +154,11 @@ body {
       color: $deep-red-color;
     }
   }
-  &--education-title-text {
+  &--work-title {
+    margin-bottom: 2rem;
+  }
+  &--education-title-text,
+  &--work-title-text {
     padding-left: 0.5em;
     font-size: $small-font-size;
     color: $deep-red-color;
@@ -152,6 +169,14 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+  }
+  &--work-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+  &--work__no-title {
+    padding-top: 6rem;
   }
 }
 
@@ -175,5 +200,64 @@ body {
     color: $text-gray-color;
     font-size: $very-small-font-size;
     padding-top: 1rem;
+  }
+}
+
+.work {
+  &--year {
+    position: absolute;
+    background-color: $deep-red-color;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: $very-small-font-size;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.4em;
+    border-radius: 5px;
+  }
+  &--list {
+    position: relative;
+    border-left: solid 2px $deep-red-color;
+  }
+
+  &--timeline-marker {
+    position: absolute;
+    background: $deep-red-color;
+    border: 1px solid #dbdbdb;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 12px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 12px;
+  }
+
+  &--list-item {
+    padding: 3em;
+  }
+
+  &--list-item-title {
+    font-size: $small-font-size;
+    font-weight: bold;
+    white-space: pre-line;
+    line-height: 0.8em;
+    a{
+      color: $text-base-color;
+      text-decoration: none;
+    }
+    a:hover{
+      text-decoration: underline;
+    }
+  }
+  &--list-item-location-and-date {
+    font-size: $very-small-font-size;
+    color: $light-gray-color;
+    margin: 1em 0;
+  }
+  &--list-item-content {
+    font-size: $very-small-font-size;
+    color: $text-gray-color;
+    white-space: pre-line;
   }
 }

@@ -1,3 +1,5 @@
+// TODO: remove commentout codes
+// TODO: remove unneed images._
 <template>
   <!-- <section class="container">
     <link
@@ -363,10 +365,7 @@
 <script>
 import "~/assets/sass/main.scss"
 import Vue from "vue"
-import carrerList from "~/data/carrer.js"
-import activityList from "~/data/activity.js"
-import productList from "~/data/product.js"
-import designList from "~/data/design.js"
+
 import Top from "~/components/Top.vue"
 import AboutMe from "~/components/AboutMe.vue"
 import Experiences from "~/components/Experiences.vue"
@@ -389,11 +388,7 @@ export default {
   },
   data() {
     return {
-      careers: carrerList,
-      activities: activityList,
-      products: productList,
-      designs: designList,
-    }
+      }
   },
 }
 </script>
