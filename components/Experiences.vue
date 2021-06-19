@@ -48,7 +48,7 @@
           <div
             class="work--list"
             v-for="career in filterCareer('2018')"
-            v-bind:key="`2018-${career.year}`"
+            v-bind:key="career.title"
           >
             <div class="work--timeline-marker"></div>
             <div class="work--list-item">
@@ -71,7 +71,7 @@
           <div
             class="work--list"
             v-for="career in filterCareer('2019')"
-            v-bind:key="`2019-${career.year}`"
+            v-bind:key="career.title"
           >
             <div class="work--timeline-marker"></div>
             <div class="work--list-item">
@@ -90,14 +90,13 @@
           </div>
         </div>
       </div>
-      <!-- TODO: bind-key重複 -->
       <div class="experiences--work experiences--work__no-title">
         <div class="experiences--work-content work">
           <span class="work--year">2020</span>
           <div
             class="work--list"
             v-for="career in filterCareer('2020')"
-            v-bind:key="`2020-${career.year}`"
+            v-bind:key="career.title"
           >
             <div class="work--timeline-marker"></div>
             <div class="work--list-item">
@@ -120,7 +119,7 @@
           <div
             class="work--list"
             v-for="career in filterCareer('2021')"
-            v-bind:key="`2021-${career.year}`"
+            v-bind:key="career.title"
           >
             <div class="work--timeline-marker"></div>
             <div class="work--list-item">

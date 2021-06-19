@@ -39,6 +39,11 @@ const projectsList = [
     content: "We(Feedal,Inc) launched 'Feedal', a news-sharing platform for engineers.",
     image: require('~/assets/images/recent-works/projects/feedal.png')
   },
+  {
+    title: 'Microsoft Business contest (Internship)',
+    content: "Our team got 3rd place with a educative product 'Microsoft Canvas'.",
+    image: require('~/assets/images/recent-works/projects/MS_business_contest.png')
+  },
 ]
 
 export default projectsList
