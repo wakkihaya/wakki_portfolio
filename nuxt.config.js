@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "Portfolio about Hayato Waki",
+    title: "wakki | Hayato Waki",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Hayato Waki works as software engineer,entrepreneur and eventor.' }
+      { hid: 'description', name: 'description', content: 'Portfolio about Hayato Waki.' }
     ],
     script:[
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }

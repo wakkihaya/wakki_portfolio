@@ -32,11 +32,11 @@ export default {
     RecentWorks,
   },
   name: "Container",
-  methods: {
-    moveToItem(id) {
-      var Top = $(id).offset().top
-      $("html, body").animate({ scrollTop: Top }, 500)
-    },
-  },
+  // methods: {
+  //   moveToItem(id) {
+  //     var Top = $(id).offset().top
+  //     $("html, body").animate({ scrollTop: Top }, 500)
+  //   },
+  // },
 }
 </script>
