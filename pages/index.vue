@@ -1,4 +1,3 @@
-//TODO: Responsive.
 <template>
   <div class="container">
     <link
