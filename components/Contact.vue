@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    Contact to me by <br />
+    Contact me on <br />
     wakkihaya@gmail.com
   </div>
 </template>
