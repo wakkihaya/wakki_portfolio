@@ -112,6 +112,24 @@ body {
     flex-direction: row;
     padding: 2em;
   }
+  @media (max-width: $mobile-width) {
+    width: 90%;
+    &--title {
+      font-size: $medium-font-size;
+    }
+    &--container {
+      flex-direction: column;
+      margin: 5rem 0;
+    }
+    &--container-icon {
+      width: 100px;
+      height: 100px;
+      margin-bottom: 1em;
+    }
+    &--container-detail {
+      flex-direction: column;
+    }
+  }
 }
 .about-me-detail {
   &--desc {
@@ -144,6 +162,21 @@ body {
     flex: 1;
     img {
       width: 100%;
+    }
+  }
+  @media (max-width: $mobile-width) {
+    &--desc {
+      font-size: $very-small-font-size;
+      padding: 0;
+    }
+    &--graph {
+      margin-top: 2rem;
+    }
+    &--graph-index-category {
+      font-size: $very-small-font-size;
+    }
+    &--graph-index-amount {
+      font-size: $sp-very-small-font-size;
     }
   }
 }
@@ -206,6 +239,38 @@ body {
     padding-top: 6rem;
     margin-left: 1rem;
   }
+  @media (max-width: $mobile-width) {
+    width: 90%;
+    &--work_container {
+      flex-direction: column;
+      margin: 5rem 0;
+    }
+    &--title {
+      font-size: $medium-font-size;
+    }
+    &--education {
+      margin: 5rem 0;
+    }
+    &--education-title {
+      margin-bottom: 1rem;
+    }
+    &--education-title-text,
+    &--work-title-text {
+      font-size: $very-small-font-size;
+    }
+    &--education-content {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 2rem;
+    }
+    &--work-content {
+      margin: 0 1rem;
+    }
+    &--work__no-title {
+      padding: 2em;
+      margin: 1rem 0 0 0;
+    }
+  }
 }
 
 .education {
@@ -228,6 +293,21 @@ body {
     color: $text-gray-color;
     font-size: $very-small-font-size;
     padding-top: 1rem;
+  }
+  @media (max-width: $mobile-width) {
+    &--divider {
+      width: 100%;
+      height: 3px;
+      min-height: auto;
+      margin: 2.5rem 0;
+    }
+    &--item-title {
+      font-size: $very-small-font-size;
+    }
+    &--item-location,
+    &--item-desc {
+      font-size: $sp-very-small-font-size;
+    }
   }
 }
 
@@ -288,6 +368,22 @@ body {
     color: $text-gray-color;
     white-space: pre-line;
   }
+  @media (max-width: $mobile-width) {
+    &--year,
+    &--list-item-location-and-date,
+    &--list-item-content {
+      font-size: $sp-very-small-font-size;
+    }
+    &--list-item-title {
+      font-size: $very-small-font-size;
+    }
+    &--list-item {
+      padding: 1em 0 1em 3em;
+    }
+    &--list-item-content {
+      line-height: 1.5em;
+    }
+  }
 }
 
 .skills {
@@ -317,6 +413,9 @@ body {
   &--list-item-elements {
     font-size: $small-font-size;
     color: $text-gray-color;
+  }
+  @media (max-width: $mobile-width) {
+    width: 90%;
   }
 }
 
@@ -348,6 +447,16 @@ body {
     grid-template-columns: repeat(3, minmax(30%, 1fr));
     grid-gap: 16px;
     margin: 0 3rem;
+  }
+  @media (max-width: $mobile-width) {
+    width: 90%;
+    &--category {
+      margin: 0 1rem;
+      flex-direction: column; //TODO: change
+    }
+    &--category-item {
+      font-size: $very-small-font-size;
+    }
   }
 }
 
