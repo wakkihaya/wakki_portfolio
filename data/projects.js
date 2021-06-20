@@ -12,7 +12,7 @@ const projectsList = [
   {
     title: '"Here" (Startup)',
     content: "We(Here Labs,Inc) launched 'Here', a voice/video communication app for couples.",
-    image: require('~/assets/images/recent-works/projects/Here.png')
+    image: require('~/assets/images/recent-works/projects/Here.jpg')
   },
   {
     title: '"Funbrella" (University)',
@@ -27,7 +27,7 @@ const projectsList = [
   {
     title: '"paroli" (Startup)',
     content: "We(Feedal,Inc) launched 'paroli', a remote-work communication tool with voice messages and real-time voice meetings.",
-    image: require('~/assets/images/recent-works/projects/paroli.png')
+    image: require('~/assets/images/recent-works/projects/paroli.jpg')
   },
   {
     title: '"vs.corona" (Startup)',
@@ -37,7 +37,7 @@ const projectsList = [
   {
     title: '"Feedal" (Startup)',
     content: "We(Feedal,Inc) launched 'Feedal', a news-sharing platform for engineers.",
-    image: require('~/assets/images/recent-works/projects/feedal.png')
+    image: require('~/assets/images/recent-works/projects/feedal.jpg')
   },
   {
     title: 'Microsoft Business contest (Internship)',

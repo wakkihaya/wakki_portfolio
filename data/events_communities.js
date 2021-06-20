@@ -1,6 +1,6 @@
 const events_communitiesList = [
   {
-    title: 'online co-working "mokuhub" (Co-orgnizer)',
+    title: 'Online co-working "mokuhub" (Co-orgnizer)',
     content: 'mokuhub is online co-working space for youngers who have passion. We host a total of 8 online events with 25 members around the world.',
     image: require('~/assets/images/recent-works/events_communities/mokuhub_hp.png'),
     atag: 'https://mokuhub.work',
@@ -13,7 +13,7 @@ const events_communitiesList = [
   {
     title: '"Feedal Meetup" (Co-orgnizer)',
     content: 'We host meetups and a LT competition with 20+ students who like engineering at University of Tsukuba.',
-    image: require('~/assets/images/recent-works/events_communities/feedal_meetup.jpeg'),
+    image: require('~/assets/images/recent-works/events_communities/feedal_meetup.jpg'),
   },
 ]
 

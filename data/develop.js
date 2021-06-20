@@ -14,7 +14,7 @@ const developList = [
     title: 'Your toilet(Ruby on Rails, JS)',
     content: 'Using the app, you can find the best toilets based on reviews of other users.',
     lang: 'Ruby on Rails , JS',
-    image: require('~/assets/images/recent-works/develop/yourtoilet.png'),
+    image: require('~/assets/images/recent-works/develop/yourtoilet.jpg'),
   },
   {
     title: 'This my portfolio(Nuxt.js)',

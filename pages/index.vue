@@ -1,4 +1,3 @@
-//TODO: change image of recent works.
 //TODO: Responsive.
 <template>
   <div class="container">
