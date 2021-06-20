@@ -6,19 +6,19 @@ const neurotechList = [
     atag: '',
   },
   {
-    title: 'Basic theories of Neurotech(Slide)',
+    title: 'Basic theories of Neurotech (Slide)',
     content: '',
     image: require('~/assets/images/recent-works/neurotech/basic-theories-slide.png'),
     atag: 'https://www.slideshare.net/HayatoWaki/basic-theories-of-neurotechnology',
   },
   {
-    title: 'Neurotech Interview Blog(Website)',
+    title: 'Neurotech Interview Blog (Website)',
     content: 'Blogs on NeurotechJP',
     image: require('~/assets/images/recent-works/neurotech/neurotechJp.png'),
     atag: 'https://neurotechjp.com/jp/blog/',
   },
   {
-    title: 'Complete EEGLAB workshop(Tutorial)',
+    title: 'Complete EEGLAB workshop (Tutorial)',
     content: 'Online EEGLAB workshop provided by SCCN at UCSD',
     image: require('~/assets/images/recent-works/neurotech/sccn.jpeg'),
     atag: 'https://eeglab.org/workshops/Online_EEGLAB_Workshop.html',
