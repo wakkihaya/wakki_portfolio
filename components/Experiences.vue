@@ -1,7 +1,7 @@
 <template>
   <div class="experiences">
     <div class="experiences--title">Experiences</div>
-    <div class="experiences--education">
+    <div class="experiences--education" v-scroll-inview:fadeIn>
       <div class="experiences--education-title">
         <i class="fas fa-graduation-cap fa-2x"></i>
         <div class="experiences--education-title-text">Education</div>
@@ -37,7 +37,7 @@
       </div>
     </div>
 
-    <div class="experiences--work_container">
+    <div class="experiences--work_container" v-scroll-inview:fadeIn>
       <div class="experiences--work">
         <div class="experiences--work-title">
           <i class="fas fa-briefcase fa-2x"></i>
@@ -90,7 +90,7 @@
           </div>
         </div>
       </div>
-      <div class="experiences--work experiences--work__no-title">
+      <div class="experiences--work experiences--work__no-title" v-scroll-inview:fadeIn>
         <div class="experiences--work-content work">
           <span class="work--year">2020</span>
           <div

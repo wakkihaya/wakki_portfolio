@@ -31,7 +31,7 @@
         Events/Communities
       </div>
     </div>
-    <div class="recent-works--display">
+    <div class="recent-works--display" v-scroll-inview:fadeIn>
       <div v-for="item in displayArray" v-bind:key="item.title">
         <RecentWorksItem v-bind:item="item" />
       </div>

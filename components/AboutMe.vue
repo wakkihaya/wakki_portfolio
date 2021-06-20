@@ -1,7 +1,7 @@
 <template>
   <div class="about-me">
     <div class="about-me--title">About me</div>
-    <div class="about-me--container">
+    <div class="about-me--container" v-scroll-inview:fadeIn>
       <div class="about-me--container-icon_flex">
         <div class="about-me--container-icon">
           <img src="~assets/images/top/wakki.jpg" />

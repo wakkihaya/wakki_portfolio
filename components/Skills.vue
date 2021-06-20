@@ -1,7 +1,7 @@
 <template>
   <div class="skills">
     <div class="skills--title">Skills</div>
-    <div class="skills--list">
+    <div class="skills--list" v-scroll-inview:fadeIn>
       <div class="skills--list-item">
         <div class="skills--list-item-category">General</div>
         <div class="skills--list-item-elements">
