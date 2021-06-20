@@ -13,6 +13,8 @@
     <Experiences />
     <Skills />
     <RecentWorks />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -22,6 +24,8 @@ import AboutMe from "~/components/AboutMe.vue"
 import Experiences from "~/components/Experiences.vue"
 import Skills from "~/components/Skills.vue"
 import RecentWorks from "~/components/RecentWorks.vue"
+import Contact from "~/components/Contact.vue"
+import Footer from "~/components/Footer.vue"
 
 export default {
   components: {
@@ -30,6 +34,8 @@ export default {
     Experiences,
     Skills,
     RecentWorks,
+    Contact,
+    Footer,
   },
   name: "Container",
   // methods: {

@@ -72,6 +72,14 @@ body {
     width: 20px;
     margin-top: 1em;
   }
+  @media (max-width: $mobile-width) {
+    &--name {
+      font-size: $medium-font-size;
+    }
+    &--job-title {
+      font-size: $small-font-size;
+    }
+  }
 }
 
 .about-me {
@@ -566,5 +574,25 @@ body {
       width: 70px;
       font-size: $sp-very-small-font-size;
     }
+  }
+}
+
+.contact {
+  margin: 8rem auto;
+  font-size: $medium-font-size;
+  text-align: center;
+  width: 100%;
+  @media (max-width: $mobile-width) {
+    font-size: $small-font-size;
+    margin: 5rem auto;
+  }
+}
+.footer {
+  margin-bottom: 1rem;
+  font-size: $small-font-size;
+  text-align: center;
+  color: $text-gray-color;
+  @media (max-width: $mobile-width) {
+    font-size: $very-small-font-size;
   }
 }
