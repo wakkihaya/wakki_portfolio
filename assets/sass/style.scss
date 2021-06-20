@@ -75,6 +75,9 @@ body {
     margin-top: 1em;
   }
   @media (max-width: $mobile-width) {
+    &__center {
+      margin-bottom: 2rem;
+    }
     &--name {
       font-size: $medium-font-size;
     }
