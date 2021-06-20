@@ -81,6 +81,9 @@ body {
     &--job-title {
       font-size: $small-font-size;
     }
+    &--sns {
+      margin: 2em 0;
+    }
   }
 }
 
@@ -435,6 +438,7 @@ body {
 
     &--list {
       margin: 5rem 0;
+      grid-gap: 8px;
     }
     &--title {
       font-size: $medium-font-size;
