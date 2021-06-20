@@ -416,6 +416,21 @@ body {
   }
   @media (max-width: $mobile-width) {
     width: 90%;
+    &--list {
+      margin: 5rem 0;
+    }
+    &--title {
+      font-size: $medium-font-size;
+    }
+    &--list-item {
+      padding: 2em 0 2em 1em;
+    }
+    &--list-item-category {
+      font-size: $small-font-size;
+    }
+    &--list-item-elements {
+      font-size: $sp-very-small-font-size;
+    }
   }
 }
 
