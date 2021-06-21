@@ -49,5 +49,10 @@
         </div>
       </div>
     </div>
+    <div class="about-me--neurotech-passion">
+      Click
+      <nuxt-link to="/neurotech-passion">here</nuxt-link> to see my passion for
+      Neurotech.🔥
+    </div>
   </div>
 </template>
