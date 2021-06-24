@@ -30,7 +30,6 @@ module.exports = {
   },
   plugins: [
     { src: '~/plugins/scrollInview.js' },
-    { src: '~/plugins/vue-pdf.js', mode: 'client' },
   ],
   /*
   ** Customize the progress bar color
