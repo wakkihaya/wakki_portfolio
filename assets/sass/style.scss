@@ -128,6 +128,13 @@ body {
     flex-direction: row;
     padding: 2em;
   }
+  &--neurotech-passion{
+    text-align: center;
+    font-size: $small-font-size;
+    a{
+      color: $text-base-color;
+    }
+  }
   @media (max-width: $mobile-width) {
     width: 90%;
     &--title {
