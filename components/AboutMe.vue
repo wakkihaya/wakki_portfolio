@@ -51,7 +51,7 @@
     </div>
     <div class="about-me--neurotech-passion">
       Click
-      <nuxt-link to="/neurotech-passion">here</nuxt-link> to see my passion for
+      <a href="https://wakkihaya.com/My_passion_for_neurotech.pdf" target="_blank">here</a> to see my passion for
       Neurotech.🔥
     </div>
   </div>
