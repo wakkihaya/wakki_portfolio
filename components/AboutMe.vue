@@ -9,7 +9,7 @@
       </div>
       <div class="about-me--container-detail about-me-detail">
         <div class="about-me-detail--desc">
-          I am Hayato Waki, PM and engineer from Japan. I have rich experiences
+          I am Hayato Waki, product manager and engineer from Japan. I have experiences
           in managing projects and developing products with agility.
         </div>
         <div class="about-me-detail--graph">

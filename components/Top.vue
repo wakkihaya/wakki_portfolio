@@ -5,7 +5,7 @@
       <img src="~assets/images/top/wakki.jpg" />
     </div>
     <div class="top--name">Hayato Waki</div>
-    <div class="top--job-title">PM/ Engineer/ BizDev</div>
+    <div class="top--job-title">PdM/ Engineer</div>
     <div class="top--sns">
       <div class="top--sns-item">
         <a href="https://twitter.com/wakkihaya" target="_blank"
