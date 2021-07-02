@@ -50,9 +50,9 @@ const careerList = [
     event: 'CEO/Co-Founder\n\nat Feedal,Inc.',
     atag: 'https://corp.feedal.com',
     location_and_date: 'Tsukuba/Japan, Jul 2019 - Oct 2020',
-    content: '・Direct software design and specs, including web, mobile, and desktop- native applications.\n\n' +
+    content: '・Direct software design and specs, including web, mobile, and desktop-native applications.\n\n' +
       '・Define specs with user feedback, and execute prototyping design, and develop applications.\n\n' +
-      '・Acquire 1.5K MAU for the COVID - 19 app and 30 early - adaptors / teams for multiple apps with business strategies.\n\n' +
+      '・Acquire 1.5K MAU for the COVID-19 app and 30 early-adaptors / teams for multiple apps with business strategies.\n\n' +
       '・Host the engineering community in the university with 50 + developers.',
   },
   {
