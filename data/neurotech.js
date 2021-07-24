@@ -8,7 +8,7 @@ const neurotechList = [
   {
     title: 'Basic theories of Neurotech (Slide)',
     content: '',
-    image: require('~/assets/images/recent-works/neurotech/basic-theories-slide.png'),
+    image: require('~/assets/images/recent-works/neurotech/basic-theories-slide.jpg'),
     atag: 'https://www.slideshare.net/HayatoWaki/basic-theories-of-neurotechnology',
   },
   {
@@ -22,6 +22,12 @@ const neurotechList = [
     content: 'Online EEGLAB workshop provided by SCCN at UCSD',
     image: require('~/assets/images/recent-works/neurotech/sccn.jpeg'),
     atag: 'https://eeglab.org/workshops/Online_EEGLAB_Workshop.html',
+  },
+  {
+    title: 'Analysis of Neurotech startups (Slide)',
+    content: 'Slides of analysis of growing startups in Neurotech field, especially in BCI.',
+    image: require('~/assets/images/recent-works/neurotech/startups-analysis.jpg'),
+    atag: 'https://www.slideshare.net/HayatoWaki/',
   },
 ]
 
