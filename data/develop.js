@@ -13,8 +13,13 @@ const developList = [
   {
     title: 'Your toilet (Ruby on Rails, JS)',
     content: 'Using the app, you can find the best toilets based on reviews of other users.',
-    lang: 'Ruby on Rails , JS',
     image: require('~/assets/images/recent-works/develop/yourtoilet.jpg'),
+  },
+  {
+    title: 'Brain console (NestJS, NextJS, GraphQL)',
+    content: 'Web application that shows the brianwave fetched from database by id.',
+    image: require('~/assets/images/recent-works/develop/brain-console.gif'),
+    atag: 'https://github.com/wakkihaya/Brain-console'
   },
   {
     title: 'Webpage development',
