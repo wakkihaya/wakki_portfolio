@@ -12,13 +12,13 @@
       <div class="skills--list-item">
         <div class="skills--list-item-category">Frontend</div>
         <div class="skills--list-item-elements">
-          Vue.js(Nuxt.js), React.js, Flutter, Typescript. HTML5/CSS3
+          Vue.js/Nuxt.js, React.js/Next.js, Flutter, Typescript. HTML5/CSS3
         </div>
       </div>
       <div class="skills--list-item">
         <div class="skills--list-item-category">Backend</div>
         <div class="skills--list-item-elements">
-          Node.js, Express.js, Ruby on Rails,
+          Node.js, Nest.js, Express.js, Ruby on Rails,
         </div>
       </div>
       <div class="skills--list-item">

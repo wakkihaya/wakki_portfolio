@@ -47,7 +47,7 @@ const careerList = [
   },
   {
     year: '2020',
-    event: 'CEO/Co-Founder\n\nat Feedal,Inc.',
+    event: 'CEO/Co-Founder\n\nat Feedal,Inc',
     atag: 'https://corp.feedal.com',
     location_and_date: 'Tsukuba/Japan, Jul 2019 - Oct 2020',
     content: '・Direct software design and specs, including web, mobile, and desktop-native applications.\n\n' +
@@ -57,7 +57,7 @@ const careerList = [
   },
   {
     year: '2020',
-    event: 'Software Engineer Internship\n\nat Locotabi,Inc.',
+    event: 'Software Engineer Internship\n\nat Locotabi,Inc',
     atga: 'https://locotabi.jp',
     location_and_date: 'Tokyo/Japan, Sep 2020 - Oct 2020',
     content:
@@ -65,7 +65,7 @@ const careerList = [
   },
   {
     year: '2021',
-    event: 'CTO/Co-Founder\n\nat Here labs, Inc.',
+    event: 'CTO/Co-Founder\n\nat Here labs, Inc',
     location_and_date: 'San Francisco/U.S., Dec 2020 - Apr 2021',
     content: '・Develop and execute all development systems such as infrastructure, database architecture, front/ back-end, and analytics.\n\n' +
       '・Analyze data and user behaviors, and get 20 % more app-open counts per retaining user by implementing features.\n\n' +
@@ -73,9 +73,16 @@ const careerList = [
   },
   {
     year: '2021',
-    event: 'Writer/Orgnizer at\n\nNeuratechJP blogsite.',
+    event: 'Writer/Orgnizer at\n\nNeurotechJP blogsite',
     atag: 'https://neurotechjp.com',
     location_and_date: 'Remote, May 2021 - Present',
+    content: '',
+  },
+  {
+    year: '2021',
+    event: 'Junior PdM (Contractor)\n\nat Datafluct',
+    atag: 'https://datafluct.com',
+    location_and_date: 'Tokyo/Japan, July 2021 - Present',
     content: '',
   }
 ]
