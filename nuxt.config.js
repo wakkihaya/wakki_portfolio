@@ -7,7 +7,14 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Portfolio about Hayato Waki.' }
+      { hid: 'description', name: 'description', content: 'Portfolio about Hayato Waki.' },
+      { hid: 'keywords', name: 'keywords', content: 'Hayato Waki,和木勇人'},
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Hayato Waki Portfolio' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: 'https://wakkihaya.com' },
+      { hid: 'og:title', property: 'og:title', content: 'wakki | Hayato Waki' },
+      { hid: 'og:description', property: 'og:description', content: 'Portfolio about Hayato Waki.' },
+      { hid: 'og:image', property: 'og:image', content: 'https://wakkihaya.com/ogp.jpg' }
     ],
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' }
