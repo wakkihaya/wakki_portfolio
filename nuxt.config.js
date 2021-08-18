@@ -8,7 +8,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Portfolio about Hayato Waki.' },
-      { hid: 'keywords', name: 'keywords', content: 'Hayato Waki,和木勇人'},
+      { hid: 'keywords', name: 'keywords', content: 'Hayato Waki,和木勇人' },
       { hid: 'og:site_name', property: 'og:site_name', content: 'Hayato Waki Portfolio' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://wakkihaya.com' },
@@ -28,7 +28,8 @@ module.exports = {
     '~/assets/sass/style.scss',
   ],
   modules: [
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+    '@nuxtjs/sitemap'
   ],
   webfontloader: {
     google: {
@@ -42,6 +43,14 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  sitemap: {
+    hostname: 'https://wakkihaya.com',
+    generate: true,
+    routes: [
+      '/',
+    ]
+  }
   /*
   ** Build configuration
   */
