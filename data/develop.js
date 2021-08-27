@@ -22,7 +22,7 @@ const developList = [
     atag: 'https://github.com/wakkihaya/Brain-console'
   },
   {
-    title: 'Webpage development',
+    title: 'Website development',
     content: 'Build SSR or SPA website using Vue.js(Nuxt.js) / React.js(Next.js).',
   },
 ]
