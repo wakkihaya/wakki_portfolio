@@ -80,7 +80,7 @@ const careerList = [
   },
   {
     year: '2021',
-    event: 'Junior PdM (Contractor)\n\nat Datafluct',
+    event: 'PdM (Contractor)\n\nat Datafluct',
     atag: 'https://datafluct.com',
     location_and_date: 'Tokyo/Japan, July 2021 - Present',
     content: '',
