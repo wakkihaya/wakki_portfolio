@@ -13,7 +13,7 @@
             at Univeristy of Tsukuba
           </div>
           <div class="education--item-location">
-            Tsukuba/Japan, Apr 2017 - Present
+            Tsukuba/Japan, Apr 2017 - Mar 2022
           </div>
           <div class="education--item-desc">
             Conducting a research project of BCI. <br />
@@ -90,7 +90,10 @@
           </div>
         </div>
       </div>
-      <div class="experiences--work experiences--work__no-title" v-scroll-inview:fadeIn>
+      <div
+        class="experiences--work experiences--work__no-title"
+        v-scroll-inview:fadeIn
+      >
         <div class="experiences--work-content work">
           <span class="work--year">2020</span>
           <div
@@ -151,9 +154,9 @@ export default {
     }
   },
   computed: {
-    filterCareer: function () {
-      return function (year) {
-        return this.careers.filter((item) => {
+    filterCareer: function() {
+      return function(year) {
+        return this.careers.filter(item => {
           return item.year === year
         })
       }

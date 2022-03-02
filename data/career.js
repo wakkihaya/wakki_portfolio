@@ -61,7 +61,7 @@ const careerList = [
     event: "Software Engineer Internship\n\nat Locotabi,Inc",
     atga: "https://locotabi.jp",
     location_and_date: "Tokyo/Japan, Sep 2020 - Oct 2020",
-    content: "・Improve features and fix bugs in app using Ruby on Rails",
+    content: "・Improve features and fix bugs in the app using Ruby on Rails",
   },
   {
     year: "2021",
@@ -74,13 +74,14 @@ const careerList = [
   },
   {
     year: "2021",
-    event: "Writer/Orgnizer at\n\nNeurotechJP blogsite",
+    event: "Founder/Writer/Interviewer at\n\nNeurotechJP",
     atag: "https://neurotechjp.com",
     location_and_date: "Remote, May 2021 - Present",
     content:
-      "・Interview founders and researchers who stand in the front line in neurotechnology space.\n\n" +
-      "・Write blog posts of the interviews and columns.\n\n" +
-      "・Research the market in this space.",
+      "・Direct the team and manage tasks.\n\n" +
+      "・Interview founders and researchers who stand the frontier in neurotech space.\n\n" +
+      "・Write articles(interviews, trends).\n\n" +
+      "・Research the market in the space and create original reports",
   },
   {
     year: "2021",
@@ -96,7 +97,8 @@ const careerList = [
     event: "Product Engineer \n\nat Neurons Inc",
     atag: "https://neuronsinc.com",
     location_and_date: "Denmark, November 2021 - Present",
-    content: "",
+    content:
+      "・Implement the platform application to predict customer responses using neural activities.",
   },
 ]
 

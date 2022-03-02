@@ -12,8 +12,8 @@ const neurotechList = [
     atag: 'https://www.slideshare.net/HayatoWaki/basic-theories-of-neurotechnology',
   },
   {
-    title: 'Neurotech Interview Blog (Website)',
-    content: 'Blogs on NeurotechJP',
+    title: 'Neurotech Interview Media (Website)',
+    content: 'NeurotechJP',
     image: require('~/assets/images/recent-works/neurotech/neurotechJp.png'),
     atag: 'https://neurotechjp.com/jp/blog/',
   },
