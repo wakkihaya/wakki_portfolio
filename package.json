@@ -20,7 +20,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "bulma": "^0.7.5",
     "gsap": "^3.6.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nuxt": "^2.8.1",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-sass-resources-loader": "^2.0.5",
