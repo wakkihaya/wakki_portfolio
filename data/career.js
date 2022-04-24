@@ -65,12 +65,21 @@ const careerList = [
   },
   {
     year: "2021",
-    event: "CTO/Co-Founder\n\nat Here labs, Inc",
+    event: "CTO/Co-Founder\n\nat a stealth-mode startup",
     location_and_date: "San Francisco/U.S., Dec 2020 - Apr 2021",
     content:
       "・Develop and execute all development systems such as infrastructure, database architecture, front/ back-end, and analytics.\n\n" +
       "・Analyze data and user behaviors, and get 20 % more app-open counts per retaining user by implementing features.\n\n" +
       "・Success with fund-raising $300K for pre-seed, and also with getting 100 supporters by crowd-funding.",
+  },
+  {
+    year: "2021",
+    event: "PdM (Contractor)\n\nat Datafluct",
+    atag: "https://datafluct.com",
+    location_and_date: "Tokyo/Japan, July 2021 - April 2022",
+    content:
+      "・Create specifications of multiple products in the AI agent project.\n\n" +
+      "・Operate development for apps and algorithms.",
   },
   {
     year: "2021",
@@ -82,15 +91,6 @@ const careerList = [
       "・Interview founders and researchers who stand the frontier in neurotech space.\n\n" +
       "・Write articles(interviews, trends).\n\n" +
       "・Research the market in the space and create original reports",
-  },
-  {
-    year: "2021",
-    event: "PdM (Contractor)\n\nat Datafluct",
-    atag: "https://datafluct.com",
-    location_and_date: "Tokyo/Japan, July 2021 - Present",
-    content:
-      "・Create specifications of multiple products in the AI agent project.\n\n" +
-      "・Operate development for apps and algorithms.",
   },
   {
     year: "2021",
