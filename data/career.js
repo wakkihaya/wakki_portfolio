@@ -94,7 +94,7 @@ const careerList = [
   },
   {
     year: "2021",
-    event: "Product Engineer \n\nat Neurons Inc",
+    event: "Software Engineer \n\nat Neurons Inc",
     atag: "https://neuronsinc.com",
     location_and_date: "Denmark, November 2021 - Present",
     content:
