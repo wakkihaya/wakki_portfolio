@@ -15,7 +15,7 @@ const careerList = [
     atag: "https://usen-ict.co.jp/",
     content:
       "・Build an automated mail system connected with Google spreadsheet by using GAS.\n\n" +
-      "・Build automated marketing analytics tool for finding potential customers.",
+      "・Build an automated marketing analytics tool for finding potential customers.",
   },
   {
     year: "2019",
@@ -41,7 +41,7 @@ const careerList = [
     atag: "https://btrax.com/",
     location_and_date: "San Francisco/U.S., Oct 2019 - Dec 2019",
     content:
-      "・Build deploy environment for DevOps by connecting with Github and AWS.\n\n" +
+      "・Build the deployment environment for DevOps by connecting with Github and AWS.\n\n" +
       "・Develop the websites using PHP with backend system by Zapier.\n\n" +
       "・Create original tools for office system improvement by using Node.js with APIs.",
   },
