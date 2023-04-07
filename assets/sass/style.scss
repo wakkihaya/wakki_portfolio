@@ -42,6 +42,14 @@ body {
     font-size: $medium-font-size;
     color: $text-gray-color;
   }
+  &--location {
+    font-size: $small-font-size;
+    margin: 2rem 0;
+    background: #9087ca;
+    padding: 1rem;
+    color: white;
+    border-radius: 10px;
+  }
   &--sns {
     display: flex;
     flex-direction: row;

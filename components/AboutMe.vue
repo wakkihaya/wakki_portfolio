@@ -9,8 +9,9 @@
       </div>
       <div class="about-me--container-detail about-me-detail">
         <div class="about-me-detail--desc">
-          I am Hayato Waki, a product manager and engineer from Japan. I have experience
-          in managing projects and developing products with agility.
+          I am Hayato Waki, a product manager and an engineer from Japan. I have
+          experience in managing projects and developing products with agility.
+          I founded multiple companies previously.
         </div>
         <div class="about-me-detail--graph">
           <div class="about-me-detail--graph_box">
@@ -51,8 +52,12 @@
     </div>
     <div class="about-me--neurotech-passion">
       Click
-      <a href="https://wakkihaya.com/My_passion_for_neurotech.pdf" target="_blank">here</a> to see my passion for
-      Neurotech.🔥
+      <a
+        href="https://wakkihaya.com/My_passion_for_neurotech.pdf"
+        target="_blank"
+        >here</a
+      >
+      to see my passion for Neurotech.🔥
     </div>
   </div>
 </template>

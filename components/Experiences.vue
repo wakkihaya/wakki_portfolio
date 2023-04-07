@@ -16,7 +16,7 @@
             Tsukuba/Japan, Apr 2017 - Mar 2022
           </div>
           <div class="education--item-desc">
-            Conducting a research project of BCI. <br />
+            Conducted a research project in BCI. <br />
             Founded a volunteer group for international students.
           </div>
         </div>
