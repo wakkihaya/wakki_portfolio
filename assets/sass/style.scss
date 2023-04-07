@@ -128,10 +128,10 @@ body {
     flex-direction: row;
     padding: 2em;
   }
-  &--neurotech-passion{
+  &--neurotech-passion {
     text-align: center;
     font-size: $small-font-size;
-    a{
+    a {
       color: $text-base-color;
     }
   }
@@ -313,7 +313,8 @@ body {
     font-weight: bold;
   }
   &--item-location {
-    color: $light-gray-color;
+    color: $text-gray-color;
+    text-decoration: underline;
     font-size: $very-small-font-size;
     padding: 0.6rem 0;
   }
@@ -388,7 +389,8 @@ body {
   }
   &--list-item-location-and-date {
     font-size: $very-small-font-size;
-    color: $light-gray-color;
+    color: $text-gray-color;
+    text-decoration: underline;
     margin: 1em 0;
   }
   &--list-item-content {
