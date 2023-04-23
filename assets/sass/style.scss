@@ -44,7 +44,7 @@ body {
   }
   &--location {
     font-size: $small-font-size;
-    margin: 2rem 0;
+    margin: 2rem 1rem;
     background: #9087ca;
     padding: 1rem;
     color: white;
@@ -85,6 +85,9 @@ body {
   @media (max-width: $mobile-width) {
     &__center {
       margin-bottom: 2rem;
+    }
+    &--location {
+      font-size: $very-small-font-size;
     }
     &--name {
       font-size: $medium-font-size;
