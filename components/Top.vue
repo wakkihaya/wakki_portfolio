@@ -7,7 +7,7 @@
       <div class="top--name">Hayato Waki</div>
       <div class="top--job-title">PdM/ Engineer/ Founder</div>
       <div class="top--location">
-        Denmark🇩🇰(now) ← SanFrancisco🇺🇸 ← Japan🇯🇵
+        NewYork🇺🇸(now) ← Denmark🇩🇰 ← SanFrancisco🇺🇸 ← Japan🇯🇵
       </div>
       <div class="top--sns">
         <div class="top--sns-item">
