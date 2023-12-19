@@ -89,11 +89,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div
-        class="experiences--work experiences--work__no-title"
-        v-scroll-inview:fadeIn
-      >
         <div class="experiences--work-content work">
           <span class="work--year">2020</span>
           <div
@@ -117,11 +112,62 @@
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="experiences--work experiences--work__no-title"
+        v-scroll-inview:fadeIn
+      >
         <div class="experiences--work-content work">
           <span class="work--year">2021</span>
           <div
             class="work--list"
             v-for="career in filterCareer('2021')"
+            v-bind:key="career.title"
+          >
+            <div class="work--timeline-marker"></div>
+            <div class="work--list-item">
+              <div class="work--list-item-title">
+                <a :href="career.atag" target="_blank">
+                  {{ career.event }}
+                </a>
+              </div>
+              <div class="work--list-item-location-and-date">
+                {{ career.location_and_date }}
+              </div>
+              <div class="work--list-item-content">
+                {{ career.content }}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="experiences--work-content work">
+          <span class="work--year">2022</span>
+          <div
+            class="work--list"
+            v-for="career in filterCareer('2022')"
+            v-bind:key="career.title"
+          >
+            <div class="work--timeline-marker"></div>
+            <div class="work--list-item">
+              <div class="work--list-item-title">
+                <a :href="career.atag" target="_blank">
+                  {{ career.event }}
+                </a>
+              </div>
+              <div class="work--list-item-location-and-date">
+                {{ career.location_and_date }}
+              </div>
+              <div class="work--list-item-content">
+                {{ career.content }}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="experiences--work-content work">
+          <span class="work--year">2023</span>
+          <div
+            class="work--list"
+            v-for="career in filterCareer('2023')"
             v-bind:key="career.title"
           >
             <div class="work--timeline-marker"></div>

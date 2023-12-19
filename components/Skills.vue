@@ -12,7 +12,8 @@
       <div class="skills--list-item">
         <div class="skills--list-item-category">Frontend</div>
         <div class="skills--list-item-elements">
-          Vue.js/Nuxt.js, React.js/Next.js, Flutter, Typescript. HTML5/CSS3
+          Vue.js/Nuxt.js, React.js/Next.js, Flutter, Typescript. HTML5/CSS3,
+          React Native
         </div>
       </div>
       <div class="skills--list-item">
@@ -35,7 +36,7 @@
         <div class="skills--list-item-category">Others</div>
         <div class="skills--list-item-elements">
           Java, C++(Arduino), C(Operating System), Git, Docker, Adobe XD,
-          illustrator,
+          illustrator, Cypress, Jest
         </div>
       </div>
     </div>

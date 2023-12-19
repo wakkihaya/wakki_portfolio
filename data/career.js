@@ -73,7 +73,7 @@ const careerList = [
       "・Success with fund-raising $300K for pre-seed, and also with getting 100 supporters by crowd-funding.",
   },
   {
-    year: "2021",
+    year: "2022",
     event: "PdM (Contractor)\n\nat Datafluct",
     atag: "https://datafluct.com",
     location_and_date: "Tokyo/Japan, July 2021 - April 2022",
@@ -82,8 +82,8 @@ const careerList = [
       "・Operate development for apps and algorithms.",
   },
   {
-    year: "2021",
-    event: "Founder/Writer/Interviewer at\n\nNeurotechJP",
+    year: "2023",
+    event: "Founder at\n\nNeurotechJP (Acquired)",
     atag: "https://neurotechjp.com",
     location_and_date: "Remote, May 2021 - Present",
     content:
@@ -93,12 +93,21 @@ const careerList = [
       "・Research the market in the space and create original reports",
   },
   {
-    year: "2021",
+    year: "2023",
     event: "Software Engineer \n\nat Neurons Inc",
     atag: "https://neuronsinc.com",
-    location_and_date: "Denmark, November 2021 - Present",
+    location_and_date: "Denmark, November 2021 - November 2023",
     content:
-      "・Implement the platform application to predict customer responses using neural activities.",
+      "Frontend engineer for the 'Predict' app.\n\n" +
+      "・Implement new features.\n\n" +
+      "・Write e2e/integration test code.",
+  },
+  {
+    year: "2023",
+    event: "CTO at Demind Inc",
+    atag: "https://www.linkedin.com/company/demind-inc/",
+    location_and_date: "New York, September 2023 - Present",
+    content: "Making physiologically-aware personal AI.",
   },
 ]
 
